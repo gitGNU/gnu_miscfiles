@@ -1,4 +1,4 @@
-From NetBSD 1.1A:
+From NetBSD 1.3.2
   web2
   web2a
   dict-README
@@ -6,7 +6,7 @@ From NetBSD 1.1A:
   birthtoken
   operator
 
-From NetBSD; modified:
+From NetBSD 1.1A; modified:
   inter.phone
   propernames
   zipcodes
@@ -31,7 +31,7 @@ From GNU Emacs distribution:
   GNU-manifesto
   mailinglists
 
-Provided by Francois Pinard <pinard@progiciels-bpi.ca>:
+Provided by François Pinard <pinard@progiciels-bpi.ca>:
   abbrevs.gen
   abbrevs.talk
 
