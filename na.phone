@@ -1,0 +1,523 @@
+# Area Code : City : State/Province : State/Province Abbrev.
+
+201:Hackensack:New Jersey:NJ
+201:Jersey City:New Jersey:NJ
+201:Morristown:New Jersey:NJ
+201:Newark:New Jersey:NJ
+202:Washington:District of Columbia:DC
+203:Bridgeport:Connecticut:CT
+203:Danbury:Connecticut:CT
+203:New Haven:Connecticut:CT
+203:Norwalk:Connecticut:CT
+203:Stamford:Connecticut:CT
+203:Waterbury:Connecticut:CT
+204:Winnipeg:Manitoba:MB
+205:Anniston:Alabama:AL
+205:Birmingham:Alabama:AL
+205:Decatur:Alabama:AL
+205:Huntsville:Alabama:AL
+205:Tuscaloosa:Alabama:AL
+206:Auburn:Washington:WA
+206:Bainbridge Island:Washington:WA
+206:Bellevue:Washington:WA
+206:Everett:Washington:WA
+206:Redmond:Washington:WA
+206:Seattle:Washington:WA
+206:Tacoma:Washington:WA
+207:Portland:Maine:ME
+207:Bangor:Maine:ME
+208:Boise:Idaho:ID
+209:Fresno:California:CA
+209:Stockton:California:CA
+209:Yosemite:California:CA
+210:Laredo:Texas:TX
+210:San Antonio:Texas:TX
+212:Bronx:New York:NY
+212:Manhattan:New York:NY
+212:New York City:New York:NY
+213:Los Angeles:California:CA
+214:Dallas:Texas:TX
+215:Philadelphia:Pennsylvania:PA
+216:Cleveland:Ohio:OH
+216:Euclid:Ohio:OH
+216:Lakewood:Ohio:OH
+216:Parma:Ohio:OH
+217:Champaign:Illinois:IL
+217:Springfield:Illinois:IL
+218:Duluth:Minnesota:MN
+219:Gary:Indiana:IN
+219:Hammond:Indiana:IN
+219:South Bend:Indiana:IN
+219:Warsaw:Indiana:IN
+242::Bahamas:BS
+246::Barbados:BB
+250:Campbell River:British Columbia:BC
+250:Kamloops:British Columbia:BC
+250:Kelowna:British Columbia:BC
+250:Kitimat:British Columbia:BC
+250:Nenaimo:British Columbia:BC
+250:Prince George:British Columbia:BC
+250:Victoria:British Columbia:BC
+268::Antigua and Barbuda:AG
+281:Houston:Texas:TX
+301:Bethesda:Maryland:MD
+301:Hagerstown:Maryland:MD
+301:Rockville:Maryland:MD
+301:Silver Spring:Maryland:MD
+302:Dover:Deleware:DE
+303:Arvada:Colorado:CO
+303:Aurora:Colorado:CO
+303:Boulder:Colorado:CO
+303:Denver:Colorado:CO
+303:Englewood:Colorado:CO
+303:Littleton:Colorado:CO
+303:Longmont:Colorado:CO
+304:Charleston:West Virginia:WV
+305:Coral Gables:Florida:FL
+305:Hialeah:Florida:FL
+305:Homestead:Florida:FL
+305:Key West:Florida:FL
+305:Marathon:Florida:FL
+305:Miami Beach:Florida:FL
+305:Miami:Florida:FL
+306::Saskatchewan:SK
+307::Wyoming:WY
+308:Grand Island:Nebraska:NE
+308:North Platte:Nebraska:NE
+309:Bloomington:Illinois:IL
+309:Peeoria:Illinois:IL
+310:Beverly Hills:California:CA
+310:Gardena:California:CA
+310:Long Beach:California:CA
+310:Los Angeles:California:CA
+312:Chicago:Illinois:IL
+313:Ann Arbor:Michigan:MI
+313:Detriot:Michigan:MI
+314:Chesterfield:Missouri:MO
+314:St. Charles:Missouri:MO
+314:St. Louis:Missouri:MO
+314:St. Peters:Missouri:MO
+314:Union:Missouri:MO
+315:Syracuse:New York:NY
+315:Utica:New York:NY
+316:Dodge City:Kansas:KS
+316:Hutchinson:Kansas:KS
+316:Wichita:Kansas:KS
+317:Indianapolis:Indiana:IN
+318:Alexandria:Louisiana:LA
+318:Lafayette:Louisiana:LA
+318:Lake Charles:Louisiana:LA
+318:Monroe:Louisiana:LA
+319:Dubuque:Iowa:IA
+320:Alexandria:Minnesota:MN
+320:Hutchinson:Minnesota:MN
+320:Le Sueur:Minnesota:MN
+320:Little Falls:Minnesota:MN
+320:St. Cloud:Minnesota:MN
+320:Willmar:Minnesota:MN
+330:Akron:Ohio:OH
+330:Ashtabula:Ohio:OH
+330:Canton:Ohio:OH
+330:Kent:Ohio:OH
+330:Lorain:Ohio:OH
+330:Mentor:Ohio:OH
+330:Youngstown:Ohio:OH
+334:Auburn:Alabama:AL
+334:Dothan:Alabama:AL
+334:Mobile:Alabama:AL
+334:Montgomery:Alabama:AL
+334:Selma:Alabama:AL
+345::Cayman Islands:KY
+352:Gainesville:Florida:FL
+352:Ocala:Florida:FL
+360:Bellingham:Washington:WA
+360:Bremerton:Washington:WA
+360:Olympia:Washington:WA
+360:Vancouver:Washington:WA
+401:Providence:Rhode Island:RI
+402:Hastings:Nebraska:NE
+402:Lincoln:Nebraska:NE
+402:Omaha:Nebraska:NE
+403:Calgary:Alberta:AB
+403:Edmonton:Alberta:AB
+403:Whitehorse:Yukon:YT
+403:Yellowknife:Northwest Territories:NT
+404:Atlanta:Georgia:GA
+404:College Park:Georgia:GA
+404:Decatur:Georgia:GA
+405:Ardmore:Oklahoma:OK
+405:Enid:Oklahoma:OK
+405:Norman:Oklahoma:OK
+405:Oklahoma City:Oklahoma:OK
+405:Stillwater:Oklahoma:OK
+406:Billings:Montana:MT
+407:Cape Canaveral:Florida:FL
+407:Cape Kennedy:Florida:FL
+407:Kissimmee:Florida:FL
+407:Orlando:Florida:FL
+408:Monterey:California:CA
+408:San Jose:California:CA
+408:Santa Cruz:California:CA
+409:Galveston:Texas:TX
+410:Baltimore:Maryland:MD
+410:Towson:Maryland:MD
+412:Pittsburgh:Pennsylvania:PA
+413:Greenfield:Massachusetts:MA
+413:Springfield:Massachusetts:MA
+414:Green Bay:Wisconsin:WI * -> 920
+414:Milwaukee:Wisconsin:WI
+414:Racine:Wisconsin:WI
+415:San Francisco:California:CA
+416:Toronto:Ontario:ON
+417:Joplin:Missouri:MO
+417:Springfield:Missouri:MO
+418:Quebec:Quebec:PQ
+419:Toledo:Ohio:OH
+423:Chattanooga:Tennessee:TN
+423:Johnson City:Tennessee:TN
+423:Kingsport:Tennessee:TN
+423:Knoxville:Tennessee:TN
+423:Madison:Tennessee:TN
+441::Bermuda:BM
+501:Hope:Arkansas:AR
+502:Louisville:Kentucky:KY
+502:Paducah:Kentucky:KY
+502:Shelbyville:Kentucky:KY
+503:Astoria:Oregon:OR
+503:Hillsboro:Oregon:OR
+503:Portland:Oregon:OR
+503:Salem:Oregon:OR
+504:Baton Rouge:Louisiana:LA
+504:New Orleans:Louisiana:LA
+505:Albuquerque:New Mexico:NM
+505:Las Cruces:New Mexico:NM
+505:Los Alamos:New Mexico:NM
+505:Santa Fe:New Mexico:NM
+506:Fredericton:New Brunswick:NB
+507:Austin:Minnesota:MN
+507:Rochester:Minnesota:MN
+508:Framingham:Massachusetts:MA
+508:Lowell:Massachusetts:MA
+508:New Bedford:Massachusetts:MA
+508:Plymouth:Massachusetts:MA
+508:Worcester:Massachuestts:MA
+509:Pullman:Washington:WA
+509:Spokane:Washington:WA
+509:Walla Walla:Washington:WA
+510:Berkeley:California:CA
+510:Oakland:California:CA
+512:Alamo:Texas:TX
+512:Austin:Texas:TX
+512:Corpus Christi:Texas:TX
+513:Camden:Ohio:OH
+513:Cincinnati:Ohio:OH
+513:Dayton:Ohio:OH
+514:Montreal:Quebec:PQ
+515:Des Moines:Iowa:IA
+515:Mason City:Iowa:IA
+516:Long Island:New York:NY
+517:Bay City:Michigan:MI
+517:East Lansing:Michigan:MI
+517:Lansing:Michigan:MI
+517:Saginaw:Michigan:MI
+518:Albany:New York:NY
+518:Schenectady:New York:NY
+519:London:Ontario:ON
+519:Windsor:Ontario:ON
+520:Flagstaff:Arizona:AZ
+520:Prescott:Arizona:AZ
+520:Sierra Vista:Arizona:AZ
+520:Tucson:Arizona:AZ
+520:Yuma:Arizona:AZ
+540:Blacksburg:Virginia:VA
+540:Covington:Virginia:VA
+540:Fredericksburg:Virginia:VA
+540:Roanoke:Virginia:VA
+540:Salem:Virginia:VA
+540:Winchester:Virginia:VA
+541:Corvallis:Oregon:OR
+541:Eugene:Oregon:OR
+541:Klamath Falls:Oregon:OR
+541:Medford:Oregon:OR
+541:Pendleton:Oregon:OR
+541:Roseburg:Oregon:OR
+561:Boca Raton:Florida:FL
+561:Stuart:Florida:FL
+561:West Palm Beach:Florida:FL
+562:Long Beach:California:CA
+562:Santa Monica:California:CA
+562:Whittier:California:CA
+573:Cape Giradeau:Missouri:MO
+573:Columbia:Missouri:MO
+573:Fultan:Missouri:MO
+573:Hannibal:Missouri:MO
+573:Jefferson City:Missouri:MO
+573:Mexico:Missouri:MO
+601::Mississippi:MS
+602:Buckeye:Arizona:AZ
+602:Chandler:Arizona:AZ
+602:Glendale:Arizona:AZ
+602:Mesa:Arizona:AZ
+602:Phoenix:Arizona:AZ
+602:Scottsdale:Arizona:AZ
+602:Tempe:Arizona:AZ
+603:Manchester:New Hampshire:NH
+604:Chilliwack:British Columbia:BC
+604:Hope:British Columbia:BC
+604:Powell River:British Columbia:BC
+604:Squamish:British Columbia:BC
+604:Vancouver:British Columbia:BC
+605::South Dakota:SD
+606:Ashland:Kentucky:KY
+606:Lexington:Kentucky:KY
+606:Winchester:Kentucky:KY
+607:Birmingham:New York:NY
+607:Elmira:New York:NY
+608:Beloit:Wisconsin:WI
+608:Madison:Wisconsin:WI
+609:Allentown:New Jersey:NJ
+609:Atlantic City:New Jersey:NJ
+609:Camden:New Jersey:NJ
+609:Princeton:New Jersey:NJ
+609:Trenton:New Jersey:NJ
+610:Allentown:Pennsylvania:PA
+610:Bethlehem:Pennsylvania:PA
+610:Norristown:Pennsylvania:PA
+610:Reading:Pennsylvania:PA
+610:West Chester:Pennsylvania:PA
+612:Bloomington:Minnesota:MN
+612:Brooklyn Park:Minnesota:MN
+612:Edina:Minnesota:MN
+612:Minneapolis:Minnesota:MN
+612:Minnetonka:Minnesota:MN
+612:Plymouth:Minnesota:MN
+612:St. Louis Park:Minnesota:MN
+612:St. Paul:Minnesota:MN
+613:Ottawa:Ontario:ON
+614:Columbus:Ohio:OH
+615:Clarksville:Tennessee:TN
+615:Murfreesboro:Tennessee:TN
+615:Nashville:Tennessee:TN
+616:Battle Creek:Michigan:MI
+616:Grand Rapids:Michigan:MI
+616:Kalamazoo:Michigan:MI
+617:Arlington:Massachusetts:MA
+617:Boston:Massachusetts:MA
+617:Cambridge:Massachusetts:MA
+617:Winchester:Massachusetts:MA
+618:Collinsville:Illinois:IL
+618:Granite City:Illinois:IL
+618:Madison:Illinois:IL
+619:Bishop:California:CA
+619:Blythe:California:CA
+619:Death Valley:California:CA
+619:El Centro:California:CA
+619:San Diego:California:CA
+630:Aurora:Illinois:IL
+630:Naperville:Illinois:IL
+664::Montserrat:MS
+701::North Dakota:ND
+702:Las Vegas:Nevada:NV
+703:Alexandria:Virginia:VA
+703:Arlington:Virginia:VA
+703:Fairfax:Virginia:VA
+703:Falls Church:Virginia:VA
+703:Leesburg:Virginia:VA
+703:McLean:Virginia:VA
+704:Asheville:North Carolina:NC
+704:Charlotte:North Carolina:NC
+705:North Bay:Ontario:ON
+705:Sault Ste. Marie:Ontario:ON
+706:Athens:Georgia:GA
+706:Augusta:Georgia:GA
+706:Columbus:Georgia:GA
+706:La Grange:Georgia:GA
+707:Crescent City:California:CA
+707:Eureka:California:CA
+707:Napa:California:CA
+707:Petaluma:California:CA
+707:Santa Rosa:California:CA
+708:Broadview:Illinois:IL
+708:Calumet Park:Illinois:IL
+708:Des Plaines:Illinois:IL
+708:Oak Lawn:Illinois:IL
+708:Palatine:Illinois:IL
+708:Waukegan:Illinois:IL
+709:St. John's:Newfoundland:NF
+712:Council Bluffs:Iowa:IA
+712:Sioux City:Iowa:IA
+713:Houston:Texas:TX
+714:Anaheim:California:CA
+714:Orange:California:CA
+715:Eau Claire:Wisconsin:WI
+715:Wausau:Wisconsin:WI
+716:Buffalo:New York:NY
+716:Niagara Falls:New York:NY
+716:Rochester:New York:NY
+717:Gettysburg:Pennsylvania:PA
+717:Harrisburg:Pennsylvania:PA
+717:Hershey:Pennsylvania:PA
+717:Scranton:Pennsylvania:PA
+718:Brooklyn:New York:NY
+718:Queens:New York:NY
+718:Staten Island:New York:NY
+719:Burlington:Colorado:CO
+719:Colorado Springs:Colorado:CO
+719:Fairplay:Colorado:CO
+719:Lamar:Colorado:CO
+719:Pueblo:Colorado:CO
+719:South Fork:Colorado:CO
+757:Newport News:Virginia:VA
+757:Norfolk:Virginia:VA
+757:Virginia Beach:Virginia:VA
+758::St. Lucia:LC
+765:Kokomo:Indiana:IN
+765:Lafayette:Indiana:IN
+765:Richmond:Indiana:IN
+770:Lawrenceville:Georgia:GA
+770:Marietta:Georgia:GA
+770:Norcross:Georgia:GA
+770:Roswell:Georgia:GA
+773:Chicago:Illinois:IL
+787::Puerto Rico:PR
+801:Salt Lake City:Utah:UT
+802:Burlington:Vermont:VT
+803:Charleston:South Carolina:SC
+803:Columbia:South Carolina:SC
+803:Florence:South Carolina:SC
+803:Hilton Head:South Carolina:SC
+803:Myrtle Beach:South Carolina:SC
+803:Rock Hill:South Carolina:SC
+803:Winnsboro:South Carolina:SC
+804:Charlottesville:Virginia:VA
+804:Norfolk:Virginia:VA
+804:Richmond:Virginia:VA
+805:Bakersfield:California:CA
+805:San Luis Obispo:California:CA
+805:Santa Barbara:California:CA
+805:Ventura:California:CA
+806:Amarillo:Texas:TX
+806:Lubbock:Texas:TX
+807:Thunder Bay:Ontario:ON
+808:Honolulu:Hawaii:HI
+809::Dominican Republic:DO
+809::Virgin Islands:VI
+810:Birmingham:Michigan:MI
+810:Flint:Michigan:MI
+810:Pontiac:Michigan:MI
+812:Bloomington:Indiana:IN
+812:Evansville:Indiana:IN
+812:Tenna Haute:Indiana:IN
+813:Clearwater:Florida:FL
+813:St. Petersburg:Florida:FL
+813:Tampa:Florida:FL
+814:Altoona:Pennsylvania:PA
+814:Erie:Pennsylvania:PA
+815:Joliet:Illinois:IL
+815:Rockford:Illinois:IL
+816:Independence:Missouri:MO
+816:Kansas City:Missouri:MO
+817:Arlington:Texas:TX
+817:Fort Worth:Texas:TX
+818:Burbank:California:CA
+818:Encino:California:CA
+818:North Hollywood:California:CA
+818:Pasadena:California:CA
+818:San Fernando:California:CA
+818:Van Nuys:California:CA
+819:Sherbrooke:Quebec:PQ
+819:Trois Rivieres:Quebec:PQ
+847:Arlington Heights:Illinois:IL
+860:Bloomfield:Connecticut:CT
+860:Canaan:Connecticut:CT
+860:Hartford:Connecticut:CT
+860:Middletown:Connecticut:CT
+860:New Britain:Connecticut:CT
+860:New London:Connecticut:CT
+860:Norwich:Connecticut:CT
+864:Anderson:South Carolina:SC
+864:Greenville:South Carolina:SC
+864:Spartanburg:South Carolina:SC
+869::St. Kitts and Nevis:KN
+901:Memphis:Tennessee:TN
+902:Charlottetown:Prince Edward Island:PE
+902:Halifax:Nova Scotia:NS
+903:Longview:Texas:TX
+903:Paris:Texas:TX
+903:Texarkana:Texas:TX
+903:Tyler:Texas:TX
+904:Apalachicola:Florida:FL
+904:Atlantic Beach:Florida:FL
+904:Daytona Beach:Florida:FL
+904:Jacksonville:Florida:FL
+904:Panama City:Florida:FL
+904:Pensacola:Florida:FL
+904:Tallahassee:Florida:FL
+905:Hamilton:Ontario:ON
+905:Niagara Falls:Ontario:ON
+905:Unionville:Ontario:ON
+905:Woodbridge:Ontario:ON
+906:Escanaba:Michigan:MI
+906:Marquette:Michigan:MI
+906:Sault Ste. Marie:Michigan:MI
+907:Juneau:Alaska:AK
+908:Asbury Park:New Jersey:NJ
+908:Elizabeth:New Jersey:NJ
+908:New Brunswick:New Jersey:NJ
+908:Westfield:New Jersey:NJ
+909:Riverside:California:CA
+909:Upland:California:CA
+910:Asheboro:North Carolina:NC
+910:Burlington:North Carolina:NC
+910:Fayetteville:North Carolina:NC
+910:Greensboro:North Carolina:NC
+910:Winston-Salem:North Carolina:NC
+912:Macon:Georgia:GA
+912:Savannah:Georgia:GA
+912:Valdosta:Georgia:GA
+913:Kansas City:Kansas:KS
+913:Lawrence:Kansas:KS  * -> 785
+913:Topeka:Kansas:KS
+914:New Rochelle:New York:NY
+914:Newburgh:New York:NY
+914:Ossining:New York:NY
+914:Poughkeepsie:New York:NY
+914:White Plains:New York:NY
+915:Abilene:Texas:TX
+915:El Paso:Texas:TX
+915:San Angelo:Texas:TX
+916:Chico:California:CA
+916:Lake Tahoe:California:CA
+916:Sacramento:California:CA
+916:Yreka:California:CA
+917:New York City:New York:NY
+917:Queens:New York:NY
+917:Staten Island:New York:NY
+918:Bartlesville:Oklahoma:OK
+918:Broken Arrow:Oklahoma:OK
+918:Muskogee:Oklahoma:OK
+918:Tulsa:Oklahoma:OK
+919:Durham:North Carolina:NC
+919:Greenville:North Carolina:NC
+919:Raleigh:North Carolina:NC
+937:Dayton:Ohio:OH
+937:Hamilton:Ohio:OH
+941:Bowling Green:Florida:FL
+941:Bradenton:Florida:FL
+941:Ft. Myers:Florida:FL
+941:Lakeland:Florida:FL
+941:Naples:Florida:FL
+941:Sarasota:Florida:FL
+941:Winter Haven:Florida:FL
+954:Ft. Lauderdale:Florida:FL
+954:Hollywood:Florida:FL
+954:Pompano Beach:Florida:FL
+970:Aspen:Colorado:CO
+970:Durango:Colorado:CO
+970:Ft. Collins:Colorado:CO
+970:Grand Junction:Colorado:CO
+970:Greeley:Colorado:CO
+970:Loveland:Colorado:CO
+970:Steamboat Springs:Colorado:CO
+970:Vail:Colorado:CO
+972:Dallas:Texas:TX

@@ -1,0 +1,376 @@
+This is Info file ./tasks.info, produced by Makeinfo version 1.67 from
+the input file tasks.texi.
+
+   GNU Task List Copyright (C) 1987 ... 1996 Free Software Foundation,
+Inc.
+
+   Permission is granted to make and distribute verbatim copies of this
+manual provided the copyright notice and this permission notice are
+preserved on all copies.
+
+   Permission is granted to copy and distribute modified versions of
+this manual under the conditions for verbatim copying, provided that
+the entire resulting derived work is distributed under the terms of a
+permission notice identical to this one.
+
+   Permission is granted to copy and distribute translations of this
+manual into another language, under the above conditions for modified
+versions, except that this permission notice may be stated in a
+translation approved by the Free Software Foundation.
+
+
+File: tasks.info,  Node: Top,  Next: Preface,  Prev: (dir),  Up: (dir)
+
+GNU Task List
+*************
+
+   This file is updated automatically from `tasks.texi', which was last
+updated on 04 July 1996.
+
+* Menu:
+
+* Preface::
+* Documentation::
+* Unix-Related Projects::
+* Kernel Projects::
+* Extensions::
+* X Windows Projects::
+* Other Projects::
+* Compilers::
+* Games and Recreations::
+
+
+File: tasks.info,  Node: Preface,  Next: Documentation,  Prev: Top,  Up: Top
+
+About the GNU Task List
+***********************
+
+   Check with `gnu@prep.ai.mit.edu', for a possibly more current copy.
+You can also ftp it from a GNU FTP host in directory `/pub/gnu/tasks' -
+These files in different formats are available: `tasks.text',
+`tasks.texi', `tasks.info', and `tasks.dvi'.  It is also available on
+the GNU World Wide Web server: `http://www.gnu.ai.mit.edu'.
+
+   This task list is not exclusive; any other useful program might be a
+good project--but it might instead be something we already have, so
+check with `gnu@prep' before you start writing it.
+
+   If you start working steadily on a project, please let `gnu@prep'
+know.  We might have information that could help you; we'd also like to
+send you the GNU coding standards.
+
+   Because of the natural tendency for most volunteers to write
+programming tools or programming languages, we have a comparative
+shortage of applications useful for non-programmer users.  Therefore,
+we ask you to consider writing such a program.
+
+   In general, a new program that does a completely new job advances the
+GNU project more than an improvement to an existing program.
+
+
+File: tasks.info,  Node: Documentation,  Next: Unix-Related Projects,  Prev: Preface,  Up: Top
+
+Documentation
+*************
+
+   We very urgently need documentation for some parts of the system
+that already exist or will exist very soon:
+
+   * Completion of the documentation for CC-mode, a new C/C++ Emacs mode
+     written in Emacs Lisp.
+
+   * A C reference manual.  (RMS has written half of one which you could
+     start with).
+
+   * A manual for Ghostscript.
+
+   * A manual for TCSH.
+
+   * A manual for PIC (the graphics formatting language).
+
+   * A manual for Oleo.
+
+   * A book on how GCC works and why various machine descriptions are
+     written as they are.
+
+   * A manual for programming X-window applications.
+
+   * Manuals for various X window managers.
+
+   * Reference cards for those manuals that don't have them: C
+     Compiler, Make, Texinfo, Termcap, maybe the C Library, etc.
+
+   * Many utilities need documentation, including `grep' and others.
+
+
+File: tasks.info,  Node: Unix-Related Projects,  Next: Kernel Projects,  Prev: Documentation,  Up: Top
+
+Unix-Related Projects
+*********************
+
+   * An improved version of the POSIX utility `pax'.  There is one on
+     USENET, but it is said to be poorly written.  Talk with
+     `mib@gnu.ai.mit.edu' about this project.
+
+   * A `grap' preprocessor program for `troff'.
+
+   * An emulation of SCCS that works using RCS.
+
+   * Less urgent: `diction', `explain', and `style', or something to do
+     the same kind of job.  Compatibility with Unix is not especially
+     important for these programs.
+
+
+File: tasks.info,  Node: Kernel Projects,  Next: Extensions,  Prev: Unix-Related Projects,  Up: Top
+
+Kernel-Related Projects
+***********************
+
+   * An over-the-ethernet debugger stub that will allow the kernel to be
+     debugged from GDB running on another machine.
+
+     This stub needs its own self-contained implementation of all
+     protocols to be used, since the GNU system will use user processes
+     to implement all but the lowest levels, and the stub won't be able
+     to use those processes.  If a simple self-contained implementation
+     of IP and TCP is impractical, it might be necessary to design a
+     new, simple protocol based directly on ethernet.  It's not crucial
+     to support high speed or communicating across gateways.
+
+     It might be possible to use the Mach ethernet driver code, but it
+     would need some changes.
+
+   * A shared memory X11 server to run under MACH is very desirable.
+     The machine specific parts should be kept well separated.
+
+   * An implementation of CIFS, the "Common Internet File System," for
+     the HURD.  This protocol is an offshoot of SMB.
+
+
+File: tasks.info,  Node: Extensions,  Next: X Windows Projects,  Prev: Kernel Projects,  Up: Top
+
+Extensions to Existing GNU Software
+***********************************
+
+   * Enhance GCC.  See files `PROJECTS' and `PROBLEMS' in the GCC
+     distribution.
+
+   * GNU `sed' probably needs to be rewritten completely just to make it
+     cleaner.
+
+   * Work on the partially-implemented C interpreter project.
+
+   * Help with the development of GNUstep, a GNU implementation of the
+     OpenStep specification (which is implemented in Objective-C and is
+     the next generation of NeXTStep).
+
+   * Add features to GNU Make to record the precise rule with which
+     each file was last recompiled; then recompile any file if its rule
+     in the makefile has changed.
+
+   * Add a few features to GNU `diff', such as handling large input
+     files without reading entire files into core.
+
+   * An `nroff' macro package to simplify `texi2roff'.
+
+   * A queueing system for the mailer Smail that groups pending work by
+     destination rather than by original message.  This makes it
+     possible to schedule retries coherently for each destination.
+     Talk to `tron@veritas.com' about this.
+
+     Smail also needs a new chief maintainer.
+
+   * Enhanced cross-reference browsing tools.  (We now have something at
+     about the level of `cxref'.)  We also could use something like
+     `ctrace'.  (Some people are now working on this project.)
+
+
+File: tasks.info,  Node: X Windows Projects,  Next: Other Projects,  Prev: Extensions,  Up: Top
+
+X Windows Projects
+******************
+
+   * An emulator for Macintosh graphics calls on top of X Windows.
+
+   * A music playing and editing system.
+
+   * A program to edit dance notation (such as labanotation) and display
+     dancers moving on the screen.
+
+   * Port the Vibrant toolkit to work on X without using Motif.
+
+   * A program to display and edit Hypercard stacks.
+
+   * A paint program, supporting both bitmap-oriented operations and
+     component-oriented operations.  `xpaint' exists, but isn't very
+     usable.
+
+   * A program for manipulating photographs--something vaguely like
+     Photo Shop (though not exactly like it).
+
+
+File: tasks.info,  Node: Other Projects,  Next: Compilers,  Prev: X Windows Projects,  Up: Top
+
+Other Projects
+**************
+
+   If you think of others that should be added, please send them to
+`gnu@prep.ai.mit.edu'.
+
+   * A free program for public-key encryption.
+
+     This program should use the Diffie-Helman algorithm for public key
+     encryption, not the RSA algorithm, because the Diffie-Helman
+     patent in the US will expire in 1997.  It should use triple-DES,
+     not IDEA, for block encryption because IDEA is patented in many
+     countries and the patents will not expire soon.  In other
+     respects, it should be like PGP.
+
+     This program needs to be written by someone who is not a US
+     citizen, outside the US, to avoid problems with US export control
+     law.
+
+     Many people believe that PGP is free software, but that is not
+     actually true.  The distribution terms set by the copyright
+     holders do not allow everyone to use and redistribute it.
+
+   * A program to convert compiled programs represented in OSF ANDF
+     ("Architecture Neutral Distribution Format") into ANSI C.
+
+   * An imitation of Page Maker or Ventura Publisher.
+
+   * An imitation of `dbase2' or `dbase3' (How dbased!)
+
+   * An interactive 3D modeling utility with rendering/raytracing
+     capabilities.
+
+   * A program for graphic morphing of scanned photographs.
+
+   * A program to reformat Fortran programs in a way that is pretty.
+
+   * A bulletin board system.  There are a few free ones, but they
+     don't have all the features that people want in such systems.  It
+     would make sense to start with an existing one and add the other
+     features.
+
+   * A general ledger program, including support for accounts payable,
+     account receivables, payroll, inventory control, order processing,
+     etc.
+
+   * A teleconferencing program which does the job of CU-SeeMe (which
+     is, alas, not free software).
+
+   * A program to typeset C code for printing.  For ideas on what to
+     do, see the book,
+
+          Human Factors and Typography for More Readable Programs,
+          Ronald M. Baecker and Aaron Marcus,
+          Addison-Wesley, ISBN 0-201-10745-7
+
+     (I don't quite agree with a few of the details they propose.)
+
+   * Speech-generation programs (there is a program from Brown U that
+     you could improve).
+
+   * Speech-recognition programs (single-speaker, disconnected speech).
+
+   * Scientific mathematical subroutines, including clones of SPSS.
+
+   * Statistical tools.
+
+   * Software to replace card catalogues in libraries.
+
+   * Grammar and style checking programs.
+
+   * An implementation of the S language (an interpreted language used
+     for statistics).
+
+   * A translator from Scheme to C.
+
+   * Optical character recognition programs; especially if suitable for
+     scanning documents with multiple fonts and capturing font info as
+     well as character codes.  Work is being done on this, but more
+     help is needed.
+
+   * A program to scan a line drawing and convert it to Postscript.
+
+   * A program to recognize handwriting.
+
+   * A pen based interface.
+
+   * CAD software, such as a vague imitation of Autocad.
+
+   * Software for comparing DNA sequences, and finding matches and
+     alignments.
+
+
+File: tasks.info,  Node: Compilers,  Next: Games and Recreations,  Prev: Other Projects,  Up: Top
+
+Compilers for Other Batch Languages
+***********************************
+
+   Volunteers are needed to write parsers/front ends for languages such
+as Algol 60, Algol 68, PL/I, Cobol, Fortran 90, or whatever, to be used
+with the code generation phases of the GNU C compiler.  (C, C++, and
+Objective-C are done; Fortran 77 is mostly done; Ada, Pascal, and Java
+are being worked on.)
+
+   You can get the status of the Fortran front end with this command:
+
+     finger -l fortran@gnu.ai.mit.edu
+
+
+File: tasks.info,  Node: Games and Recreations,  Prev: Compilers,  Up: Top
+
+Games and Recreations
+*********************
+
+   Video-oriented games should work with the X window system.
+
+   * Empire (there is a free version but it needs upgrading)
+
+   * An "empire builder" system that makes it easy to write various
+     kinds of simulation games.
+
+   * Imitations of popular video games:
+
+        - Space war, Asteroids, Pong, Columns.
+
+        - Defending cities from missiles.
+
+        - Plane shoots at lots of other planes, tanks, etc.
+
+        - Wizard fights fanciful monster.
+
+        - A golf game.
+
+        - Program a robot by sticking building blocks together, then
+          watch it explore a world.
+
+        - Biomorph evolution (as in Scientific American).
+
+        - A program to display effects of moving at relativistic speeds.
+
+   * Improve GnuGo, which is not yet very sophisticated.
+
+   * Intriguing screen-saver programs to make interesting pictures.
+     Other such programs that are simply entertaining to watch.  For
+     example, an aquarium.
+
+   We do not need `rogue', as we have `hack'.
+
+
+
+Tag Table:
+Node: Top850
+Node: Preface1234
+Node: Documentation2451
+Node: Unix-Related Projects3421
+Node: Kernel Projects4026
+Node: Extensions5148
+Node: X Windows Projects6593
+Node: Other Projects7336
+Node: Compilers10602
+Node: Games and Recreations11193
+
+End Tag Table

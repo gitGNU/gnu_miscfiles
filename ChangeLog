@@ -1,0 +1,209 @@
+1998-09-25  Thomas Bushnell, BSG  <thomas@gnu.org>
+
+	* us-constitution: Correct typo in Amendment XXII, add dates of
+	proposal and ratification of Amendment XX.  
+
+Mon Mar 24 14:04:42 1997  Thomas Bushnell, n/BSG  <thomas@gnu.ai.mit.edu>
+
+	* inter.phone: Update code for Innsbruck, Austria, and add new
+	codes.  Reported by Robert Bihlmeyer (robbe@orcus.priv.at). 
+	
+	* Mention Mariehamn, Finland in its (thus) Swedish spelling too.
+	Suggested by Era Eriksson (reriksso@cc.helsinki.fi).
+
+Fri Mar 21 11:56:20 1997  Thomas Bushnell, n/BSG  <thomas@gnu.ai.mit.edu>
+
+	* us-constitution: Number Article II correctly.  Reported by
+ 	Vincent Hascoet (hascoet@lep.research.philips.com).
+
+	* inter.phone: Update codes for France, Andorra, and Monaco.
+  	Reported by Vincent Hascoet (hascoet@lep.research.philips.com).
+
+	* airport (CDG, ORY): New entries; suggested by Vincent Hascoet
+	(hascoet@lep.research.philips.com). 
+	(ARN): New entry; suggested by Mikael Hedin
+	(micce@vanosf.physto.se). 
+
+	* inter.phone: Updated codes and new cities for Finland.  Thanks
+	to Timo J. Rinne (tri@iki.fi). 
+
+	* inter.phone: Norway no longer uses city codes at all.  Reported
+	by Kjetil Torgrin Homme (kjetilho@ifi.uio.no), Egil Kvaleberg
+	@egilk.sn.no), and Knut A. Syed (Knut.Syed@nhh.no).
+
+	* interp.phone: Denmark no longer uses city codes at all.
+	Reported by Egil Kvaleberg (egilk@sn.no).
+	
+Thu Mar 20 11:38:55 1997  Thomas Bushnell, n/BSG  <thomas@gnu.ai.mit.edu>
+
+	* Makefile.in (all): Depend on tasks.info.
+	(install): Depend on all.
+	Reported by Eric Backus (ericb@lsid.hp.com).
+	
+	* inter.phone: City code for Arnhem, the Netherlands updated from
+	85 to 26.  Reported by Mark Kettenis (kettenis@phys.uva.nl).
+
+	* na.phone: Removed `xxx' entry for 630; added in its place
+	Aurora, IL and Naperville, IL.  Reported by Rich Derr
+	(rhd@emptysky.com).
+
+Wed Mar 19 11:26:50 1997  Thomas Bushnell, n/BSG  <thomas@gnu.ai.mit.edu>
+
+	* Makefile.in (version): Updated to version 1.1.
+
+	* cities.dat: Updated from
+	http://www.sander.embl-heidelberg.de/rob/location. 
+	
+	* rfc-index.txt: Updated from ftp://ds.internic.net/rfc.
+	* fyi-index.txt: Likewise.
+	* std-index.txt: Likewise.
+	
+	* tasks.texi: Updated from ftp://prep.ai.mit.edu/standards.
+
+	* mailinglists: Updated from 13 Jan 97 version.
+	
+	* latin1: New file.  Suggested by Franc,ois Pinard
+	(pinard@progiciels-bpi.ca).
+	* Makefile.in (miscfiles): Add `latin1'.
+
+	* languages: New file; provided by Franc,ois Pinard
+	(pinard@progiciels-bpi.ca). 
+	* Makefile.in (miscfiles): Add `languages'.
+
+	* airport: Added COD and SVO.  Suggested by Steve Murphy
+	(murf@e-tools.com). 
+
+	* inter.phone: Simplified country names where they are not useful
+	for disambiguation:
+	`Egypt, Arab Rep. of' -> `Egypt'.
+	`Poland, People's Rep. of' -> `Poland'.
+	`Sri Lanka, Dem. Soc. Rep. of' -> `Sri Lanka'.
+	`Morocco, Kingdom of' -> `Morocco'.
+	`Libyan Arab People's Socialist Jamahiriya' -> `Libya'.
+	`Guinea, People's Rev. Rep.' -> `Guinea'.
+	`Ivory Coast Rep. of' -> `Ivory Coast'.
+	`Niger Republic' -> `Niger'.
+	`Togo, Rep. of' -> `Togo'.
+	`Benin, People's Rep. of' -> `Benin'.
+	`Nigeria, Fed. Rep. of' -> `Nigeria'.
+	`Cameroon, United Rep. of' -> `Cameroon'.
+	`Zaire, Rep. of' -> `Zaire'.
+	`Kenya, Rep. of' -> `Kenya'.
+	`Panama, Rep. of' -> `Panama'.
+	`Micronesia, Fed. States of' -> `Micronesia'.
+	`Bangladesh, People's Rep. of' -> `Bangladesh'.
+	`Maldives, Rep. of' -> `Maldives'.
+	`Yemen Arab Republic' -> `Yemen'.
+	
+	* inter.phone: Fix capitalization of Dar es Salaam, Tanzania; add
+ 	Arusha, Tanzania.  Reported by partian@dcs.gla.ac.uk.
+
+	* inter.phone: Add Scunthorpe, England.  Suggested by Dave Love
+	(d.love@dl.ac.uk). 
+
+	* inter.phone: Change GDR and FRG to just `Germany'.  Updated
+	codes for ex-GDR cities.  Thanks to Dave Love (d.love@dl.ac.uk)
+	and Ulrich Drepper (drepper@gnu.ai.mit.edu).
+	
+Tue Mar 18 12:59:56 1997  Thomas Bushnell, n/BSG  <thomas@gnu.ai.mit.edu>
+
+	* inter.phone: Added more Swedish area codes (all the one and two
+	digit codes).  Contributed by Jan Mattsson, janm@valle.mydata.se.
+	His source was the Stockholm telephone directory, 1996 edition.
+	
+	* inter.phone: Changed single entry for Prague to be updated
+	entries for many cities in the Czech republic; phone code changed
+	from +42 to +420.  (Codes provided by Pavel Pokorny
+	[pokornp@math.vscht.tz).  
+	
+	* inter.phone: Added entries from the NYNEX listing in 1996-1997
+ 	phone books.  Involved a change in the city code for Vienna,
+ 	Austria (222 -> 1).  Guantanamo Bay correctly split into city and
+	country code now.  Added Mali; Guadalajara, Mexico; Russia;
+	Slovakia.
+
+	* inter.phone: Fixed spelling errors: Abu Dhabi,  
+	
+	* na.phone: Incorporated changes from
+	http://www.teltronics.com/nanp2.html.  (That source was dated
+	February 27, 1997.)
+	Additional city names from http://www.pychck.com/ace_list.htm.
+	Some city names from Vince Del Vecchio
+	(vdelvecc@mesmer.camb.inmet.com). 
+	Many California city names from Kevin O'Gorman
+	(trixie!kevin@fiji.via.ayuda.com). 	
+
+	* Makefile.in (infofiles): Drop jarg331.info, add jarg400.info.
+	(jarg331.info): Delete file.
+	(jarg400.info): New file.
+
+	* Makefile.in (maintainer-clean distclean): Also remove
+	config.cache and config.log.  Reported by Eric Backus
+	(ericb@lsid.hp.com). 
+
+Sat Jul 13 14:53:07 1996  Michael I. Bushnell, p/BSG  <mib@gnu.ai.mit.edu>
+
+	* Makefile.in (VPATH): New variable.
+
+	* mailinglists: New file.
+	(miscfiles): Added mailinglists.
+	
+	* GNU-manifesto, tasks.texi: New files.
+	* Makefile.in (infofiles): Add tasks.info.
+	(miscfiles): Add GNU-manifesto.
+	(tasks.info): New rule. 
+	(texisource): New variable.
+	(distfiles): Add $(texisource).
+
+	* Makefile.in (infofiles): New variable.
+	(distfiles): Add $(infofiles).
+	(infodir): New variable.
+	(install): Install $(infofiles).
+	(uninstall): Uninstall $(infofiles).
+	(installdirs): Create $(infodir).
+	* jarg331.info: New file.
+
+Fri Jul 12 12:12:45 1996  Michael I. Bushnell, p/BSG  <mib@gnu.ai.mit.edu>
+
+	* inter.phone: Change to codes for Oslo and Bergen, Norway.  Add
+	Stavanger, Norway.  Thanks to Magnus Y. Alvestad.
+	<magnus@ii.uib.no>. 
+	* inter.phone: Updated codes for England, plus addition of York,
+	thanks to Bob Wilkinson <bwolkinson@pindar.co.uk>.
+	* propernames: Added several new names, thanks to Thad Floryan
+	<thad@thadlabs.com>.
+	* zipcodes (94024): New, for Los Altos, CA; thanks to Thad
+	Floryan <thad@thadlabs.com>.
+
+	* abbrevs.talk, abbrevs.gen: New files; provided by Francois
+	Pinard.  <pinard@progiciels-bpi.ca>.
+	* rfc-index.txt, fyi-index.txt, std-index.txt: New files;
+	from ftp://ds.internic.net/rfc.
+	* cities.dat: New file, from Rob Hooft.
+	<Rob.Hooft@embl-heidelberg.de>.
+	* postal.codes: New file; provided by John Kodis
+	<kodis@access.digex.net>. 
+	* Makefile.in (miscfiles): Added abbrevs.talk, abbrevs.gen,
+	cities.dat, and postal.codes.
+	(rfcfiles): New variable.
+	(install): Install $(rfcfiles).
+	(uninstall): Uninstall $(rfcfiles).
+	(installdirs): Create $(datadir)/rfc.
+	(distfiles): Add $(rfcfiles).
+	
+Tue Jul  9 16:02:09 1996  Miles Bader  <miles@gnu.ai.mit.edu>
+
+	* zipcodes (98110): Changed to `Bainbridge Island, WA'.
+
+Tue Jul  9 01:23:35 1996  Michael I. Bushnell, p/BSG  <mib@gnu.ai.mit.edu>
+
+	* Makefile.in (statefiles): New variable.
+	(install): Install $(statefiles).
+	(uninstall): Uninstall $(statefiles).
+	(installdirs): Create $(datadir)/state.
+	(distfiles): Add $(statefiles).
+	* us-declaration, us-constitution: New files.
+
+	* na.phone: Add entry for `510'; Oakland and Berkeley, CA.
+	Thanks to Thomas Morgan <tmorgan@pobox.com> for the addition.
+

@@ -1,0 +1,82 @@
+GNU miscfiles NEWS   8 July 1996
+
+Copyright (C) 1996 Free Software Foundation, Inc.
+See the end for copying conditions.
+
+Please send GNU miscfiles bug reports to bug-gnu-utils@prep.ai.mit.edu.
+
+
+Version 1.1
+
+The na.phone file has been entirely rebuilt.  inter.phone contains new
+codes for the United Kingdom, several changes to reflect the changing
+political world, and more codes for some countries (Sweden, Norway). 
+
+Many new files have been added:
+
+latin1
+  like `ascii'; describing the ISO Latin-1 character set
+
+languages
+  two-letter codes for languages, from ISO 639.
+
+mailinglists
+  Description of all the public Project GNU related mailing lists.
+
+GNU-manifesto
+  The GNU Manifesto
+
+tasks.{texi,info}
+  The GNU task list.
+
+jarg400
+  The Jargon file (same as the _Hacker's_Dictionary_)
+
+abbrevs.talk, abbrevs.gen:
+  Some common abbreviations used in electronic communication
+
+rfc-index.txt, fyi-index.txt, std-index.txt
+  Indexes of internet standardization documents.
+
+cities.dat
+  geographic coordinates of many major cities
+
+postal.codes
+  postal codes for US and Mexican states and Canadian provinces
+
+us-constitution
+  The Constitution of the United States of America
+
+us-declaration
+  The Declaration of Independence of the Thirteen Colonies
+
+
+
+----------------------------------------------------------------------
+Version 1.0
+
+Initial release, comprising 
+airport, ascii, birthtoken, connectives, inter.phone, na.phone, operator, 
+propernames, web2, web2a, and zipcodes.
+
+
+----------------------------------------------------------------------
+Copyright information:
+
+Copyright (C) 1992, 1993 Free Software Foundation, Inc.
+
+   Permission is granted to anyone to make or distribute verbatim copies
+   of this document as received, in any medium, provided that the
+   copyright notice and this permission notice are preserved,
+   thus giving the recipient permission to redistribute in turn.
+
+   Permission is granted to distribute modified versions
+   of this document, or of portions of it,
+   under the above conditions, provided also that they
+   carry prominent notices stating who last changed them.
+
+
+Local variables:
+version-control: never
+mode: indented-text
+end:

@@ -1,0 +1,57 @@
+0a1
+> # Generated automatically from Makefile.in by configure.
+23c24
+< srcdir = @srcdir@
+---
+> srcdir = .
+25,26c26,27
+< INSTALL=@INSTALL@
+< INSTALL_DATA=@INSTALL_DATA@
+---
+> INSTALL=/usr/bin/install -c
+> INSTALL_DATA=${INSTALL} -m 644
+28c29
+< prefix=@prefix@
+---
+> prefix=/usr/local
+30a32
+> infodir=$(prefix)/info
+32a35
+> MAKEINFO = makeinfo
+37c40,41
+< miscfiles=airport ascii birthtoken inter.phone na.phone operator zipcodes
+---
+> miscfiles=airport ascii birthtoken inter.phone na.phone operator zipcodes \
+> 	abbrevs.talk abbrevs.gen cities.dat postal.codes GNU-manifesto
+38a43,44
+> rfcfiles=rfc-index.txt std-index.txt fyi-index.txt
+> infofiles=jarg331.info tasks.info
+40c46
+< distfiles=$(dictfiles) $(miscfiles) $(statefiles) \
+---
+> distfiles=$(dictfiles) $(miscfiles) $(statefiles) $(rfcfiles) $(infofiles) \
+59a66,71
+> 	for i in $(rfcfiles); do \
+> 	  $(INSTALL_DATA) $(srcdir)/$$i $(datadir)/rfc/$$i ; \
+> 	done
+> 	for i in $(infofile); do \
+> 	  $(INSTALL_DATA) $(srcdir)/$$i $(infodir)/$$i ; \
+> 	done
+73a86,91
+> 	for i in $(rfcfiles); do \
+> 	  rm -f $(datadir)/rfc/$$i ; \
+> 	done
+> 	for i in $(infofiles); do \
+> 	  rm -f $(infodir)/$$i ; \
+> 	done
+76c94,95
+< 	$(MKINSTALLDIRS) $(datadir)/dict $(datadir)/misc $(datadir)/state
+---
+> 	$(MKINSTALLDIRS) $(datadir)/dict $(datadir)/misc $(datadir)/state \
+> 		$(datadir)/rfc $(infodir)
+100a120,123
+> # Rules
+> 
+> tasks.info: tasks.texi
+> 	$(MAKEINFO) $< -o $(srcdir)/$@
+\ No newline at end of file
