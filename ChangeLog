@@ -1,3 +1,15 @@
+2002-10-29  Thomas Bushnell, BSG  <tb@becket.net>
+
+	* debian/templates, debian/postrm, debian/config,
+	debian/miscfiles.info-wordlist: New files. 
+	* debian/control (Depends): Add debconf and dictionaries-common. 
+	* debian/rules (stamp-binary): Install
+	miscfiles.info-wordlist, postrm, config, and templates.
+	* debian/prerm: Don't use update-alternatives here; it's now done
+	in the postrm with remove-default-wordlist.
+	* debian/postinst: Use update-default-wordlist instead of
+	update-alternatives. 
+
 2001-12-29  Thomas Bushnell, BSG  <tb@becket.net>
 
 	* currency: Much clean up from Brian Fox <bfox@ua.com>; removes
