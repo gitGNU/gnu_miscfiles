@@ -1,0 +1,14 @@
+
+	This set of files also contained the Jargon file and
+ /usr/dict/words, which are available in other packages for Debian,
+ therefore these files were removed from miscfiles so as to avoid
+ collisions. 
+
+	Since this package has not been revised upstream, and the lists
+ of area, zip, and postal codes is getting rather stale, I decided to
+ refresh the lists for the Debian package independently. The list of area
+ codes was augnemted from http://www.nanpa.com/,
+ http://www.lincmad.com/cities.html, and http://www.thedirectory.org/pref/
+
+ François Pinard has also provided an updated version of the
+ abbreviations files.

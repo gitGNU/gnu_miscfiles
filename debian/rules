@@ -1,0 +1,113 @@
+#!/usr/bin/make -f
+############################ -*- Mode: Makefile -*- ###########################
+## rules ---
+## Author	    : Manoj Srivastava ( srivasta@tiamat.datasync.com )
+## Created On	    : Sun Mar 30 00:18:31 1997
+## Created On Node  : tiamat.datasync.com
+## Last Modified By : Manoj Srivastava
+## Last Modified On : Mon Feb  7 03:28:29 2000
+## Last Machine Used: glaurung.green-gryphon.com
+## Update Count	    : 30
+## Status	    : Unknown, Use with caution!
+## HISTORY	    :
+## Description	    :
+##
+###############################################################################
+
+#
+# VERSION=$(shell LC_ALL=C dpkg-parsechangelog | grep ^Version: | \
+#                          sed 's/^Version: *//')
+#
+
+# The name of the package (for example, `emacs').
+package = $(shell grep Source debian/control | sed 's/^Source: //')
+
+FILES_TO_CLEAN = debian/files debian/files* debian/substvars
+STAMPS_TO_CLEAN =  stamp-binary stamp-build
+DIRS_TO_CLEAN  = debian/tmp
+thisdir=$(shell pwd)
+
+# install commands
+install_file= install -p -o root -g root -m 644
+install_program= install -p -o root -g root -m 755
+make_directory= install -p -d -o root -g root -m 755
+
+# Configuration variables (these should be pretty generic)
+DOCDIR := debian/tmp/usr/share/doc/$(package)
+
+
+all build: stamp-build
+
+stamp-build:
+# Builds the binary package.
+	$(checkdir)
+	-test -f stamp-configure || $(MAKE) -f debian/rules configure
+	$(MAKE)
+	touch stamp-build
+
+configure: stamp-configure
+
+stamp-configure:
+	CC=$(CC) CFLAGS=$(CFLAGS)  ./configure --prefix=/usr \
+           && touch stamp-configure
+
+clean:
+	$(checkdir)
+	-test -f Makefile && make distclean
+	rm -f $(FILES_TO_CLEAN) $(STAMPS_TO_CLEAN)
+	rm -f -r $(DIRS_TO_CLEAN)
+	rm -f core `find . \( -name '*.orig' -o -name '*.rej' -o -name '*~' \
+		-o -name '*.bak' -o -name '#*#' -o -name '.*.orig' \
+		-o -name '.*.rej' -o -name '.SUMS' -o -size 0 \) -print` TAGS
+
+binary: binary-arch binary-indep
+
+binary-arch: build
+# builds the architecture dependent part
+
+binary-indep: build stamp-binary
+
+
+stamp-binary:
+	@test 0 = $$(id | sed -e 's/(.*$$//' -e 's/^uid=//')  ||\
+		 (echo need root priviledges; exit 1)
+	$(checkdir)
+	-rm -rf debian/tmp 	 debian/tmp.deb
+	$(make_directory)  	 debian/tmp/DEBIAN
+	$(make_directory)  	 $(DOCDIR)
+	$(MAKE)  install   	 prefix=`pwd`/debian/tmp/usr
+	rm -f               	 debian/tmp/usr/share/dict/words
+	rm -f              	 debian/tmp/usr/share/dict/README
+	rm -f              	 debian/tmp/usr/share/info/jarg400.info
+	$(install_file)          NEWS $(DOCDIR)/NEWS
+	$(install_file)          ORIGIN $(DOCDIR)/ORIGIN
+	$(install_file)          README $(DOCDIR)/README
+	$(install_file)          dict-README $(DOCDIR)/dict-README
+	$(install_file)          debian/README.debian $(DOCDIR)/README.debian
+	$(install_file)          debian/changelog $(DOCDIR)/changelog.Debian
+	mv                       debian/tmp/usr/share/dict/web2 debian/tmp/web2
+	gzip -9fqr          	 debian/tmp/usr/share/
+	mv debian/tmp/web2       debian/tmp/usr/share/dict/web2
+	(cd $(DOCDIR); for i in ../../misc/*; do\
+                         test -e $$i && ln -s $$i; done)
+# Make sure the copyright file is not compressed
+	$(install_file)          debian/copyright $(DOCDIR)/copyright
+	$(install_program)       debian/postinst debian/tmp/DEBIAN/postinst
+	$(install_program)       debian/prerm    debian/tmp/DEBIAN/prerm
+	dpkg-gencontrol  -isp
+	chown -R                 root.root debian/tmp
+	chmod -R go=rX           debian/tmp
+	dpkg --build             debian/tmp ..
+	touch                    stamp-binary
+
+# Below here is fairly generic really
+define checkdir
+	test -f	 web2  -a -f debian/rules
+endef
+
+source diff:
+	@echo >&2 'source and diff are obsolete - use dpkg-source -b'; false
+
+
+.PHONY: binary binary-arch binary-indep clean
+

@@ -1,0 +1,112 @@
+miscfiles (1.1-12) frozen unstable; urgency=low
+
+  * Use absolute links when related links would not work, for the
+    /usr/doc/ symlink.
+  * Added a dependency on fileutiles >=4.0, since the package would fail
+    to install with older fileutils.
+
+ -- Manoj Srivastava <srivasta@debian.org>  Tue, 28 Mar 2000 02:08:47 -0600
+
+miscfiles (1.1-11) frozen unstable; urgency=low
+
+  * It is frozen, not froxen. This brings in the symlink fix back into
+    frozen. closes: Bug#58335, Bug#57809, Bug#57308
+  * Fixed an upgrade bug when /usr/doc happens to be a symlink, and does
+    not point to /usr/share/doc. A couple of people were bitten by this. 
+
+ -- Manoj Srivastava <srivasta@debian.org>  Mon, 28 Feb 2000 22:27:05 -0600
+
+miscfiles (1.1-10) froxen unstable; urgency=low
+
+  * fix a typo in the rules file that made an interesting symlink.
+    closes: Bug#58335, Bug#57809, Bug#57308
+
+ -- Manoj Srivastava <srivasta@debian.org>  Sat, 19 Feb 2000 13:15:06 -0600
+
+miscfiles (1.1-9) frozen unstable; urgency=low
+
+  * The postinst was vulnerable to being affected by symlinks (if, for
+    some reason, the prerm failed). This has happended for latex2html; and
+    created a grave bug. 
+  * There was a bug in the postinst in a case statement, that caused
+    installation to fail for certain situations.
+  * Also fixed an lintian warning
+
+ -- Manoj Srivastava <srivasta@debian.org>  Tue,  8 Feb 2000 15:35:11 -0600
+
+miscfiles (1.1-8) frozen unstable; urgency=low
+
+  * Added new abbreviations to the package. Hopefully, all this shall be
+    in the new upstream package due out in a month or so. closes: Bug#57021
+
+ -- Manoj Srivastava <srivasta@debian.org>  Mon,  7 Feb 2000 02:12:26 -0600
+
+miscfiles (1.1-7) unstable; urgency=low
+
+  * Refreshed the list of Area codes. This is upto date as of the NANP
+    updates of May 3, 1999. Paaed this upstream.
+    closes: Bug#36968, Bug#18216, Bug#25211
+  * Updated to Standards version 2.5.1. No changes were needed.
+  * Fixed a typo in the US constitution (Article III appeared twice, and
+    there was no Article II). Also, added the date when the XX amendment
+    was passed and when it was ratified.  closes: Bug#33833, Bug#25171
+  * Made this package provide wordlist, since web2 has lots more words
+    than wenglish. closes: Bug#29568
+  * Updated all maintainers scripts to my latest standards'
+
+ -- Manoj Srivastava <srivasta@debian.org>  Fri, 14 May 1999 15:54:08 -0500
+
+miscfiles (1.1-6) unstable; urgency=low
+
+  * Removed duplication of the GNU Manifesto. closes: BUG#29565
+
+ -- Manoj Srivastava <srivasta@debian.org>  Wed, 25 Nov 1998 02:18:23 -0600
+
+miscfiles (1.1-5) unstable; urgency=low
+
+  * Provided links for these files in /usr/doc/$(package). Closes:
+    Bug#18218 
+
+ -- Manoj Srivastava <srivasta@debian.org>  Thu, 19 Feb 1998 04:38:34 -0600
+
+miscfiles (1.1-4) unstable; urgency=low
+
+  * Updated to standards version 2.4.0.0
+  * This fixes a future lintian report. However, there is still a spurious
+    lintian warning.
+
+ -- Manoj Srivastava <srivasta@debian.org>  Mon,  9 Feb 1998 13:27:55 -0600
+
+miscfiles (1.1-3) unstable; urgency=low
+
+  * Make sure the copyright file is not compressed. closes:Bug#14495.
+  * Do not install INSTALL into /usr/doc, since this only has generic
+    installation instructions, and is irrelevant on Debian machines.
+  * Added information to a previously empty README.debian
+    file. closes:Bug#14130.
+
+ -- Manoj Srivastava <srivasta@debian.org>  Wed,  5 Nov 1997 13:31:34 -0600
+
+miscfiles (1.1-2) unstable; urgency=low
+
+  * Expanded description in the control file. This fixes Bug#8972
+
+ -- Manoj Srivastava <srivasta@debian.org>  Wed, 23 Apr 1997 13:58:50 -0500
+
+miscfiles (1.1-1) unstable; urgency=low
+
+  * Removed debstd from rules file
+  * new maintainer
+  * New upstream source
+
+ -- Manoj Srivastava <srivasta@debian.org>  Fri, 28 Mar 1997 09:44:05 -0600
+
+miscfiles (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Herbert Xu <herbert@debian.org>  Mon, 10 Feb 1997 21:44:40 +1100
+
+Local variables:
+mode: debian-changelog
+End:
