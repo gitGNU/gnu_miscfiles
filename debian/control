@@ -7,7 +7,7 @@ Standards-Version: 3.0.0.0
 Package: miscfiles
 Architecture: all
 Provides: wordlist
-Depends: fileutils (>= 4.0)
+Depends: fileutils (>= 4.0), debconf, dictionaries-common
 Description: Dictionaries and other interesting files.
  These files are not crucial to system administration or operation,
  but which have come to be common on various systems over the years.

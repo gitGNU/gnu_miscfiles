@@ -94,10 +94,16 @@ stamp-binary:
 	mv debian/tmp/web2       debian/tmp/usr/share/dict/web2
 	(cd $(DOCDIR); for i in ../../misc/*; do\
                          test -e $$i && ln -s $$i; done)
+	$(make_directory)     debian/tmp/var/lib/dictionaries-common/wordlist
+	$(install_file)       debian/miscfiles.info-wordlist \
+		    debian/tmp/var/lib/dictionaries-common/wordlist/miscfiles
 # Make sure the copyright file is not compressed
 	$(install_file)          debian/copyright $(DOCDIR)/copyright
 	$(install_program)       debian/postinst debian/tmp/DEBIAN/postinst
 	$(install_program)       debian/prerm    debian/tmp/DEBIAN/prerm
+	$(install_program)       debian/postrm    debian/tmp/DEBIAN/postrm
+	$(install_program)       debian/config    debian/tmp/DEBIAN/config
+	$(install_file)          debian/templates    debian/tmp/DEBIAN/templates
 	dpkg-gencontrol  -isp
 	chown -R                 root.root debian/tmp
 	chmod -R go=rX           debian/tmp

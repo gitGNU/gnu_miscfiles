@@ -34,9 +34,6 @@ case "$1" in
     # This package about to be removed.
     :
 
-    # Withdraw our version of a program.
-    update-alternatives --remove dictionary /usr/share/dict/web2
-
     if [ -L /usr/doc/$package_name ]; then
         rm -f /usr/doc/$package_name
     fi
