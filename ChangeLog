@@ -1,5 +1,9 @@
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
+	* currency: added a missing colon (':').
+
+2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
 	* languages: changed Sinhalese to Sinhala ('si').
 
 2004-10-09  Roozbeh Pournader  <roozbeh@farsiweb.info>

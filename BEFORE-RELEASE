@@ -1,3 +1,5 @@
-Update NEWS file with new date and release information.
-Create an ANNOUNCE-version file, copy it to ANNOUNCE for release.
-Change version in 'Makefile.in' and 'README'.
+* Check http://www.loc.gov/standards/iso639-2/codechanges.html to see if there
+  are any new language code or code changes.
+* Update NEWS file with new date and release information.
+* Create an ANNOUNCE-version file, copy it to ANNOUNCE for release.
+* Change version in 'Makefile.in' and 'README'.
