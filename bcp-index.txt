@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 10/01/2004.
+CREATED ON: 10/29/2004.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -395,3 +395,18 @@ RFC Editor Web page http://www.rfc-editor.org.
 
 0091 DNS IPv6 Transport Operational Guidelines. A. Durand, J. Ihren.
      September 2004. (Format: TXT=10025 bytes) (Also RFC3901)
+
+0092 The IESG and RFC Editor Documents: Procedures. H. Alvestrand.
+     October 2004. (Format: TXT=17093 bytes) (Updates RFC3710, RFC2026)
+     (Also RFC3932)
+
+0094 Updates to RFC 2418 Regarding the Management of IETF Mailing
+     Lists. M. Wasserman. October 2004. (Format: TXT=8488 bytes) (Updates
+     RFC2418) (Also RFC3934)
+
+0095 A Mission Statement for the IETF. H. Alvestrand. October 2004.
+     (Format: TXT=16639 bytes) (Also RFC3935)
+
+0096 Procedures for Modifying the Resource reSerVation Protocol
+     (RSVP). K. Kompella, J. Lang. October 2004. (Format: TXT=15314 bytes)
+     (Updates RFC3209, RFC2205) (Also RFC3936)

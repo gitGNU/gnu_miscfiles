@@ -1,5 +1,10 @@
 2004-10-30  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
+	* bcp-index.txt, fyi-index.txt, rfc-index.txt, std-index.txt:
+	updated to latest version from 2004-10-29.
+
+2004-10-30  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
 	* countries: added numeric and 3-letter code for the countries and
 	areas missing them.
 	* airport: added THR, fixed explanation of a few airports to make
