@@ -1,3 +1,10 @@
+miscfiles (1.3-1) unstable; urgency=high
+
+  * New public GNU version.  This closes: Bug#103026, Bug#116944, Bug#77252,
+    Bug#89119, Bug#110633, Bug#119976, Bug#114269.
+
+ -- Thomas Bushnell, BSG <tb@debian.org>  Fri, 21 Dec 2001 19:35:06 -0700
+
 miscfiles (1.2-2) unstable; urgency=low
 
   * Whoops, restore the changes made in woody.  The 1.1-13 change is no

@@ -1,9 +1,20 @@
 GNU miscfiles NEWS   8 July 1996
 
-Copyright (C) 1996 Free Software Foundation, Inc.
+Copyright (C) 2001 Free Software Foundation, Inc.
 See the end for copying conditions.
 
 Please send GNU miscfiles bug reports to bug-gnu-utils@prep.ai.mit.edu.
+
+
+Version 1.3
+
+New file in this release:
+
+bcp-index.txt
+	Index for the "Best Current Practices" internet standards documents.
+
+Many files updated; see the ChangeLog for details.
+
 
 
 Version 1.2
@@ -103,7 +114,7 @@ propernames, web2, web2a, and zipcodes.
 ----------------------------------------------------------------------
 Copyright information:
 
-Copyright (C) 1992, 1993 Free Software Foundation, Inc.
+Copyright (C) 2001 Free Software Foundation, Inc.
 
    Permission is granted to anyone to make or distribute verbatim copies
    of this document as received, in any medium, provided that the

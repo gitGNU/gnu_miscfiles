@@ -5,13 +5,22 @@
                              STD INDEX
                            -------------
 
-This file contains citations for all STDs in numeric order.
+CREATED ON: 12/19/2001.
 
-STD citations appear in this format:
+This file contains citations for all STDs in numeric order.  Each
+STD represents a single Internet Standard technical specification,
+composed of one or more RFCs with Standard status.
 
-####  Title of STD.  Author 1, Author 2, Author 3.  Issue date.
-      (Format: ASCII) (Obsoletes xxx) (Obsoleted by xxx) (Updates xxx)
-      (Updated by xxx) (Also RFC ####)
+STD citations in this file appear in the following format:
+
+  ####  Title of STD.  Author 1, Author 2, Author 3.  Issue date.
+        (Format: ASCII) (Obsoletes xxx) (Obsoleted by xxx) (Updates xxx)
+        (Updated by xxx) (Also RFC####, ...)
+
+For example:
+
+  0006 User Datagram Protocol. J. Postel. 28 August 1980. (Format: TXT=5896
+       bytes) (Also RFC0768)
 
 Key to citations:
 
@@ -21,30 +30,18 @@ Following the number are the title (terminated with a period), the
 author, or list of authors (terminated with a period), and the date
 (terminated with a period).
 
-The format and byte information follows in parenthesis.  The format,
-either ASCII text (TXT) or PostScript (PS) or both, is noted, followed
-by an equals sign and the number of bytes for that version.  For
-example (Format: TXT=aaaaa, PS=bbbbbb bytes) shows that the ASCII text
-version is aaaaa bytes, and the PostScript version of the STD is
-bbbbbb bytes.  The (Also RFC ##) phrase gives the equivalent RFC.
+The format and length information follows in parentheses.  It lists
+some combination of ASCII text (TXT), PostScript (PS), and/or Adobe
+(PDF), each followed by an equals sign and the number of bytes for that
+version.  For example (Format: TXT=aaaaa, PS=bbbbbb bytes) shows that
+the ASCII text version is aaaaa bytes, and the PostScript version is
+bbbbbb bytes.
 
+Finally, the (Also RFC ##) phrase lists the RFC(s) that form this STD.
 
-  For example:
+RFCs may be obtained using HTTP, FTP, or email.  See the RFC Editor Web
+page http://www.rfc-editor.org
 
-   0006 User Datagram Protocol. J. Postel. August 1980. (Format: TXT=5896
-        bytes) (Also RFC0768)
-
-
-Details on obtaining STDs via FTP or EMAIL may be obtained by sending
-an EMAIL message to: rfc-info@ISI.EDU 
-with the message body help: ways_to_get_stds.
-
-For example:
-
-	To: rfc-info@ISI.EDU
-	Subject: getting std's
-
-	help: ways_to_get_stds
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -53,24 +50,23 @@ For example:
    
 
 
-0001 INTERNET OFFICIAL PROTOCOL STANDARDS. J. Reynolds, R. Braden.
-     August 2000. (Format: TXT=90213 bytes) (Obsoletes RFC2600) (Also
-     RFC2700)
+0001 Internet Official Protocol Standards. J. Reynolds, R. Braden, S.
+     Ginoza, L. Shiota. November 2001. (Format: TXT=115207 bytes)
+     (Obsoletes RFC2900) (Also RFC3000)
 
 0002 Assigned Numbers. J. Reynolds, J. Postel. October 1994. (Format:
-     TXT=458860 bytes) (Also RFC1700)
+     TXT=458860 bytes) (Obsoletes RFC1340) (Also RFC1700)
 
-0003 Host Requirements. R. Braden. October 1989. (Format: TXT=528939
-     bytes) (Also RFC1122, RFC1123)
+0003 Requirements for Internet Hosts. R. Braden, Ed.. October 1989.
+     (Format: TXT=528939 bytes) (Also RFC1122, RFC1123)
 
-0004 Gateway Requirements. R. Braden, J. Postel. June 1987. (Format:
-     TXT=125039 bytes) (Also RFC1009)
+0004 [Reserved for Router Requirements. See RFC 1812.]. (Not online)
 
 0005 Internet Protocol. J. Postel. September 1981. (Format: TXT=241903
-     bytes) (Also RFC0791, RFC0950, RFC0919, RFC0922, RFC792, RFC1112)
+     bytes) (Also RFC0791, RFC0792, RFC0919, RFC0922, RFC0950, RFC1112)
 
-0006 User Datagram Protocol. J. Postel. August 1980. (Format: TXT=5896
-     bytes) (Also RFC0768)
+0006 User Datagram Protocol. J. Postel. 28 August 1980. (Format:
+     TXT=5896 bytes) (Also RFC0768)
 
 0007 Transmission Control Protocol. J. Postel. September 1981.
      (Format: TXT=172710 bytes) (Also RFC0793)
@@ -79,37 +75,39 @@ For example:
      TXT=44639 bytes) (Also RFC0854, RFC0855)
 
 0009 File Transfer Protocol. J. Postel, J. Reynolds. October 1985.
-     (Format: TXT=148316 bytes) (Also RFC0959)
+     (Format: TXT=148316 bytes) (Updated by RFC2228, RFC2640) (Also
+     RFC0959)
 
-0010 SMTP Service Extensions. J. Klensin, N. Freed, M. Rose, E.
-     Stefferud & D. Crocker. November 1995. (Format: TXT=23299 bytes)
-     (Obsoletes RFC1651) (Also RFC821, RFC1869)
+0010 Simple Mail Transfer Protocol. J. Postel. August 1982. (Format:
+     TXT=120432 bytes) (Obsoletes RFC788, RFC780, RFC772) (Obsoleted by
+     RFC2821) (Also RFC0821, RFC1869)
 
-0011 Standard for the format of ARPA Internet text messages. D.
-     Crocker. Aug-13-1982. (Format: TXT=109200 bytes) (Obsoletes RFC1653)
-     (Also RFC0822)
+0011 STANDARD FOR THE FORMAT OF ARPA INTERNET TEXT MESSAGES. D.
+     Crocker. August 1982. (Format: TXT=106299 bytes) (Obsoletes RFC0733)
+     (Obsoleted by RFC2822) (Also RFC0822)
 
-0012 Network Time Protocol. D. Mills. September 1989. (Format: TXT=193
-     bytes) (Also RFC1119)
+0012 [Reserved for Network Time Protocol (NTP). See RFC 1305.]. (Not
+     online)
 
 0013 Domain Name System. P. Mockapetris. November 1987. (Format:
      TXT=248726 bytes) (Also RFC1034, RFC1035)
 
-0014 Mail Routing and the Domain System. C. Partridge. January 1986.
-     (Format: TXT=18182 bytes) (Also RFC0974)
+0014 [Was Mail Routing and the Domain System. Now Historic.]. (Not
+     online)
 
 0015 Simple Network Management Protocol. J. Case, M. Fedor, M.
      Schoffstall, J. Davin. May 1990. (Format: TXT=72876 bytes) (Also
      RFC1157)
 
 0016 Structure of Management Information. M. Rose, K. McCloghrie. May
-     1990. (Format: TXT=82279 bytes) (Obsoletes RFC1065) (Also RFC1155)
+     1990. (Format: TXT=82279 bytes) (Obsoletes RFC1065) (Also RFC1155,
+     RFC1212)
 
 0017 Management Information Base. K. McCloghrie, M. Rose. March 1991.
      (Format: TXT=142158 bytes) (Obsoletes RFC1158) (Also RFC1213)
 
-0018 Exterior Gateway Protocol. D. Mills. April 1984. (Format:
-     TXT=63836 bytes) (Also RFC0904)
+0018 [Was Exterior Gateway Protocol (RFC 904). Now Historic.]. (Not
+     online)
 
 0019 NetBIOS Service Protocols. NetBIOS Working Group. March 1987.
      (Format: TXT=319750 bytes) (Also RFC1001, RFC1002)
@@ -156,8 +154,8 @@ For example:
 0033 Trivial File Transfer Protocol. K. Sollins. July 1992. (Format:
      TXT=24599 bytes) (Also RFC1350)
 
-0034 Routing Information Protocol. C. Hedrick. June 1988. (Format:
-     TXT=91435 bytes) (Also RFC1058)
+0034 [Was Routing Information Protocol (RIP). Replaced by STD 56.].
+     (Not online)
 
 0035 ISO Transport Service on top of the TCP (Version: 3). M. Rose, D.
      Cass. May 1978. (Format: TXT=30662 bytes) (Also RFC1006)
@@ -172,13 +170,11 @@ For example:
      Mann, Jeffrey Mogul, Marvin Theimer. June 1984. (Format: TXT=9345
      bytes) (Also RFC0903)
 
-0039 Interface Message Processor: Specifications for the
-     Interconnection of a Host and an IMP (Revised). BBN. December 1981.
-     (Not online)
+0039 [Was BBN Report 1822 (IMP/Host Interface). Now Historic.].
+     December 1981. (Not online)
 
 0040 Host Access Protocol specification. Bolt Beranek and Newman.
-     August 1993. (Format: TXT=152740 bytes) (Obsoletes RFC0907) (Also
-     RFC1221)
+     August 1993. (Format: TXT=152740 bytes) (Also RFC0907)
 
 0041 Standard for the transmission of IP datagrams over Ethernet
      networks. C. Hornig. April 1984. (Format: TXT=5697 bytes) (Also
@@ -225,7 +221,7 @@ For example:
      Piscitello, J. Lawrence. March 1991. (Format: TXT=24662 bytes) (Also
      RFC1209)
 
-0053 Post Office Protocol - Version 3. J. Myers & M. Rose. May 1996.
+0053 Post Office Protocol - Version 3. J. Myers, M. Rose. May 1996.
      (Format: TXT=47018 bytes) (Obsoletes RFC1725) (Also RFC1939)
 
 0054 OSPF Version 2. J. Moy. April 1998. (Format: TXT=447367 bytes)
@@ -236,14 +232,14 @@ For example:
      RFC1294) (Also RFC2427)
 
 0056 RIP Version 2. G. Malkin. November 1998. (Format: TXT=98462
-     bytes) (Updates RFC1723, RFC1388) (Also RFC2453)
+     bytes) (Obsoletes RFC1723) (Also RFC2453)
 
 0057 RIP Version 2 Protocol Applicability Statement. G. Malkin.
      November 1994. (Format: TXT=10236 bytes) (Also RFC1722)
 
 0058 Structure of Management Information Version 2 (SMIv2. K.
      McCloghrie, D. Perkins, J. Schoenwaelder. April 1999. (Format:
-     TXT=89712 bytes) (Obsoletes RFC1902) (Also RFC2578, RFC2579)
+     TXT=89712 bytes) (Obsoletes RFC1902) (Also RFC2578, RFC2579, RFC2580)
 
 0059 Remote Network Monitoring Management Information Base. S.
      Waldbusser. May 2000. (Format: TXT=198676 bytes) (Obsoletes RFC1757)
@@ -254,5 +250,5 @@ For example:
      RFC2920)
 
 0061 A One-Time Password System. N. Haller, C. Metz, P. Nesser, M.
-     Straw. February 1998. (Format: TXT=56495 bytes) (Obsoletes RFC1757)
+     Straw. February 1998. (Format: TXT=56495 bytes) (Obsoletes RFC1938)
      (Also RFC2289)

@@ -22,10 +22,11 @@ From ftp://ftp.unicode.org/Public/UNIDATA:
 From previous BSD:
   connectives
 
-From ftp://ftp.rfc-editor.org/in-notes:
+From ftp://ftp.isi.edu/in-notes:
   rfc-index.txt
   fyi-index.txt
   std-index.txt
+  bcp-index.txt
 
 From http://www.tuxedo.org/~esr/jargon:
   jargon.html
@@ -68,5 +69,8 @@ Normungsinstitut (ON), Postfach 130, A-1021 Vienna, Austria.
 From GNU recode 3.4:
   latin1
 
-
-
+The list in `countries' is compiled from several sources:
+  ISO 3166-1 Two letter codes
+    http://www.din.de/gremien/nas/nabd/iso3166ma/
+  ISO 3166-1 Three letter codes and UN numerical codes
+    http://www.un.org/Depts/unsd/methods/m49alpha.htm

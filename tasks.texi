@@ -3,7 +3,7 @@
 @setfilename tasks.info
 @settitle GNU Task List
 @c This date is automagically updated when you save this file:
-@set lastupdate September 17, 2000
+@set lastupdate November 15, 2001
 @c %**end of header
 
 @setchapternewpage off
@@ -12,9 +12,21 @@
 @title GNU Task List
 @author Free Software Foundation
 @author last updated @value{lastupdate}
+
+Copyright (C) 1988-1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000 Free Software Foundation, Inc.
+
+Permission is granted to make and distribute copies of this document,
+with or without changes, provided the copyright notice and this
+permission notice are preserved on all copies.
 @end titlepage
 
 @ifinfo
+Copyright (C) 1988-1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999, 2000 Free Software Foundation, Inc.
+
+Permission is granted to make and distribute copies of this document,
+with or without changes, provided the copyright notice and this
+permission notice are preserved on all copies.
+
 @node Top, Intro, (dir), (dir)
 @top GNU Task List
 
@@ -31,11 +43,13 @@ tasks.
 * Unix-Related Projects::       
 * Kernel Projects::             
 * Extensions::                  
+* Java Projects::               
 * X Windows Projects::          
 * Network Projects::            
 * Encryption Projects::         
 * Other Projects::              
 * Languages::                   
+* Education::                   
 * Games and Recreations::       
 @end menu
 
@@ -79,7 +93,7 @@ a performance improvement, they may not consider it very important.
 
 Finally, if you think of an important job that free software cannot
 solve yet that is typically solved by proprietary software, please send
-a short description of that job to @email{gnu@@gnu.org} so that we can
+a short description of that job to @email{tasks@@gnu.org} so that we can
 add it to this task list.
 
 @node Highest Priority, Documentation, Intro, Top
@@ -95,12 +109,17 @@ high priority projects.
 
 @itemize @bullet
 
-@item 
-A new maintainer is needed for Goose
-@url{http://www.gnu.org/software/goose/goose.html}.
+@item
+
+If you are good at writing documentation, please do that.  Pick a system
+or program you like, and write a Free tutorial or manual for it.
 
 @item
-If you are good at writing documentation, please do that.
+
+Help to finish the missing features of the @command{docbook2texi} so
+that as many Docbook tags as possible can be translated into reasonable
+Texinfo.  See @uref{http://docbook2x.sourceforge.net/todo.html} for a
+task list of what needs to be done.
 
 @item
 If you are very good at C programming and interested in kernels, you can
@@ -125,7 +144,7 @@ Web.
 @item
 If you are a Scheme fan, you can help develop Guile.  Please have a look
 at the URL @uref{http://www.gnu.org/software/guile/guile.html}
-and then contact the Guile developers at @email{guile@@gnu.org}.
+and then contact the Guile developers at @email{guile-devel@@gnu.org}.
 
 @item
 Improve the facilities for translating other languages into Scheme,
@@ -135,10 +154,9 @@ so that Guile can provide support for a variety of languages.
 A package to convert programs written using MS Access into Scheme,
 making use of a free data base system and the GTK toolkit.
 
-@ignore
 @item
-Help develop XmHTML.  See @uref{http://www.xs4all.nl/~ripley/XmHTML/}.
-@end ignore
+A general-purpose document viewing program that can handle PostScript,
+DVI, PDF, HTML, RTF, Word format and Word Perfect format.
 
 @item
 Help develop software to emulate Windows NT on top of GNU systems.
@@ -146,30 +164,15 @@ For example, you could help work on Willows Twin.
 See @uref{http://www.willows.com/}.
 
 @item
+
+
+@item
+A free replacement for pdflib. This is a library for generating PDF.
+
+@item
 Add gettext support to GNU programs that don't have it already.  (Please
 contact the developers of the specific packages that you want to work
-on.) 
-
-@ignore  The Kermit developers say they will provide a free program
-to do this.
-@item
-Implement the Kermit data transfer protocol.  (See below.)
-@end ignore
-
-@ignore This is being done (Harmony)
-@item
-Develop a free compatible replacement for Qt, a GUI toolkit library.  Qt
-is not free software, because users are prohibited from distributing
-modified versions.  Thus, Qt cannot be included in a free operating
-system (adding it would make the system as a whole non-free).
-
-But some developers are writing free applications that use Qt and cannot
-run without it.  These programs, although free software, are useless for
-free operating systems because there is no way to make them run.
-
-This is leading to a serious problem, and a free replacement for Qt is
-the only solution.  Hence the high degree of urgency of this project.
-@end ignore
+on.)
 
 @item
 Develop a substitute, which runs on GNU systems, for some very popular
@@ -189,6 +192,11 @@ software does not count: we are not free to copy and modify them.
 We do not recommend any non-free materials as documentation.
 
 @itemize @bullet
+
+@item
+A reference document for SQL for use as a standard for implementors of
+free software versions of SQL.
+
 @item
 A manual for libstdc++.
 
@@ -245,13 +253,16 @@ A coherent free reference manual for Perl.  Most of the Perl on-line
 reference documentation can be used as a starting point, but work is
 needed to weld them together into a coherent manual.
 
-@ignore
-@c Bradley Kuhn is working on this. <bkuhn@ebb.org>
+@c Bradley M. Kuhn is working on this. <bkuhn@gnu.org>  Refer volunteers to
+@c  him.
+
 @item
+
 A good free Perl language tutorial introduction.  The existing Perl
 introductions are published with restrictions on copying and
-modification, so that they cannot be part of a GNU system.
-@end ignore
+modification, so that they cannot be part of a GNU system.  bkuhn made a
+start at a free tutorial, but a lot of work is needed.
+
 
 @item
 A manual for PIC (the graphics formatting language).
@@ -329,7 +340,7 @@ Support (in Linux?) for dumping the non-textual contents of an SVGA
 console.
 @end itemize
 
-@node Extensions, X Windows Projects, Kernel Projects, Top
+@node Extensions, Java Projects, Kernel Projects, Top
 @chapter Extensions to Existing GNU Software
 
 @itemize @bullet
@@ -376,13 +387,22 @@ destination rather than by original message.  This makes it possible
 to schedule retries coherently for each destination.  Talk to
 @email{tron@@veritas.com} and @email{woods@@weird.com} about this.
 
-@item
-Enhanced cross-reference browsing tools.  (We now have something at
-about the level of @code{cxref}.)  We also could use something like
-@code{ctrace}.  (Some people are now working on this project.)
 @end itemize
 
-@node X Windows Projects, Network Projects, Extensions, Top
+@node  Java Projects, X Windows Projects, Extensions, Top
+@chapter Java Projects
+
+@itemize @bullet
+
+@item 
+Write a replacement for the javadoc utility.  The Classpath
+(@uref{http://www.gnu.org/software/classpath}) team has already made a
+start to one.
+
+
+@end itemize
+
+@node X Windows Projects, Network Projects, Java Projects, Top
 @chapter X Windows Projects
 
 @itemize @bullet
@@ -421,10 +441,6 @@ to qualify as free software).
 @c @email{laurent.riesterer@@free.fr}), according to @email{gnueval@@gnu.org},
 @c does the job of displaing dancers but does not allow editing notation.
 
-@item
-A program to edit dance notation (such as labanotation) and display
-dancers moving on the screen.  Gepetto done some of this work.  Contact
-@email{gvc@@gnu.org} if you are interested in helping finish the job.
 
 @item
 Make sure the Vibrant toolkit works with LessTif instead of Motif.
@@ -442,8 +458,10 @@ in various ways.
 A program for graphic morphing of scanned photographs.
 @end ignore
 
+@ignore  @c Done by gLabels
 @item
 Software for designing and printing business cards.
+@end ignore
 @end itemize
 
 @node Network Projects, Encryption Projects, X Windows Projects, Top
@@ -451,7 +469,7 @@ Software for designing and printing business cards.
 
 @itemize @bullet
 @ignore
-@c www.openh323.org is doing this. Craig Southeren <craigs@equival.com.au>
+@c Cornell has released a program for this.
 @item
 A teleconferencing program which does the job of CU-SeeMe (which is,
 alas, not free software).
@@ -473,33 +491,60 @@ These projects need to be written outside the US by people who are not
 US citizens, to avoid problems with US export control law.
 
 @itemize @bullet
+@ignore
+@c libcrypt is doing this.
 @item
-A free library for public-key encryption.
+A free library for public-key encryption.  This library can probably be
+developed from the code for the GNU Privacy Guard.
+@end ignore
 
-This library should use the Diffie-Helman algorithm for public key
-encryption, not the RSA algorithm, because the Diffie-Helman patent in
-the US expired in 1997.  This library can probably be developed from
-the code for the GNU Privacy Guard (now in development).
-
+@ignore  
 @item
-An implementation of SSLv3 (more precisely, TLSv1) which is patent-free
-(uses the non-RSA algorithms) and has distribution terms compatible with
-the GNU GPL.  We know of a GPL-covered implementation of a version of SSL
-that you can use as a starting point.
+@c GNUtls is doing this.
+An implementation of SSLv3 (more precisely, TLSv1) which has
+distribution terms compatible with the GNU GPL.  We know of a
+GPL-covered implemention of a version of SSL that you can use as a
+starting point.
+@end ignore
 
 @item
 Free software for doing secure commercial transactions on the web.
-This too needs public key encryption.
+This should be based on libcrypt and GNUtls.
 @end itemize
 
 @node Other Projects, Languages, Encryption Projects, Top
 @chapter Other Projects
 
 If you think of others that should be added, please
-send them to @email{gnu@@gnu.org}.
+send them to @email{tasks@@gnu.org}.
 
 @itemize @bullet
-@ignore OpenBIOS is doing this
+
+@item
+
+Maintain a library for automatic graph layout.  VCG might provide a base
+for this.  Make sure there is a front end for manual and interactive
+intervention so that the result is a full substitute for equivalent
+proprietory software
+
+@c Such proprietary software is daVinci and graphviz, but are uncommon enough
+@c that we don't mention them here pubblicly.
+
+@c At the time of making this entry, VCG's website was
+@c    http://rw4.cs.uni-sb.de/users/sander/html/gsvcg1.html
+
+@item
+
+A ``one stop shopping system'' for advocates involved with social
+justice or other non-profit campaigns.  The idea would be to create an
+easy-to-use interface to software that would allow someone to register a
+domain for their organisation, build a website, and set up mailing
+lists.  The software would need options to easily do all this, and be
+made easy for non-hackers.  Mainly the work would involve bringing
+together a number of existing tools with an overriding configuration
+program.
+
+@ignore LinuxBIOS is doing this
 @item
 A simple PC BIOS.  On most new PCs, the BIOS is stored in writable
 memory (misleadingly known as ``flash ROM'').  In order to have a wholly
@@ -530,6 +575,7 @@ account receivables, payroll, inventory control, order processing, etc.
 
 @item
 A free replacement for Glimpse, which is not free software.
+Swish does some parts of the job, but not all.
 
 @item
 Software for desktop publishing.  We are extending Emacs into a WYSIWYG
@@ -684,17 +730,17 @@ as character codes.  Work is being done on this, but more help is needed.
 @c The status of these projects is updated in @file{/gd/gnuorg/volunteers}
 
 @item
-A program to scan a line drawing and convert it to Postscript.
+A program to scan a line drawing and convert it to editable Postscript,
+or some other editable format.
 
 @item
-A program to recognize handwriting.
+A program to recognize handwriting (we don't believe PocketLinux's 
+handwriting capability is ready for non-PocketLinux environments, yet).
+
 
 @item
 A program that can translate from one natural language, into another.
 For example, a program to translate French into English.
-
-@item
-A pen based interface.
 
 @item
 CAD software, such as a vague imitation of Autocad.
@@ -714,7 +760,7 @@ useful yet.)
 
 @end itemize
 
-@node Languages, Games and Recreations, Other Projects, Top
+@node Languages, Education, Other Projects, Top
 @chapter Programming Languages
 
 Volunteers are needed to write parsers/front ends for languages such as
@@ -734,7 +780,25 @@ We would like to have translators from various languages into Scheme.
 These languages include TCL, Python, Perl, Java, Javascript, and Rexx.
 Perhaps Clipper as well.
 
-@node Games and Recreations,  , Languages, Top
+@node Education, Games and Recreations, Languages, Top
+@chapter Education
+
+Programs for studying, teaching or doing administrative tasks in schools.
+See @uref{http://www.gnu.org/education/} for additional information.
+
+@itemize @bullet
+@item
+A program to organize automatically the schedule of a school given
+constraints about teachers, rooms, times, and students.
+
+@item
+A program to edit dance notation (such as labanotation) and display
+dancers moving on the screen.  Gepetto does some of this work.  Contact
+@email{gvc@@gnu.org} if you are interested in helping finish the job.
+
+@end itemize
+
+@node Games and Recreations,  , Education, Top
 @chapter Games and Recreations
 
 Video-oriented games that work with the X window system.
@@ -748,7 +812,7 @@ An ``empire builder'' system that makes it easy to write various kinds of
 simulation games.
 
 @item
-Improve GnuGo, which is not yet very sophisticated.
+Improve GnuGo @uref{http://www.gnu.org/software/gnugo/gnugo.html}, which is not yet very sophisticated. 
 
 @item
 Network servers and clients for board and card games for which such
@@ -807,4 +871,5 @@ update-date-leading-regexp: "@c This date is automagically updated when you save
 update-date-trailing-regexp: ""
 eval: (load "/gd/gnuorg/update-date.el")
 eval: (add-hook 'write-file-hooks 'update-date)
+compile-command: "make just-tasks"
 End:

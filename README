@@ -79,7 +79,7 @@ us-constitution
 us-declaration
   The Declaration of Independence of the Thirteen Colonies
 
-rfc-index.txt, fyi-index.txt, std-index.txt
+rfc-index.txt, fyi-index.txt, std-index.txt, bcp-index.txt
   Indexes of internet standardization documents.
 
 tasks.{texi,info}

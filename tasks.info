@@ -1,4 +1,11 @@
-This is ./tasks.info, produced by makeinfo version 4.0 from tasks.texi.
+This is ./tasks.info, produced by makeinfo version 4.0b from tasks.texi.
+
+   Copyright (C) 1988-1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999,
+2000 Free Software Foundation, Inc.
+
+   Permission is granted to make and distribute copies of this document,
+with or without changes, provided the copyright notice and this
+permission notice are preserved on all copies.
 
 
 File: tasks.info,  Node: Top,  Next: Intro,  Prev: (dir),  Up: (dir)
@@ -7,7 +14,7 @@ GNU Task List
 *************
 
    This file is updated automatically from `tasks.texi', which was last
-updated on September 17, 2000.  See also
+updated on November 15, 2001.  See also
 `http://www.gnu.org/help/help.html#helpgnu' for other suggested tasks.
 
 * Menu:
@@ -18,11 +25,13 @@ updated on September 17, 2000.  See also
 * Unix-Related Projects::
 * Kernel Projects::
 * Extensions::
+* Java Projects::
 * X Windows Projects::
 * Network Projects::
 * Encryption Projects::
 * Other Projects::
 * Languages::
+* Education::
 * Games and Recreations::
 
 
@@ -66,8 +75,8 @@ a performance improvement, they may not consider it very important.
 
    Finally, if you think of an important job that free software cannot
 solve yet that is typically solved by proprietary software, please send
-a short description of that job to <gnu@gnu.org> so that we can add it
-to this task list.
+a short description of that job to <tasks@gnu.org> so that we can add
+it to this task list.
 
 
 File: tasks.info,  Node: Highest Priority,  Next: Documentation,  Prev: Intro,  Up: Top
@@ -83,10 +92,14 @@ not write free software at all.
    But if you would like to work on what we need most, here is a list of
 high priority projects.
 
-   * A new maintainer is needed for Goose
-     <http://www.gnu.org/software/goose/goose.html>.
+   *  If you are good at writing documentation, please do that.  Pick a
+     system or program you like, and write a Free tutorial or manual
+     for it.
 
-   * If you are good at writing documentation, please do that.
+   *  Help to finish the missing features of the `docbook2texi' so that
+     as many Docbook tags as possible can be translated into reasonable
+     Texinfo.  See `http://docbook2x.sourceforge.net/todo.html' for a
+     task list of what needs to be done.
 
    * If you are very good at C programming and interested in kernels,
      you can help develop the GNU HURD, the kernel for the GNU system.
@@ -105,7 +118,7 @@ high priority projects.
 
    * If you are a Scheme fan, you can help develop Guile.  Please have
      a look at the URL `http://www.gnu.org/software/guile/guile.html'
-     and then contact the Guile developers at <guile@gnu.org>.
+     and then contact the Guile developers at <guile-devel@gnu.org>.
 
    * Improve the facilities for translating other languages into Scheme,
      so that Guile can provide support for a variety of languages.
@@ -113,9 +126,16 @@ high priority projects.
    * A package to convert programs written using MS Access into Scheme,
      making use of a free data base system and the GTK toolkit.
 
+   * A general-purpose document viewing program that can handle
+     PostScript, DVI, PDF, HTML, RTF, Word format and Word Perfect
+     format.
+
    * Help develop software to emulate Windows NT on top of GNU systems.
      For example, you could help work on Willows Twin.  See
      `http://www.willows.com/'.
+
+   *   * A free replacement for pdflib. This is a library for generating
+     PDF.
 
    * Add gettext support to GNU programs that don't have it already.
      (Please contact the developers of the specific packages that you
@@ -138,6 +158,9 @@ system.
 proprietary manuals do not count, for the same reason proprietary
 software does not count: we are not free to copy and modify them.  We
 do not recommend any non-free materials as documentation.
+
+   * A reference document for SQL for use as a standard for
+     implementors of free software versions of SQL.
 
    * A manual for libstdc++.
 
@@ -178,6 +201,11 @@ do not recommend any non-free materials as documentation.
    * A coherent free reference manual for Perl.  Most of the Perl
      on-line reference documentation can be used as a starting point,
      but work is needed to weld them together into a coherent manual.
+
+   *  A good free Perl language tutorial introduction.  The existing
+     Perl introductions are published with restrictions on copying and
+     modification, so that they cannot be part of a GNU system.  bkuhn
+     made a start at a free tutorial, but a lot of work is needed.
 
    * A manual for PIC (the graphics formatting language).
 
@@ -239,7 +267,7 @@ Kernel-Related Projects
      console.
 
 
-File: tasks.info,  Node: Extensions,  Next: X Windows Projects,  Prev: Kernel Projects,  Up: Top
+File: tasks.info,  Node: Extensions,  Next: Java Projects,  Prev: Kernel Projects,  Up: Top
 
 Extensions to Existing GNU Software
 ***********************************
@@ -278,12 +306,20 @@ Extensions to Existing GNU Software
      possible to schedule retries coherently for each destination.
      Talk to <tron@veritas.com> and <woods@weird.com> about this.
 
-   * Enhanced cross-reference browsing tools.  (We now have something at
-     about the level of `cxref'.)  We also could use something like
-     `ctrace'.  (Some people are now working on this project.)
 
 
-File: tasks.info,  Node: X Windows Projects,  Next: Network Projects,  Prev: Extensions,  Up: Top
+File: tasks.info,  Node: Java Projects,  Next: X Windows Projects,  Prev: Extensions,  Up: Top
+
+Java Projects
+*************
+
+   * Write a replacement for the javadoc utility.  The Classpath
+     (`http://www.gnu.org/software/classpath') team has already made a
+     start to one.
+
+
+
+File: tasks.info,  Node: X Windows Projects,  Next: Network Projects,  Prev: Java Projects,  Up: Top
 
 X Windows Projects
 ******************
@@ -295,11 +331,6 @@ X Windows Projects
      appearance provided by MFC.  Instead, it would be best to use GTK,
      so as to give coherence with GNOME.
 
-   * A program to edit dance notation (such as labanotation) and display
-     dancers moving on the screen.  Gepetto done some of this work.
-     Contact <gvc@gnu.org> if you are interested in helping finish the
-     job.
-
    * Make sure the Vibrant toolkit works with LessTif instead of Motif.
 
    * A program to display and edit Hypercard stacks.
@@ -307,7 +338,6 @@ X Windows Projects
    * A two-dimensional outliner program, which lets you draw graph
      structures of textual items, and then display them in various ways.
 
-   * Software for designing and printing business cards.
 
 
 File: tasks.info,  Node: Network Projects,  Next: Encryption Projects,  Prev: X Windows Projects,  Up: Top
@@ -325,22 +355,8 @@ Encryption Projects
    These projects need to be written outside the US by people who are
 not US citizens, to avoid problems with US export control law.
 
-   * A free library for public-key encryption.
-
-     This library should use the Diffie-Helman algorithm for public key
-     encryption, not the RSA algorithm, because the Diffie-Helman
-     patent in the US expired in 1997.  This library can probably be
-     developed from the code for the GNU Privacy Guard (now in
-     development).
-
-   * An implementation of SSLv3 (more precisely, TLSv1) which is
-     patent-free (uses the non-RSA algorithms) and has distribution
-     terms compatible with the GNU GPL.  We know of a GPL-covered
-     implementation of a version of SSL that you can use as a starting
-     point.
-
    * Free software for doing secure commercial transactions on the web.
-     This too needs public key encryption.
+     This should be based on libcrypt and GNUtls.
 
 
 File: tasks.info,  Node: Other Projects,  Next: Languages,  Prev: Encryption Projects,  Up: Top
@@ -349,7 +365,21 @@ Other Projects
 **************
 
    If you think of others that should be added, please send them to
-<gnu@gnu.org>.
+<tasks@gnu.org>.
+
+   *  Maintain a library for automatic graph layout.  VCG might provide
+     a base for this.  Make sure there is a front end for manual and
+     interactive intervention so that the result is a full substitute
+     for equivalent proprietory software
+
+   *  A "one stop shopping system" for advocates involved with social
+     justice or other non-profit campaigns.  The idea would be to
+     create an easy-to-use interface to software that would allow
+     someone to register a domain for their organisation, build a
+     website, and set up mailing lists.  The software would need
+     options to easily do all this, and be made easy for non-hackers.
+     Mainly the work would involve bringing together a number of
+     existing tools with an overriding configuration program.
 
    * An imitation of Page Maker or Ventura Publisher.
 
@@ -357,7 +387,8 @@ Other Projects
      free replacement for Clipper, would provide a useful start.
      `http://www.harbour-project.org/'.
 
-   * A free replacement for Glimpse, which is not free software.
+   * A free replacement for Glimpse, which is not free software.  Swish
+     does some parts of the job, but not all.
 
    * Software for desktop publishing.  We are extending Emacs into a
      WYSIWYG word processor, to handle primarily linear text; what this
@@ -401,14 +432,15 @@ Other Projects
      well as character codes.  Work is being done on this, but more
      help is needed.
 
-   * A program to scan a line drawing and convert it to Postscript.
+   * A program to scan a line drawing and convert it to editable
+     Postscript, or some other editable format.
 
-   * A program to recognize handwriting.
+   * A program to recognize handwriting (we don't believe PocketLinux's
+     handwriting capability is ready for non-PocketLinux environments,
+     yet).
 
    * A program that can translate from one natural language, into
      another.  For example, a program to translate French into English.
-
-   * A pen based interface.
 
    * CAD software, such as a vague imitation of Autocad.
 
@@ -425,7 +457,7 @@ Other Projects
 
 
 
-File: tasks.info,  Node: Languages,  Next: Games and Recreations,  Prev: Other Projects,  Up: Top
+File: tasks.info,  Node: Languages,  Next: Education,  Prev: Other Projects,  Up: Top
 
 Programming Languages
 *********************
@@ -444,7 +476,26 @@ These languages include TCL, Python, Perl, Java, Javascript, and Rexx.
 Perhaps Clipper as well.
 
 
-File: tasks.info,  Node: Games and Recreations,  Prev: Languages,  Up: Top
+File: tasks.info,  Node: Education,  Next: Games and Recreations,  Prev: Languages,  Up: Top
+
+Education
+*********
+
+   Programs for studying, teaching or doing administrative tasks in
+schools.  See `http://www.gnu.org/education/' for additional
+information.
+
+   * A program to organize automatically the schedule of a school given
+     constraints about teachers, rooms, times, and students.
+
+   * A program to edit dance notation (such as labanotation) and display
+     dancers moving on the screen.  Gepetto does some of this work.
+     Contact <gvc@gnu.org> if you are interested in helping finish the
+     job.
+
+
+
+File: tasks.info,  Node: Games and Recreations,  Prev: Education,  Up: Top
 
 Games and Recreations
 *********************
@@ -456,7 +507,8 @@ Games and Recreations
    * An "empire builder" system that makes it easy to write various
      kinds of simulation games.
 
-   * Improve GnuGo, which is not yet very sophisticated.
+   * Improve GnuGo `http://www.gnu.org/software/gnugo/gnugo.html',
+     which is not yet very sophisticated.
 
    * Network servers and clients for board and card games for which such
      software does not yet exist.
@@ -486,18 +538,20 @@ Games and Recreations
 
 
 Tag Table:
-Node: Top73
-Node: Intro606
-Node: Highest Priority2723
-Node: Documentation4869
-Node: Unix-Related Projects6941
-Node: Kernel Projects7424
-Node: Extensions8634
-Node: X Windows Projects10397
-Node: Network Projects11411
-Node: Encryption Projects11557
-Node: Other Projects12575
-Node: Languages15493
-Node: Games and Recreations16182
+Node: Top366
+Node: Intro930
+Node: Highest Priority3049
+Node: Documentation5681
+Node: Unix-Related Projects8145
+Node: Kernel Projects8628
+Node: Extensions9838
+Node: Java Projects11392
+Node: X Windows Projects11676
+Node: Network Projects12413
+Node: Encryption Projects12559
+Node: Other Projects12963
+Node: Languages16849
+Node: Education17526
+Node: Games and Recreations18144
 
 End Tag Table

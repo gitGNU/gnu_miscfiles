@@ -70,6 +70,10 @@
 231:Traverse City:Michigan:MI
 231:Ludington:Michigan:MI
 231:Muskegon:Michigan:MI
+234:Akron:Ohio:OH
+234:Canton:Ohio:OH
+234:Youngstown:Ohio:OH
+234:Kent:Ohio:OH
 240:Hagerstown:Maryland:MD
 240:Frederick:Maryland:MD
 240:Cumberland:Maryland:MD
@@ -89,6 +93,8 @@
 250:Kelowna:British Columbia:BC
 250:Kitimat:British Columbia:BC
 250:Nenaimo:British Columbia:BC
+251:Jackson:Alabama:AL
+251:Mobile:Alabama:AL
 252:Greenville:North Carolina:NC
 252:Cape Hatteras:North Carolina:NC
 252:Rocky Mount:North Carolina:NC
@@ -112,9 +118,18 @@
 270:Peducah:Kentucky:KY
 270:Hopkinsville:Kentucky:KY
 270:Bowling Green:Kentucky:KY
+276:Abingdon:Virginia:VA 
+276:Bristol:Virginia:VA
+276:Wytheville:Virginia:VA
 281:Houston:Texas:TX
 281:Sugar Land:TX
 284:Tortola:British Virgin Islands:
+289:Hamilton:Ontario:ON
+289:Niagara Falls:Ontario:ON
+289:Unionville:Ontario:ON
+289:Woodbridge:Ontario:ON
+289:Hamilton:Ontario:ON
+289:Mississauga:Ontario:ON
 301:Hagerstown:Maryland:MD
 301:Frederick:Maryland:MD
 301:Cumberland:Maryland:MD
@@ -180,14 +195,11 @@
 313:Detroit:Michigan:MI
 314:Saint Louis:Missouri:MO
 314:Union:Missouri:MO
+314:Saint Peters:Missouri:MO
 315:Syracuse:New York:NY
 315:Utica:New York:NY
 315:Watertown:New York:NY
-316:Dodge City:Kansas:KS
-316:Great Bend:Kansas:KS
-316:Parsons:Kansas:KS
 316:Wichita:Kansas:KS
-316:Hutchinson:Kansas:KS
 317:Indianapolis:Indiana:IN
 318:Alexandria:Louisiana:LA
 318:Monroe:Louisiana:LA
@@ -230,6 +242,10 @@
 336:High Point:North Carolina:NC
 337:Lake Charles:Louisiana:LA
 337:Lafayette:Louisiana:LA
+339:Saugus:Massachusetts:MA
+339:Lynn:Massachusetts:MA
+339:Weymouth:Massachusetts:MA
+339:Norwood:Massachusetts:MA
 340:Saint Croix:United States Virgin Islands:VI
 340:Charlotte Amalie:United States Virgin Islands:VI
 345::Cayman Islands:
@@ -238,6 +254,10 @@
 347:Queens:New York:NY
 347:Bronx:New York:NY
 347:Staten Island:New York:NY
+351:Fitchburg:Massachusetts:MA
+351:Methuen:Massachusetts:MA
+351:Peabody:Massachusetts:MA
+351:Lowell:Massachusetts:MA
 352:Gainesville:Florida:FL
 352:Ocala:Florida:FL
 360:Bellingham:Washington:WA
@@ -248,6 +268,7 @@
 360:Bremerton:Washington:WA
 361:Victoria:Texas:TX
 361:Corpus Christi:Texas:TX
+386:Daytona Beach:Florida:FL
 401:Providence:Rhode Island:RI
 401:Woonsocket:Rhode Island:RI
 401:Foster:Rhode Island:RI
@@ -319,6 +340,9 @@
 425:Bellevue:Washington:WA
 425:Everett:Washington:WA
 425:Redmond:Washington:WA
+434:Lynchburg:Virginia:VA
+434:Danville:Virginia:VA
+434:Charlottesville:Virginia:VA
 435:Logan:Utah:UT
 435:Moab:Utah:UT
 435:Richfield:Utah:UT
@@ -356,6 +380,7 @@
 484:West Chester:Pennsylvania:PA
 501:Fayetteville:Arkansas:AR
 501:Fort Smith:Arkansas:AR
+501:Hope:Arkansas:AR
 501:Hot Springs:Arkansas:AR
 501:Little Rock:Arkansas:AR
 502:Louisville:Kentucky:KY
@@ -366,7 +391,6 @@
 503:Portland:Oregon:OR
 503:Salem:Oregon:OR
 503:Hillsboro:Oregon:OR
-504:Houma:Louisiana:LA
 504:New Orleans:Louisiana:LA
 505:Albuquerque:New Mexico:NM
 505:Las Cruces:New Mexico:NM
@@ -410,25 +434,17 @@
 515:Ames:Iowa:IA
 516:Plainview:New York:NY
 516:Elmont:New York:NY
-517:Alpena:Michigan:MI
-517:Mount Pleasant:Michigan:MI
-517:Saginaw:Michigan:MI
 517:Lansing:Michigan:MI
 517:Jackson:Michigan:MI
-517:East Lansing:Michigan:MI
-517:Bay City:Michigan:MI
 518:Albany:New York:NY
 518:Plattsburgh:New York:NY
 518:Saranac Lake:New York:NY
 518:Schenectady:New York:NY
 519:London:Ontario:ON
 519:Windsor:Ontario:ON
-520:Flagstaff:Arizona:AZ
-520:Prescott:Arizona:AZ
+520:Nogales:Arizona:AZ
 520:Sierra Vista:Arizona:AZ
 520:Tucson:Arizona:AZ
-520:Yuma:Arizona:AZ
-520:Kingman:Arizona:AZ
 530:Alturas:California:CA
 530:Redding:California:CA
 530:Chico:California:CA
@@ -437,8 +453,6 @@
 540:Winchester:Virginia:VA
 540:Harrisburg:Virginia:VA
 540:Roanoke:Virginia:VA
-540:Wytheville:Virginia:VA
-540:Abingdon:Virginia:VA
 540:Fredericksburg:Virginia:VA
 540:Blacksburg:Virginia:VA
 540:Covington:Virginia:VA
@@ -460,6 +474,10 @@
 561:West Palm Beach:Florida:FL
 562:Long Beach:California:CA
 562:Whittier:California:CA
+563:Decorah:Iowa:IA
+563:Dubuque:Iowa:IA
+563:Clinton:Iowa:IA
+563:Davenport:Iowa:IA
 570:Scranton:Pennsylvania:PA
 570:Wilkes-Barre:Pennsylvania:PA
 570:Welliamsport:Pennsylvania:PA
@@ -485,6 +503,9 @@
 580:Lawton:Oklahoma:OK
 580:Ardmore:Oklahoma:OK
 580:Hugo:Oklahoma:OK
+585:Rochester:New York:NY
+585:Wellsville:New York:NY
+586:Warren:Michigan:MI
 601:Natchez:Mississippi:MS
 601:Jackson:Mississippi:MS
 601:Mc Comb:Mississippi:MS
@@ -555,6 +576,11 @@
 618:East Saint Louis:Illinois:IL
 618:Carbondale:Illinois:IL
 619:San Diego:California:CA
+620:Dodge City:Kansas:KS
+620:Great Bend:Kansas:KS
+620:Parsons:Kansas:KS
+620:Hutchinson:Kansas:KS
+620:Emporia:Kansas:KS
 623:Buckeye:Arizona:AZ
 623:Glendale:Arizona:AZ
 626:Pasadena:California:CA
@@ -562,7 +588,6 @@
 630:Hinsdale:Illinois:IL
 630:Naperville:Illinois:IL
 631:Manorville:New York:NY
-314:Saint Peters:Missouri:MO
 636:Chesterfield:Missiouri:MO
 636:Union:Missiouri:MO
 636:Saint Charles:Missouri:MO
@@ -666,9 +691,7 @@
 715:Rhinelander:Wisconsin:WI
 715:Ashland:Wisconsin:WI
 716:Buffalo:New York:NY
-716:Rochester:New York:NY
 716:Jamestown:New York:NY
-716:Wellsville:New York:NY
 716:Niagara Falls:New York:NY
 717:Gettysburg:Pennsylvania:PA
 717:Harrisburg:Pennsylvania:PA
@@ -698,6 +721,8 @@
 724:New Castle:Pennsylvania:PA
 727:Clearwater:Florida:FL
 727:Saint Petersburg:Florida:FL
+731:Jackson:Tennessee:TN
+731:Union City:Tennessee:TN
 732:Asbury Park:New Jersey:NJ
 732:New Brunswick:New Jersey:NJ
 732:Neptune:New Jersey:NJ
@@ -711,6 +736,9 @@
 740:Jackson:Ohio:OH
 740:Marion:Ohio:OH
 740:Zanesville:Ohio:OH
+754:Fort Lauderdale:Florida:FL
+754:Hollywood:Florida:FL
+754:Pompano Beach:Florida:FL
 757:Norfolk:Virginia:VA
 757:Portsmouth:Virginia:VA
 757:Newport News:Virginia:VA
@@ -742,12 +770,19 @@
 770:Lawrenceville:Georgia:GA
 770:Smyrna:Georgia:GA
 773:Chicago:Illinois:IL
+774:Worcester:Massachusetts:MA
+774:Attleboro:Massachusetts:MA
+774:Framingham:Massachusetts:MA
+774:Hyannis:Massachusetts:MA
+774:New Bedford:Massachusetts:MA
+774:Plymouth:Massachusetts:MA
 775:Reno:Nevada:NV
 775:Carson City:Nevada:NV
 775:Elko:Nevada:NV
 775:Pahrump:Nevada:NV
 775:Ely:Nevada:NV
 775:Tonopag:Nevada:NV
+778:Vancouver:British Columbia:BC
 780:Edmonton:Alberta:AB
 781:Saugus:Massachusetts:MA
 781:Lynn:Massachusetts:MA
@@ -784,9 +819,6 @@
 803:Aiken:South Carolina:SC
 803:Winnsboro:South Carolina:SC
 804:Richmond:Virginia:VA
-804:Danville:Virginia:VA
-804:Charlottesville:Virginia:VA
-804:Lynchburg:Virginia:VA
 805:San Luis Obispo:California:CA
 805:Lompoc:California:CA
 805:Santa Barbara:California:CA
@@ -867,6 +899,10 @@
 856:Vineland:New Jersey:NJ
 856:Cherry Hill:New Jersey:NJ
 856:Camden:New Jersey:NJ
+857:Boston:Massachusetts:MA
+857:Cambridge:Massachusetts:MA
+857:Winchester:Massachusetts:MA
+857:Arlington:Massachusetts:MA
 858:Solana Beach:California:CA
 858:La Jolla:California:CA
 859:Lexington:Kentucky:KY
@@ -891,20 +927,19 @@
 865:Knoxville:Tennessee:TN
 867:Whitehorse:Yukon:YT
 867:Yellowknife:Northwest Territories:NT
-867:Iqaluit:Northwest Territories:NT
 867:Inuvik:Northwest Territories:NT
+867:Iqaluit:Nunavut:NU
 868::Trinidad and Tobago:
 869::Saint Kitts and Nevis:
-501:Hope:Arkansas:AR
 870:Mountain Home:Arkansas:AR
 870:Jonesboro:Arkansas:AR
 870:Pine Bluff:Arkansas:AR
 870:Monticello:Arkansas:AR
 870:Texarkana:Arkansas:AR
 876::Jamaica:
+878:New Castle:Pennsylvania:PA
+878:Uniontown:Pennsylvania:PA
 901:Memphis:Tennessee:TN
-901:Jackson:Tennessee:TN
-901:Union City:Tennessee:TN
 902::Prince Edward Island:PE
 902:Halifax:Nova Scotia:NS
 902:Charlottetown:Nova Scotia:NS
@@ -913,8 +948,6 @@
 903:Longview:Texas:TX
 903:Paris:Texas:TX
 903:Texarkana:Texas:TX
-904:Atlantic Beach:Florida:FL
-904:Daytona Beach:Florida:FL
 904:Jacksonville:Florida:FL
 905:Hamilton:Ontario:ON
 905:Niagara Falls:Ontario:ON
@@ -984,6 +1017,10 @@
 925:San Ramon:California:CA
 925:Walnut Creek:California:CA
 925:Pleasanton:California:CA
+928:Flagstaff:Arizona:AZ
+928:Prescott:Arizona:AZ
+928:Yuma:Arizona:AZ
+928:Kingman:Arizona:AZ
 931:Clarksville:Tennessee:TN
 931:Columbia:Tennessee:TN
 931:Manchester:Tennessee:TN
@@ -995,6 +1032,7 @@
 937:Springfield:Ohio:OH
 937:Hillsboro:Ohio:OH
 937:Camden:Ohio:OH
+939::Puerto Rico:PR
 940:Wichita Falls:Texas:TX
 940:Denton:Texas:TX
 941:Bradenton:Florida:FL
@@ -1037,3 +1075,12 @@
 978:Lowell:Massachusetts:MA
 979:Wharton:Texas:TX
 979:Bryan/College Station:Texas:TX
+980:Charlotte:North Carolina:NC
+980:Kingstown:North Carolina:NC
+985:Houma:Louisiana:LA
+985:Hammond:Louisiana:LA
+985:Pointe à la Hache:Louisiana:LA
+989:Alpena:Michigan:MI
+989:Bay City:Michigan:MI
+989:Mount Pleasant:Michigan:MI
+989:Saginaw:Michigan:MI

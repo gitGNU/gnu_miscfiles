@@ -38,6 +38,7 @@
 243:Zaire
 244:Angola
 245:Guinea-Bissau
+246:Diego Garcia
 247:Ascension
 248:Seychelles
 249:Sudan
@@ -47,8 +48,6 @@
 253:Djibouti
 254:Kenya
 255:Tanzania
-255:Tanzania
-256:Uganda
 256:Uganda
 257:Burundi
 258:Mozambique
@@ -57,7 +56,6 @@
 262:Reunion Island
 263:Zimbabwe
 264:Namibia
-265:Malawi
 265:Malawi
 266:Lesotho
 267:Botswana
@@ -77,9 +75,9 @@
 32:Belgium
 33:France
 34:Spain
-350:::Gibraltar
+350:Gibraltar
 351:Portugal
-352:::Luxembourg
+352:Luxembourg
 353:Ireland, Rep. of
 354:Iceland
 355:Albania
@@ -100,6 +98,7 @@
 380:Ukraine
 381:Yugoslavia
 385:Croatia
+386:Slovenia
 387:Bosnia - Herzegovina
 389:Macedonia
 39:Italy
@@ -138,7 +137,7 @@
 57:Columbia
 58:Venezuela
 590:Guadeloupe
-591 Paz:Bolivia
+591:Bolivia
 592:Guyana
 593:Ecuador
 594:French Guiana
@@ -188,9 +187,12 @@
 
 81:Japan
 82:Korea, Rep. of
+84:Vietnam
+850:Korea, Democratic People's Rep. of
 852:Hong Kong
 853:Macao
 855:Cambodia
+856:Laos
 86:China, People's Rep. of
 880:Bangladesh
 886:Taiwan, Rep. of China
