@@ -11,13 +11,13 @@
 212:Morocco
 213:Algeria
 216:Tunisia
-218:Libya
+218:Libyan Arab Jamahiriya
 220:Gambia
 221:Senegal
 222:Mauritania
 223:Mali
 224:Guinea
-225:Ivory Coast
+225:CÃ´te d'Ivoire
 226:Burkina Faso
 227:Niger
 228:Togo
@@ -31,11 +31,11 @@
 236:Central African Republic
 237:Cameroon
 238:Cape Verde
-239:São Tomé and Principé
+239:SÃ£o TomÃ© and PrÃ­ncipe
 240:Equatorial Guinea
 241:Gabon
 242:Congo
-243:Zaire
+243:Democratic Republic of the Congo
 244:Angola
 245:Guinea-Bissau
 246:Diego Garcia
@@ -47,26 +47,26 @@
 252:Somalia
 253:Djibouti
 254:Kenya
-255:Tanzania
+255:United Republic of Tanzania
 256:Uganda
 257:Burundi
 258:Mozambique
 260:Zambia
 261:Madagascar
-262:Reunion Island
+262:RÃ©union
 263:Zimbabwe
 264:Namibia
 265:Malawi
 266:Lesotho
 267:Botswana
 268:Swaziland
-269:Mayotte, Comoros Is.
+269:Mayotte, Comoros
 27:South Africa
 290:Saint Helena
 291:Eritrea
 297:Aruba
 298:Faeroe Islands
-299:Greenland (Kalaallit Nunaat)
+299:Greenland
 
 # Zones 3 and 4 are Europe
 
@@ -78,7 +78,7 @@
 350:Gibraltar
 351:Portugal
 352:Luxembourg
-353:Ireland, Rep. of
+353:Ireland
 354:Iceland
 355:Albania
 356:Malta
@@ -89,18 +89,19 @@
 370:Lithuania
 371:Latvia
 372:Estonia
-373:Moldova
+373:Republic of Moldova
 374:Armenia
 375:Belarus
 376:Andorra
 377:Monaco
 378:San Marino
+379:Holy See (use +39)
 380:Ukraine
-381:Yugoslavia
+381:Serbia and Montenegro
 385:Croatia
 386:Slovenia
-387:Bosnia - Herzegovina
-389:Macedonia
+387:Bosnia and Herzegovina
+389:The former Yugoslav Republic of Macedonia
 39:Italy
 
 40:Romania
@@ -109,7 +110,7 @@
 421:Slovakia
 423:Liechtenstein
 43:Austria
-44:United Kingdom
+44:United Kingdom of Great Britain and Northern Ireland
 45:Denmark
 46:Sweden
 47:Norway
@@ -118,7 +119,7 @@
 
 # Zone 5 is Central and South America
 
-500:Falkland Islands
+500:Falkland Islands (Malvinas)
 501:Belize
 502:Guatemala
 503:El Salvador
@@ -126,7 +127,7 @@
 505:Nicaragua
 506:Costa Rica
 507:Panama
-508:St. Pierre and Miquélon
+508:Saint Pierre and Miquelon
 509:Haiti
 51:Peru
 52:Mexico
@@ -134,7 +135,7 @@
 54:Argentina
 55:Brazil
 56:Chile
-57:Columbia
+57:Colombia
 58:Venezuela
 590:Guadeloupe
 591:Bolivia
@@ -142,7 +143,7 @@
 593:Ecuador
 594:French Guiana
 595:Paraguay
-596:Martinque
+596:Martinique
 597:Suriname
 598:Uruguay
 599:Netherlands Antilles
@@ -152,13 +153,13 @@
 60:Malaysia
 61:Australia
 62:Indonesia
-63:Phillippines
+63:Philippines
 64:New Zealand
 65:Singapore
 66:Thailand
-670:East Timor
+670:Timor-Leste
 672:Australian Exterior Territories
-673:Brunei
+673:Brunei Darussalam
 674:Nauru
 675:Papua New Guinea
 676:Tonga
@@ -166,36 +167,36 @@
 678:Vanuatu
 679:Fiji
 680:Palau
-681:Wallis and Futuna
+681:Wallis and Futuna Islands
 682:Cook Islands
 683:Niue
 684:American Samoa
-685:Western Samoa
+685:Samoa
 686:Kiribati
 687:New Caledonia
 688:Tuvalu
 689:French Polynesia
 690:Tokelau
-691:Micronesia
+691:Federated States of Micronesia
 692:Marshall Islands
 
 # Zone 7 is Russia
 
-7:Russia
+7:Russian Federation, Kazakhstan
 
 # Zone 8 is East Asia
 
 81:Japan
-82:Korea, Rep. of
-84:Vietnam
-850:Korea, Democratic People's Rep. of
-852:Hong Kong
-853:Macao
+82:Republic of Korea
+84:Viet Nam
+850:Democratic People's Republic of Korea
+852:Hong Kong Special Administrative Region of China
+853:Macao Special Administrative Region of China
 855:Cambodia
-856:Laos
-86:China, People's Rep. of
+856:Lao People's Democratic Republic
+86:China
 880:Bangladesh
-886:Taiwan, Rep. of China
+886:Taiwan, Province of China
 
 # Zone 9 is Middle East, Western and Southern Asia
 
@@ -208,13 +209,13 @@
 960:Maldives
 961:Lebanon
 962:Jordan
-963:Syria
+963:Syrian Arab Republic
 964:Iraq
 965:Kuwait
 966:Saudi Arabia
 967:Yemen
 968:Oman
-970:Palestine
+970:Occupied Palestinian Territory
 971:United Arab Emirates
 972:Israel
 973:Bahrain
@@ -227,8 +228,6 @@
 993:Turkmenistan
 994:Azerbaijan
 995:Georgia
-996:Kyrgyz Republic
+996:Kyrgyzstan
 998:Uzbekistan
-
-
 

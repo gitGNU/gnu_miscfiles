@@ -1,3 +1,135 @@
+2004-10-09  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* NEWS: fixed the announce date.
+	* Makefile.in (version), NEWS, README: Update to version 1.4.1.
+
+2004-10-05  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* propernames: added two names [;)], sorted according to en_US
+	locale instead of C.
+
+2004-10-04  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* ANNOUNCE: added an announcement file.
+
+	* bcp-index.txt, fyi-index.txt, rfc-index.txt, std-index.txt:
+	updated to latest version from 2004-10-01.
+
+	* us-constitution, us-declaration: removed USA specific files.
+
+	* na.postalcodes: renamed from 'postal.codes'.
+
+	* countries: added the capital of Åland Islands, Isle of Man,
+	Western Sahara, and British Indian Ocean Territory; fixed spelling
+	of São Tomé and Príncipe using accented letters; fixed spelling of
+	capitals of Cameroon, Costa Rica, Faeroe Islands, Guam, Maldives,
+	Paraguay, Republic of Moldova, and Sao Tome and Principe, using
+	accented letters; removed government type of Iran; fixed capital of
+	Turks and Caicos Islands, and Vanuatu; changed Micronesia's name to
+	full.
+
+	* inter.phone: fixed spelling of São Tomé and Príncipe using
+	accented letters; removed government type of Iran; changed
+	Micronesia's name to full.
+
+	* language: changed 639 to 639-1 in header, added Haitian (ht),
+	fixed spelling of Norwegian Bokmål (nb).
+
+	* README, NEWS, ORIGIN: updated bug report address, mentioned
+	removal of files and rename, updated URLs, added Wikipedia as
+	source, changed 639 to 639-1.
+	
+	* cities.dat, currency, Unicode-License, ChangeLog, NEWS, ORIGIN:
+	converted to UTF-8.
+
+2004-08-06  Thomas Bushnell BSG  <tb@becket.net>
+
+	* Makefile.in (version): Update to version 1.4.
+	* README, NEWS: Update for version 1.4.
+
+	* unicode: New version 4.0.1.
+
+	* Makefile.in (distfiles): Add COPYING and Unicode-License.
+	* COPYING: New file.
+	* Unicode-License: New file.
+
+	* airport (CDG): Typo fix from Matt Swift <swift@alum.mit.edu>.
+
+	* na.phone: Update from sources.  Update Canadian province codes.
+	Thanks to Matt Swift <swift@alum.mit.edu> for bug reports.  Remove
+	duplicate lines at his suggestion as well.
+
+	* languages: Update from new source, thanks to Ole Aamot
+	<oka@ping.uio.no> 
+
+	* inter.phone: Update from sources.  Conform country names to the
+	UN list in 'countries'.  Thanks to Matt Swift <swift@alum.mit.edu>
+	for bug reports.
+	
+	* countries: Update from sources.  Be more careful about country
+	and capital names and use authoritative sources.  Many little
+	changes.
+
+	* tasks.texi: Removed file.  The GNU project no longer maintains a
+	task list.  See http://savannah.gnu.org/projects/tasklist for the
+	new system.
+	* ORIGIN: Remove tasks.texi.
+	* Makefile.in (infofiles): Remove variable.
+	(texisource): Remove variable.
+	(distfiles): Remove infofiles and texisource.
+	(all): Remove dependency on tasks.info.
+	(tasks.info): Remove rule.
+	(install): Don't process infofiles.
+	(uninstall): Don't process infofiles.
+	(installdirs): Don't make $(infodir).
+	(infodir): Remove variable.
+	(MAKEINFO): Remove variable.
+	* debian/control (Description): Omit mention of GNU task list.
+
+	* latin1: Update to the current output of GNU recode 3.6
+	
+	* jargon.html: Removed file.  Too much of a pain to deal with the
+	multiple file format of it these days, and the jargon file is
+	separately packaged by everyone anyway.
+	* ORIGIN: Drop jargon.html.
+	* debian/rules (stamp-binary): No special treatment needed for
+	jargon.html.
+	* Makefile.in (miscfiles): Drop jargon.html.
+
+	* rfc-index.txt, fyi-index.txt, std-index.txt, bcp-index.txt:
+	Updated from ftp://ftp.isi.edu/in-notes.
+
+	* currency (EUR): New currency (yay).  Reported by Gerhard Poul
+	<gpoul@gnu.org>.  Remove duplicate lines at suggestion of Matt
+	Swift <swift@alum.mit.edu>.
+
+	* debian/control (Depends): Specify minimum version number for
+	dictionaries-common dependency.
+	* debian/config: Update to the new dictionaries-common system.
+
+	* us-constitution: Fix duplicate "may" in Article II, Section 2.
+	Reported by Chris Lawrence <lawrencc@debian.org>.
+
+	* inter.phone, countries: Convert to UTF-8.  Thanks to Matthew
+	Wilcox <willy@debian.org> for the suggestion.
+
+	* debian/control (Depends): Allow dependency on coreutils;
+	fileutils is now replaced by it.
+
+	* na.phone: Correct formatting of entries for Sugar Land, Texas.
+	Reported by Michael Leuchtenburg <dyfrgi@slashhome.org>.
+
+	* postal.codes: Locate authoritative sources (noted in ORIGIN);
+	update from them.  Drop TT (Trust Territories); it's not listed by
+	USPS.  Use updated codes for Newfoundland, Quebec, and
+	Saskatchewan.  Drop the Mexican codes; they were never right and
+	Mexico has never had official two-letter abbreviations.  Thanks to
+	Chris Hilker <chris@hilker.org> and Chris Lawrence
+	<lawrencc@debian.org> for information on Canada.  
+	* README (postal.codes): Omit Mexico.
+	* debian/control (Description): Omit mention of Mexican postal
+	codes. 
+
 2002-10-29  Thomas Bushnell, BSG  <tb@becket.net>
 
 	* Makefile.in (distfiles): Add ChangeLog.
@@ -80,7 +212,7 @@
 	* cities.dat: Updated from
 	http://www.sander.embl-heidelberg.de/rob/location. 
 
-	* abbrevs.gen, abbrevs.talk: More updates from Fran�ois Pinard.
+	* abbrevs.gen, abbrevs.talk: More updates from François Pinard.
 
 	* mailinglists: Updated from Emacs 20.7.
 
@@ -135,7 +267,7 @@
 	* inter.phone: Drop all the city codes.
 	
 	* Add Mauritania, Burkina Faso, Sierra Leone, Chad,
-	Central African Republic, S�o Tom� and Princip�, Equatorial
+	Central African Republic, São Tomé and Principé, Equatorial
 	Guinea, Congo, Angola, Guinea-Bissau, Seychelles, Sudan, Somalia,
 	Djibouti, Burundi, Mozambique, Madagascar, Reunion Island,
 	Mayotte (Comoros Is.), Saint Helena, Eritrea, Albania, Lithuania,

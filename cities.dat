@@ -3280,7 +3280,7 @@ Population  : 594506
 Size        : 
 Name        : Stuttgart
  Country    : DE
- Region     : Baden-Württemberg
+ Region     : Baden-WÃ¼rttemberg
 Location    : Earth
  Longitude  : 9.20
  Latitude   : 48.78
@@ -5798,7 +5798,7 @@ ID          : 416
 Type        : City
 Population  : 69875
 Size        : 
-Name        : Görlitz
+Name        : GÃ¶rlitz
  Country    : DE
  Region     : Sachsen
 Location    : Earth
@@ -6316,7 +6316,7 @@ ID          : 453
 Type        : City
 Population  : 265312
 Size        : 
-Name        : Mönchengladbach
+Name        : MÃ¶nchengladbach
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth

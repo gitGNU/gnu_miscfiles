@@ -5,7 +5,7 @@
                              BCP INDEX
                            -------------
 
-CREATED ON: 12/19/2001.
+CREATED ON: 10/01/2004.
 
 This file contains citations for all BCPs in numeric order.  The BCPs
 form a sub-series of the RFC document series, specifically those RFCs
@@ -63,7 +63,7 @@ RFC Editor Web page http://www.rfc-editor.org.
      1995. (Format: TXT=7747 bytes) (Updates RFC1602, RFC1603) (Also
      RFC1871)
 
-0003 Variance for The PPP Connection Control Protocol and The PPP
+0003 Variance for The PPP Compression Control Protocol and The PPP
      Encryption Control Protocol. F. Kastenholz. February 1996. (Format:
      TXT=14347 bytes) (Also RFC1915)
 
@@ -87,16 +87,17 @@ RFC Editor Web page http://www.rfc-editor.org.
      Postel. October 1996. (Format: TXT=27507 bytes) (Also RFC2014)
 
 0009 The Internet Standards Process -- Revision 3. S. Bradner. October
-     1996. (Format: TXT=86731 bytes) (Obsoletes RFC1602) (Also RFC2026)
+     1996. (Format: TXT=86731 bytes) (Obsoletes RFC1602) (Updated by
+     RFC3667, RFC3668) (Also RFC2026)
 
 0010 IAB and IESG Selection, Confirmation, and Recall Process:
-     Operation of the Nominating and Recall Committees. J. Galvin.
-     February 2000. (Format: TXT=33396 bytes) (Obsoletes RFC2282) (Also
-     RFC2727)
+     Operation of the Nominating and Recall Committees. J. Galvin, Ed..
+     June 2004. (Format: TXT=76395 bytes) (Obsoletes RFC2727) (Also
+     RFC3777)
 
 0011 The Organizations Involved in the IETF Standards Process. R.
-     Hovey, S. Bradner. October 1996. (Format: TXT=13865 bytes) (Also
-     RFC2028)
+     Hovey, S. Bradner. October 1996. (Format: TXT=13865 bytes) (Updated
+     by RFC3668) (Also RFC2028)
 
 0012 Internet Registry IP Allocation Guidelines. K. Hubbard, M.
      Kosters, D. Conrad, D. Karrenberg, J. Postel. November 1996. (Format:
@@ -168,8 +169,8 @@ RFC Editor Web page http://www.rfc-editor.org.
 0031 Media Feature Tag Registration Procedure. K. Holtman, A. Mutz, T.
      Hardie. March 1999. (Format: TXT=24892 bytes) (Also RFC2506)
 
-0032 Reserved Top Level DNS Names. D. Eastlake, A. Panitz. June 1999.
-     (Format: TXT=8008 bytes) (Also RFC2606)
+0032 Reserved Top Level DNS Names. D. Eastlake 3rd, A. Panitz. June
+     1999. (Format: TXT=8008 bytes) (Also RFC2606)
 
 0033 URN Namespace Definition Mechanisms. L. Daigle, D. van Gulik, R.
      Iannella, P. Falstrom. June 1999. (Format: TXT=26916 bytes) (Also
@@ -195,8 +196,8 @@ RFC Editor Web page http://www.rfc-editor.org.
      2000. (Format: TXT=21258 bytes) (Obsoletes RFC2267) (Also RFC2827)
 
 0039 Charter of the Internet Architecture Board (IAB). Internet
-     Architecture Board, B. Carpenter, Editor. May 2000. (Format:
-     TXT=15984 bytes) (Obsoletes RFC1601) (Also RFC2850)
+     Architecture Board, B. Carpenter, Ed.. May 2000. (Format: TXT=15984
+     bytes) (Obsoletes RFC1601) (Also RFC2850)
 
 0040 Root Name Server Operational Requirements. R. Bush, D.
      Karrenberg, M. Kosters, R. Plzak. June 2000. (Format: TXT=21133
@@ -205,7 +206,7 @@ RFC Editor Web page http://www.rfc-editor.org.
 0041 Congestion Control Principles. S. Floyd. September 2000. (Format:
      TXT=43823 bytes) (Also RFC2914)
 
-0042 Domain Name System (DNS) IANA Considerations. D. Eastlake, E.
+0042 Domain Name System (DNS) IANA Considerations. D. Eastlake 3rd, E.
      Brunner-Williams, B. Manning. September 2000. (Format: TXT=22454
      bytes) (Also RFC2929)
 
@@ -251,3 +252,146 @@ RFC Editor Web page http://www.rfc-editor.org.
 
 0054 IETF Guidelines for Conduct. S. Harris. October 2001. (Format:
      TXT=7413 bytes) (Also RFC3184)
+
+0055 Guidelines for Evidence Collection and Archiving. D. Brezinski,
+     T. Killalea. February 2002. (Format: TXT=18468 bytes) (Also RFC3227)
+
+0056 On the use of HTTP as a Substrate. K. Moore. February 2002.
+     (Format: TXT=34785 bytes) (Also RFC3205)
+
+0057 IANA Considerations for IPv4 Internet Group Management Protocol
+     (IGMP). B. Fenner. February 2002. (Format: TXT=6473 bytes) (Also
+     RFC3228)
+
+0058 Defining the IETF. P. Hoffman, S. Bradner. February 2002.
+     (Format: TXT=6401 bytes) (Also RFC3233)
+
+0059 A Transient Prefix for Identifying Profiles under Development by
+     the Working Groups of the Internet Engineering Task Force. M. Rose.
+     July 2002. (Format: TXT=7916 bytes) (Also RFC3349)
+
+0060 Inappropriate TCP Resets Considered Harmful. S. Floyd. August
+     2002. (Format: TXT=46748 bytes) (Also RFC3360)
+
+0061 Strong Security Requirements for Internet Engineering Task Force
+     Standard Protocols. J. Schiller. August 2002. (Format: TXT=16411
+     bytes) (Also RFC3365)
+
+0062 Advice to link designers on link Automatic Repeat reQuest (ARQ).
+     G. Fairhurst, L. Wood. August 2002. (Format: TXT=66097 bytes) (Also
+     RFC3366)
+
+0063 Session Initiation Protocol (SIP) for Telephones (SIP-T): Context
+     and Architectures. A. Vemuri, J. Peterson. September 2002. (Format:
+     TXT=49893 bytes) (Also RFC3372)
+
+0064 Internet Assigned Numbers Authority (IANA) Considerations for the
+     Lightweight Directory Access Protocol (LDAP). K. Zeilenga. September
+     2002. (Format: TXT=45893 bytes) (Also RFC3383)
+
+0065 Dynamic Delegation Discovery System (DDDS) Part Five: URI.ARPA
+     Assignment Procedures. M. Mealling. October 2002. (Format: TXT=19469
+     bytes) (Also RFC3405)
+
+0066 Uniform Resource Names (URN) Namespace Definition Mechanisms. L.
+     Daigle, D. van Gulik, R. Iannella, P. Faltstrom. October 2002.
+     (Format: TXT=43707 bytes) (Also RFC3406)
+
+0067 Change Process for the Session Initiation Protocol (SIP). A.
+     Mankin, S. Bradner, R. Mahy, D. Willis, J. Ott, B. Rosen. December
+     2002. (Format: TXT=26234 bytes) (Also RFC3427)
+
+0068 Layer Two Tunneling Protocol (L2TP) Internet Assigned Numbers
+     Authority (IANA) Considerations Update. W. Townsley. December 2002.
+     (Format: TXT=9135 bytes) (Also RFC3438)
+
+0069 TCP Performance Implications of Network Path Asymmetry. H.
+     Balakrishnan, V. Padmanabhan, G. Fairhurst, M. Sooriyabandara.
+     December 2002. (Format: TXT=108839 bytes) (Also RFC3449)
+
+0070 Guidelines for the Use of Extensible Markup Language (XML) within
+     IETF Protocols. S. Hollenbeck, M. Rose, L. Masinter. January 2003.
+     (Format: TXT=64252 bytes) (Also RFC3470)
+
+0071 TCP over Second (2.5G) and Third (3G) Generation Wireless
+     Networks. H. Inamura, Ed., G. Montenegro, Ed., R. Ludwig, A. Gurtov,
+     F. Khafizov. February 2003. (Format: TXT=61528 bytes) (Also RFC3481)
+
+0072 Guidelines for Writing RFC Text on Security Considerations. E.
+     Rescorla, B. Korver. July 2003. (Format: TXT=110393 bytes) (Also
+     RFC3552)
+
+0073 An IETF URN Sub-namespace for Registered Protocol Parameters. M.
+     Mealling, L. Masinter, T. Hardie, G. Klyne. June 2003. (Format:
+     TXT=14815 bytes) (Also RFC3553)
+
+0074 Coexistence between Version 1, Version 2, and Version 3 of the
+     Internet-standard Network Management Framework. R. Frye, D. Levi, S.
+     Routhier, B. Wijnen. August 2003. (Format: TXT=115222 bytes)
+     (Obsoletes RFC2576) (Also RFC3584)
+
+0075 Session Initiation Protocol (SIP) Basic Call Flow Examples. A.
+     Johnston, S. Donovan, R. Sparks, C. Cunningham, K. Summers. December
+     2003. (Format: TXT=163159 bytes) (Also RFC3665)
+
+0076 Session Initiation Protocol (SIP) Public Switched Telephone
+     Network (PSTN) Call Flows. A. Johnston, S. Donovan, R. Sparks, C.
+     Cunningham, K. Summers. December 2003. (Format: TXT=200478 bytes)
+     (Also RFC3666)
+
+0077 IETF ISOC Board of Trustee Appointment Procedures. L. Daigle,
+     Ed., Internet Architecture Board. December 2003. (Format: TXT=13008
+     bytes) (Also RFC3677)
+
+0078 IETF Rights in Contributions. S. Bradner. February 2004. (Format:
+     TXT=43297 bytes) (Updates RFC2026) (Also RFC3667)
+
+0079 Intellectual Property Rights in IETF Technology. S. Bradner.
+     February 2004. (Format: TXT=41365 bytes) (Updates RFC2026, 2028)
+     (Also RFC3668)
+
+0080 Delegation of E.F.F.3.IP6.ARPA. R. Bush, R. Fink. January 2004.
+     (Format: TXT=7137 bytes) (Also RFC3681)
+
+0081 The IETF XML Registry. M. Mealling. January 2004. (Format:
+     TXT=17325 bytes) (Also RFC3688)
+
+0082 Assigning Experimental and Testing Numbers Considered Useful. T.
+     Narten. January 2004. (Format: TXT=15054 bytes) (Updates RFC2434)
+     (Also RFC3692)
+
+0083 A Practice for Revoking Posting Rights to IETF Mailing Lists. M.
+     Rose. March 2004. (Format: TXT=15698 bytes) (Also RFC3683)
+
+0084 Ingress Filtering for Multihomed Networks. F. Baker, P. Savola.
+     March 2004. (Format: TXT=35942 bytes) (Updates RFC2827) (Also
+     RFC3704)
+
+0085 Best Current Practices for Third Party Call Control (3pcc) in the
+     Session Initiation Protocol (SIP). J. Rosenberg, J. Peterson, H.
+     Schulzrinne, G. Camarillo. April 2004. (Format: TXT=77308 bytes)
+     (Also RFC3725)
+
+0086 Determining Strengths For Public Keys Used For Exchanging
+     Symmetric Keys. H. Orman, P. Hoffman. April 2004. (Format: TXT=55939
+     bytes) (Also RFC3766)
+
+0087 Use of Interior Gateway Protocol (IGP) Metric as a second MPLS
+     Traffic Engineering (TE) Metric. F. Le Faucheur, R. Uppili, A.
+     Vedrenne, P. Merckx, T. Telkamp. May 2004. (Format: TXT=17475 bytes)
+     (Also RFC3785)
+
+0088 IANA Considerations for the Point-to-Point Protocol (PPP). V.
+     Schryver. June 2004. (Format: TXT=6321 bytes) (Also RFC3818)
+
+0089 Advice for Internet Subnetwork Designers. P. Karn, Ed., C.
+     Bormann, G. Fairhurst, D. Gro\ssman, R. Ludwig, J. Mahdavi, G.
+     Montenegro, J. Touch, L. Wood. July 2004. (Format: TXT=152174 bytes)
+     (Also RFC3819)
+
+0090 Registration Procedures for Message Header Fields. G. Klyne, M.
+     Nottingham, J. Mogul. September 2004. (Format: TXT=36231 bytes) (Also
+     RFC3864)
+
+0091 DNS IPv6 Transport Operational Guidelines. A. Durand, J. Ihren.
+     September 2004. (Format: TXT=10025 bytes) (Also RFC3901)

@@ -14,9 +14,10 @@ From http://www.nanpa.com and http://www.lincmad.com/cities.html:
   na.phone
 
 From http://www.lincmad.com/countrycodes.html:
+   Country names from the UN, as in countries.
   inter.phone
 
-From ftp://ftp.unicode.org/Public/UNIDATA:
+From http://www.unicode.org/Public/
   unicode
 
 From previous BSD:
@@ -28,49 +29,39 @@ From ftp://ftp.isi.edu/in-notes:
   std-index.txt
   bcp-index.txt
 
-From http://www.tuxedo.org/~esr/jargon:
-  jargon.html
-
-From ftp://ftp.gnu.org/gnu/tasks:
-  tasks.texi
-
-From GNU Emacs 20.7:
+From GNU Emacs 21.3.1:
   GNU-manifesto
   mailinglists
 
-Provided by François Pinard <pinard@progiciels-bpi.ca>:
+Provided by FranÃ§ois Pinard <pinard@progiciels-bpi.ca>:
   abbrevs.gen
   abbrevs.talk
-
-Provided by Thomas Bushnell, n/BSG <thomas@gnu.ai.mit.edu>:
-  us-constitution
-  us-declaration
 
 Provided by Rob Hooft, (Rob.Hooft@embl-heidelberg.de), from
 http://www.sander.embl-heidelberg.de/rob/location:
   cities.dat
 
-Provided by John Kodis (kodis@access.digex.net):
-  postal.codes
+From: http://www.usps.com/ncsc/lookups/abbreviations.html
+      http://www.canadapost.ca/common/tools/pg/standards/cps3-09-e.asp
+  na.postalcodes
 
-ISO 639-1988 Language specifications provided thanks to Franc,ois Pinard and:
-Typed by Keld.Simonsen@dkuug.dk 1990-11-30
-Minor corrections, 1992-09-08 by Keld Simonsen
-Sundanese corrected, 1992-11-11 by Keld Simonsen
-Telugu corrected, 1995-08-24 by Keld Simonsen
-Hebrew, Indonesian, Yiddish corrected 1995-10-10 by Michael Everson
-Inuktitut, Uighur, Zhuang added 1995-10-10 by Michael Everson
-Sinhalese corrected, 1995-10-10 by Michael Everson
-Faeroese corrected to Faroese, 1995-11-18 by Keld Simonsen
-The Registration Authority for ISO 639 is Infoterm, Osterreichisches
-Normungsinstitut (ON), Postfach 130, A-1021 Vienna, Austria.
+ISO 639:1988 Language specifications from
+http://lcweb.loc.gov/standards/iso639-2/langcodes.html
   languages
 
-From GNU recode 3.4:
+From GNU recode 3.6:
   latin1
 
 The list in `countries' is compiled from several sources:
   ISO 3166-1 Two letter codes
-    http://www.din.de/gremien/nas/nabd/iso3166ma/
-  ISO 3166-1 Three letter codes and UN numerical codes
-    http://www.un.org/Depts/unsd/methods/m49alpha.htm
+    http://www.iso.ch/iso/en/prods-services/iso3166ma/index.html
+  ISO 3166-1 Three letter codes, UN numerical codes, names of countries
+    http://unstats.un.org/unsd/methods/m49/m49alpha.htm
+  Names of Capitals:
+    CIA World Fact Book
+      http://cia.gov/cia/publications/factbook/index.html
+    English Wikipedia
+      http://en.wikipedia.org/
+
+Originally contributed by Mike Dowling:
+  currency

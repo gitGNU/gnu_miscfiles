@@ -1,4 +1,4 @@
-This is version 1.2 of the GNU miscfiles distribution.
+This is version 1.4.1 of the GNU miscfiles distribution.
 
 This distribution includes files not of crucial importance for system
 administration or operation, but which have come to be common on
@@ -6,9 +6,9 @@ various systems over the years.
 
 If you have any suggestions about files to add to this distribution,
 or corrections to the files here, please send them to
-bug-gnu-utils@prep.ai.mit.edu.
+bug-miscfiles@gnu.org.
 
-The files in version 1.2 are:
+The files in version 1.4.1 are:
 
 connectives
   English `connectives'; prepositions, pronouns, and the like.
@@ -46,8 +46,8 @@ abbrevs.talk, abbrevs.gen:
 cities.dat
   geographic coordinates of many major cities
 
-postal.codes
-  postal codes for US and Mexican states and Canadian provinces
+na.postalcodes
+  postal codes for US states and Canadian provinces
 
 GNU-manifesto
   The GNU Manifesto
@@ -56,7 +56,7 @@ mailinglists
   Description of all the public Project GNU related mailing lists.
 
 languages
-  two-letter codes for languages, from ISO 639.
+  two-letter codes for languages, from ISO 639-1.
 
 latin1
   like `ascii'; describing the ISO Latin-1 character set
@@ -70,26 +70,14 @@ countries
 unicode
   The official Unicode character set table
 
-jargon.html
-  The Jargon file (same as the _Hacker's_Dictionary_)
-
-us-constitution
-  The Constitution of the United States of America
-
-us-declaration
-  The Declaration of Independence of the Thirteen Colonies
-
 rfc-index.txt, fyi-index.txt, std-index.txt, bcp-index.txt
   Indexes of internet standardization documents.
-
-tasks.{texi,info}
-  The GNU task list.
 
 
 See the file INSTALL for installation instructions.
 
 Please send all bug reports by electronic mail to:
-    bug-gnu-utils@gnu.org
+    bug-miscfiles@gnu.org
 
 These files are all freely redistributable.
 
