@@ -1,3 +1,8 @@
+2000-10-30  Thomas Bushnell, BSG  <tb@becket.net>
+
+	* na.phone: Fix spelling of Detroit, MI.  Reported by John Gotts
+	<jgotts@engin.umich.edu).  
+
 2000-10-20  Thomas Bushnell, BSG  <tb@becket.net>
 
 	* Makefile.in (version): Now 1.2.
