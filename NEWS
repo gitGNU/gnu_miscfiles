@@ -11,10 +11,11 @@ Version 1.4.2
 Updated the currency codes, removing old European currencies that were
 replaced with Euro, adding missing currencies for countries formed out of
 Soviet Union, updated a few other currencies that were changed or being
-changed (Suriname). Removed the unmaintainable subdivision (no updated
-source available for gratis, bad format).
+changed (Suriname dollar, Russian rouble, Bulgarian lev, ariary, ...).
+Removed the unmaintainable subdivision (no updated source available for
+gratis, bad format).
 
-Updated the language codes (changed Sinhalese to Sinhala).
+Changed the language name for 'Sinhalese' to 'Sinhala'.
 
 
 Version 1.4.1

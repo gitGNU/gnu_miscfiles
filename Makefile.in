@@ -32,7 +32,7 @@ datadir=$(prefix)/share
 
 MKINSTALLDIRS = $(srcdir)/mkinstalldirs
 
-version=1.4.1
+version=1.4.2
 
 dictfiles=connectives web2 web2a propernames
 miscfiles=airport ascii birthtoken inter.phone na.phone operator \
