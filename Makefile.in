@@ -49,7 +49,7 @@ distfiles=$(dictfiles) $(miscfiles) $(statefiles) $(rfcfiles) $(infofiles) \
 	$(texisource) \
 	Makefile.in configure dict-README \
 	configure.in mkinstalldirs install-sh ORIGIN README INSTALL \
-	NEWS
+	NEWS ChangeLog
 
 all: tasks.info
 

@@ -89,6 +89,7 @@ stamp-binary:
 	$(install_file)          dict-README $(DOCDIR)/dict-README
 	$(install_file)          debian/README.debian $(DOCDIR)/README.debian
 	$(install_file)          debian/changelog $(DOCDIR)/changelog.Debian
+	$(install_file)		 ChangeLog $(DOCDIR)/ChangeLog
 	mv                       debian/tmp/usr/share/dict/web2 debian/tmp/web2
 	gzip -9fqr          	 debian/tmp/usr/share/
 	mv debian/tmp/web2       debian/tmp/usr/share/dict/web2

@@ -1,0 +1,22 @@
+#!/usr/bin/perl -w
+use Debconf::Client::ConfModule q(:all);
+
+version ('2.0');
+
+my $class = "wordlist";
+my $question = "shared/packages-$class";
+
+my @choices = ();
+map {
+  push (@choices, split (/\s*,\s*/, metaget ("$_/languages", "default")));
+} sort split (/\s*,\s*/, metaget ($question, "owners"));
+my $choices = join (', ', sort {lc $a cmp lc $b} @choices);
+
+$question = "dictionaries-common/default-$class";
+if ($choices ne metaget ($question, "choices")) {
+  subst ($question, "choices", $choices);
+  fset ($question, "isdefault", "true");
+  input ("critical", $question);
+  title ("Wordlist dictionary");
+  go ();
+}

@@ -1,5 +1,9 @@
 2002-10-29  Thomas Bushnell, BSG  <tb@becket.net>
 
+	* Makefile.in (distfiles): Add ChangeLog.
+	* debian/rules (stamp-binary): Install the ChangeLog into the
+	documentation directory.
+
 	* debian/templates, debian/postrm, debian/config,
 	debian/miscfiles.info-wordlist: New files. 
 	* debian/control (Depends): Add debconf and dictionaries-common. 
