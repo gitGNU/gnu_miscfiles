@@ -5,7 +5,12 @@ propernames:
 	From NetBSD 1.1A; modified.
 
 airport:
-	From NetBSD 1.1A; modified.
+	Code and airport name originally from NetBSD 1.1A, modified based on
+	information in the English Wikipedia <http://en.wikipedia.org/>; extended
+	with the country information from United States Federal Aviation
+	Autrhority (FAA), available at <http://wx.tc.faa.gov/Airportcodes/abcs.htm>,
+	and city information based on various printed airline timetables and
+	tickets.
 
 na.phone:
 	From <http://www.nanpa.com> and <http://www.lincmad.com/cities.html>.

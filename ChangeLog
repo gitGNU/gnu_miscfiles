@@ -1,3 +1,31 @@
+2004-12-11  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* airport: added a few airports and corrected a few details based on
+	information available on several website.
+
+2004-12-09  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* airport: added a few Iranian airports, fixed the name of
+	Johannesburg airport.
+
+2004-11-13  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* airport: added lots of airports from the FAA list that could be
+	verified against an airline timetable, fixed the name of some
+	airports according to the English Wikipedia, fixed spelling of a few
+	names based on The Oxford Guide to Style.
+
+	* countries: fixed spelling of Chișinău using the "comma below"
+	form of "s".
+
+	* README: mentioned the spelling policy.
+
+2004-10-31  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* airport, ORIGIN: added three field for country, geographical
+	subdivision of country, and major cities served, using a few airline
+	timetables, and the FAA list.
+
 2004-10-30  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
 	* bcp-index.txt, fyi-index.txt, rfc-index.txt, std-index.txt:
