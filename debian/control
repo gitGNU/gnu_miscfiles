@@ -1,6 +1,6 @@
 Source: miscfiles
 Section: text
-Priority: extra
+Priority: optional
 Maintainer: Thomas Bushnell, BSG <tb@debian.org>
 Standards-Version: 3.0.0.0
 
