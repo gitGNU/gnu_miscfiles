@@ -35,15 +35,15 @@ infodir=$(prefix)/info
 MKINSTALLDIRS = $(srcdir)/mkinstalldirs
 MAKEINFO = makeinfo
 
-version=1.1
+version=1.2
 
 dictfiles=connectives web2 web2a propernames
-miscfiles=airport ascii birthtoken inter.phone na.phone operator zipcodes \
+miscfiles=airport ascii birthtoken inter.phone na.phone operator \
 	abbrevs.talk abbrevs.gen cities.dat postal.codes GNU-manifesto \
-	mailinglists languages latin1
+	mailinglists languages latin1 currency countries unicode jargon.html
 statefiles=us-constitution us-declaration
 rfcfiles=rfc-index.txt std-index.txt fyi-index.txt
-infofiles=jarg400.info tasks.info
+infofiles=tasks.info
 texisource=tasks.texi
 
 distfiles=$(dictfiles) $(miscfiles) $(statefiles) $(rfcfiles) $(infofiles) \

@@ -658,7 +658,7 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 48
 Type        : City
-Population  : 3200000
+Population  : 3461421
 Size        : 
 Name        : Berlin
  Country    : DE
@@ -667,8 +667,8 @@ Location    : Earth
  Longitude  :   13.383
  Latitude   :   52.517
  Elevation  : 40
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 49
 Type        : City
@@ -770,17 +770,17 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 56
 Type        : City
-Population  : 296000
+Population  : 296859
 Size        : 
 Name        : Bonn
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth
- Longitude  :    7.067
- Latitude   :   50.750
- Elevation  : 64
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+ Longitude  : 7.10
+ Latitude   : 50.73
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 57
 Type        : City
@@ -1106,17 +1106,17 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 80
 Type        : City
-Population  : 600000
+Population  : 601966
 Size        : 
 Name        : Dortmund
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth
- Longitude  :    7.517
- Latitude   :   51.550
- Elevation  : 87
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+ Longitude  : 7.45
+ Latitude   : 51.53
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 81
 Type        : City
@@ -1232,31 +1232,31 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 89
 Type        : City
-Population  : 627500
+Population  : 659803
 Size        : 
-Name        : Frankfurt am Main
+Name        : Frankfurt/Main
  Country    : DE
  Region     : Hessen
 Location    : Earth
- Longitude  :    8.667
- Latitude   :   50.117
+ Longitude  : 8.68
+ Latitude   : 50.10
  Elevation  : 91
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 90
 Type        : City
-Population  : 88000
+Population  : 83850
 Size        : 
-Name        : Frankfurt an der Oder
+Name        : Frankfurt/Oder
  Country    : DE
  Region     : Brandenburg
 Location    : Earth
- Longitude  :   14.517
- Latitude   :   52.367
+ Longitude  : 14.53
+ Latitude   : 52.33
  Elevation  : 30
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 91
 Type        : City
@@ -1372,17 +1372,17 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 99
 Type        : City
-Population  : 1650000
+Population  : 1704534
 Size        : 
 Name        : Hamburg
  Country    : DE
  Region     : Hamburg
 Location    : Earth
- Longitude  :   10.000
- Latitude   :   53.550
+ Longitude  : 10.00
+ Latitude   : 53.55
  Elevation  : 10
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 100
 Type        : City
@@ -1414,17 +1414,17 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 102
 Type        : City
-Population  : 132000
+Population  : 139429
 Size        : 
 Name        : Heidelberg
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Wuerttemberg
 Location    : Earth
- Longitude  :    8.700
- Latitude   :   49.417
- Elevation  :  114
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+ Longitude  : 8.70
+ Latitude   : 49.42
+ Elevation  : 114
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 103
 Type        : City
@@ -1946,17 +1946,17 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 140
 Type        : City
-Population  : 1300000
+Population  : 1255623
 Size        : 
 Name        : Muenchen
  Country    : DE
  Region     : Bayern
 Location    : Earth
- Longitude  :   11.550
- Latitude   :   48.133
+ Longitude  : 11.60
+ Latitude   : 48.13
  Elevation  : 520
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 141
 Type        : City
@@ -2898,17 +2898,17 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 209
 Type        : City
-Population  : 246000
+Population  : 246671
 Size        : 
 Name        : Aachen
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth
- Longitude  :    6.1
- Latitude   :   50.8
+ Longitude  : 6.10
+ Latitude   : 50.77
  Elevation  : 174
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 210
 Type        : City
@@ -2930,7 +2930,7 @@ Population  : 30000
 Size        : 
 Name        : Biberach an der Riss
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Wuerttemberg
 Location    : Earth
  Longitude  :    9.8
  Latitude   :   48.15
@@ -2940,59 +2940,59 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 212
 Type        : City
-Population  : 319000
+Population  : 324674
 Size        : 
 Name        : Bielefeld
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth
- Longitude  :    8.5
- Latitude   :   42.05
+ Longitude  : 8.53
+ Latitude   : 52.03
  Elevation  : 118
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 213
 Type        : City
-Population  : 403000
+Population  : 401058
 Size        : 
 Name        : Bochum
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth
- Longitude  :    7.25
- Latitude   :   51.45
+ Longitude  : 7.18
+ Latitude   : 51.47
  Elevation  : 26
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 214
 Type        : City
-Population  : 260000
+Population  : 256267
 Size        : 
 Name        : Braunschweig
  Country    : DE
  Region     : Niedersachsen
 Location    : Earth
- Longitude  :   10.6
- Latitude   :   52.3
+ Longitude  : 10.50
+ Latitude   : 52.25
  Elevation  : 72
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 215
 Type        : City
-Population  : 139000
+Population  : 139754
 Size        : 
 Name        : Darmstadt
  Country    : DE
  Region     : Hessen
 Location    : Earth
- Longitude  :    8.65
- Latitude   :   49.85
- Elevation  : 146
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+ Longitude  : 8.65
+ Latitude   : 49.87
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 216
 Type        : City
@@ -3000,7 +3000,7 @@ Population  :
 Size        : 
 Name        : Dossenheim
  Country    : DE
- Region     : 
+ Region     : Baden-Wuerttemberg
 Location    : Earth
  Longitude  :    8.7
  Latitude   :   49.5
@@ -3014,7 +3014,7 @@ Population  : 179000
 Size        : 
 Name        : Freiburg
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Wuerttemberg
 Location    : Earth
  Longitude  :    7.8
  Latitude   :   47.95
@@ -3024,59 +3024,59 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 218
 Type        : City
-Population  : 73000
+Population  : 73705
 Size        : 
 Name        : Giessen
  Country    : DE
  Region     : Hessen
 Location    : Earth
- Longitude  :    8.65
- Latitude   :   50.65
+ Longitude  : 8.70
+ Latitude   : 50.58
  Elevation  : 165
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 219
 Type        : City
-Population  : 130000
+Population  : 128419
 Size        : 
 Name        : Goettingen
  Country    : DE
  Region     : Niedersachsen
 Location    : Earth
- Longitude  :    9.9
- Latitude   :   51.6
+ Longitude  : 9.95
+ Latitude   : 51.53
  Elevation  : 159
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 220
 Type        : City
-Population  : 308000
+Population  : 295372
 Size        : 
-Name        : Halle an der Saale
+Name        : Halle/Saale
  Country    : DE
  Region     : Sachsen-Anhalt
 Location    : Earth
- Longitude  :   11.95
- Latitude   :   51.5
+ Longitude  : 11.97
+ Latitude   : 51.47
  Elevation  : 94
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 221
 Type        : City
-Population  : 510000
+Population  : 524823
 Size        : 
 Name        : Hannover
  Country    : DE
  Region     : Niedersachsen
 Location    : Earth
- Longitude  :    9.8
- Latitude   :   52.4
+ Longitude  : 9.73
+ Latitude   : 52.38
  Elevation  : 55
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 222
 Type        : City
@@ -3094,17 +3094,17 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 223
 Type        : City
-Population  : 105000
+Population  : 100093
 Size        : 
 Name        : Jena
  Country    : DE
  Region     : Thueringen
 Location    : Earth
- Longitude  :   11.5
- Latitude   :   50.93
+ Longitude  : 11.58
+ Latitude   : 50.93
  Elevation  : 144
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 224
 Type        : City
@@ -3122,31 +3122,31 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 225
 Type        : City
-Population  : 268500
+Population  : 277998
 Size        : 
 Name        : Karlsruhe
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Wuerttemberg
 Location    : Earth
- Longitude  :    8.4
- Latitude   :   49.0
+ Longitude  : 8.40
+ Latitude   : 49.00
  Elevation  : 116
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 226
 Type        : City
-Population  : 992000
+Population  : 962517
 Size        : 
 Name        : Koeln
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth
- Longitude  :    6.9
- Latitude   :   50.9
+ Longitude  : 6.95
+ Latitude   : 50.93
  Elevation  : 65
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 227
 Type        : City
@@ -3164,101 +3164,101 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 228
 Type        : City
-Population  : 180000
+Population  : 185487
 Size        : 
 Name        : Mainz
  Country    : DE
  Region     : Rheinland-Pfalz
 Location    : Earth
- Longitude  :    8.25
- Latitude   :   49.95
+ Longitude  : 8.27
+ Latitude   : 50.00
  Elevation  : 82
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 229
 Type        : City
-Population  : 310000
+Population  : 318025
 Size        : 
 Name        : Mannheim
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Wuerttemberg
 Location    : Earth
- Longitude  :    8.5
- Latitude   :   49.45
+ Longitude  : 8.47
+ Latitude   : 49.50
  Elevation  : 95
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
-//
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+///
 ID          : 230
 Type        : City
-Population  : 75000
+Population  : 76582
 Size        : 
 Name        : Marburg
  Country    : DE
  Region     : Hessen
 Location    : Earth
- Longitude  :    8.7
- Latitude   :   50.8
+ Longitude  : 8.60
+ Latitude   : 50.82
  Elevation  : 180
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 231
 Type        : City
-Population  : 145000
+Population  : 147701
 Size        : 
 Name        : Oldenburg
  Country    : DE
  Region     : Niedersachsen
 Location    : Earth
- Longitude  :    8.15
- Latitude   :   53.2
+ Longitude  : 8.22
+ Latitude   : 53.10
  Elevation  : 7
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 232
 Type        : City
-Population  : 150000
+Population  : 168078
 Size        : 
 Name        : Osnabrueck
  Country    : DE
  Region     : Niedersachsen
 Location    : Earth
- Longitude  :    8.03
- Latitude   :   52.35
+ Longitude  : 8.05
+ Latitude   : 52.28
  Elevation  : 65
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 233
 Type        : City
-Population  : 128000
+Population  : 125337
 Size        : 
 Name        : Regensburg
  Country    : DE
  Region     : Bayern
 Location    : Earth
- Longitude  :   12.1
- Latitude   :   49.03
+ Longitude  : 12.12
+ Latitude   : 49.02
  Elevation  : 339
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 234
 Type        : City
-Population  : 200000
+Population  : 190902
 Size        : 
 Name        : Saarbruecken
  Country    : DE
  Region     : Saarland
 Location    : Earth
- Longitude  :    6.95
- Latitude   :   49.25
+ Longitude  : 6.97
+ Latitude   : 49.25
  Elevation  : 191
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 235
 Type        : City
@@ -3276,73 +3276,73 @@ Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
 //
 ID          : 236
 Type        : City
-Population  : 559000
+Population  : 594506
 Size        : 
 Name        : Stuttgart
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Württemberg
 Location    : Earth
- Longitude  :    9.15
- Latitude   :   48.8
- Elevation  : 245
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+ Longitude  : 9.20
+ Latitude   : 48.78
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 237
 Type        : City
-Population  : 82000
+Population  : 83553
 Size        : 
 Name        : Tuebingen
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Wuerttemberg
 Location    : Earth
- Longitude  :    9.05
- Latitude   :   48.6
+ Longitude  : 9.07
+ Latitude   : 48.53
  Elevation  : 341
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 238
 Type        : City
-Population  : 110000
+Population  : 114839
 Size        : 
 Name        : Ulm
  Country    : DE
- Region     : Baden-Wurttemberg
+ Region     : Baden-Wuerttemberg
 Location    : Earth
- Longitude  :   10.0
- Latitude   :   48.4
+ Longitude  : 10.00
+ Latitude   : 48.40
  Elevation  : 479
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 239
 Type        : City
-Population  : 390000
+Population  : 386625
 Size        : 
 Name        : Wuppertal
  Country    : DE
  Region     : Nordrhein-Westfalen
 Location    : Earth
- Longitude  :    7.2
- Latitude   :   51.3
+ Longitude  : 7.17
+ Latitude   : 51.25
  Elevation  : 167
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 240
 Type        : City
-Population  : 124000
+Population  : 128875
 Size        : 
 Name        : Wuerzburg
  Country    : DE
  Region     : Bayern
 Location    : Earth
- Longitude  :    9.93
- Latitude   :   49.8
+ Longitude  : 9.95
+ Latitude   : 49.80
  Elevation  : 182
-Date        : 19961206
-Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
 //
 ID          : 241
 Type        : City
@@ -5261,4 +5261,1697 @@ Location    : Earth
  Elevation  : 
 Date        : 19961207
 Entered-By  : Rob.Hooft@EMBL-Heidelberg.DE
-
+//
+ID          : 378
+Type        : City
+Population  : 66333
+Size        : 
+Name        : Aalen
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 10.12
+ Latitude   : 48.83
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 379
+Type        : City
+Population  : 
+Size        : 
+Name        : Aichach
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 11.13
+ Latitude   : 48.43
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 380
+Type        : City
+Population  : 77847
+Size        : 
+Name        : Arnsberg
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.05
+ Latitude   : 51.38
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 381
+Type        : City
+Population  : 65650
+Size        : 
+Name        : Aschaffenburg
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 9.17
+ Latitude   : 49.97
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 382
+Type        : City
+Population  : 264764
+Size        : 
+Name        : Augsburg
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 10.90
+ Latitude   : 48.35
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 383
+Type        : City
+Population  : 70770
+Size        : 
+Name        : Bamberg
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 10.90
+ Latitude   : 49.90
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 384
+Type        : City
+Population  : 60121
+Size        : 
+Name        : Bergheim/Erft
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.63
+ Latitude   : 50.95
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 385
+Type        : City
+Population  : 104991
+Size        : 
+Name        : Bergisch Gladbach
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.17
+ Latitude   : 50.98
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 386
+Type        : City
+Population  : 70272
+Size        : 
+Name        : Bocholt
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.62
+ Latitude   : 51.82
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 387
+Type        : City
+Population  : 119676
+Size        : 
+Name        : Bottrop
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.92
+ Latitude   : 51.52
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 388
+Type        : City
+Population  : 89208
+Size        : 
+Name        : Brandenburg/Havel
+ Country    : DE
+ Region     : Brandenburg
+Location    : Earth
+ Longitude  : 12.57
+ Latitude   : 52.42
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 389
+Type        : City
+Population  : 551604
+Size        : 
+Name        : Bremen
+ Country    : DE
+ Region     : Bremen
+Location    : Earth
+ Longitude  : 8.80
+ Latitude   : 53.08
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 390
+Type        : City
+Population  : 131492
+Size        : 
+Name        : Bremerhaven
+ Country    : DE
+ Region     : Bremen
+Location    : Earth
+ Longitude  : 8.58
+ Latitude   : 53.55
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 391
+Type        : City
+Population  : 79101
+Size        : 
+Name        : Castrop-Rauxel
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.30
+ Latitude   : 51.55
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 392
+Type        : City
+Population  : 73671
+Size        : 
+Name        : Celle
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 10.08
+ Latitude   : 52.62
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 393
+Type        : City
+Population  : 280790
+Size        : 
+Name        : Chemnitz
+ Country    : DE
+ Region     : Sachsen
+Location    : Earth
+ Longitude  : 12.92
+ Latitude   : 50.83
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 394
+Type        : City
+Population  : 128121
+Size        : 
+Name        : Cottbus
+ Country    : DE
+ Region     : Brandenburg
+Location    : Earth
+ Longitude  : 14.35
+ Latitude   : 51.72
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 395
+Type        : City
+Population  : 77127
+Size        : 
+Name        : Delmenhorst
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 8.62
+ Latitude   : 53.05
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 396
+Type        : City
+Population  : 93287
+Size        : 
+Name        : Dessau
+ Country    : DE
+ Region     : Sachsen-Anhalt
+Location    : Earth
+ Longitude  : 12.25
+ Latitude   : 51.85
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 397
+Type        : City
+Population  : 72101
+Size        : 
+Name        : Detmold
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.87
+ Latitude   : 51.92
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 398
+Type        : City
+Population  : 67619
+Size        : 
+Name        : Dinslaken
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.72
+ Latitude   : 51.57
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 399
+Type        : City
+Population  : 59915
+Size        : 
+Name        : Dormagen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 5.75
+ Latitude   : 51.10
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 400
+Type        : City
+Population  : 79941
+Size        : 
+Name        : Dorsten
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.97
+ Latitude   : 51.63
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 401
+Type        : City
+Population  : 480202
+Size        : 
+Name        : Dresden
+ Country    : DE
+ Region     : Sachsen
+Location    : Earth
+ Longitude  : 13.75
+ Latitude   : 51.05
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 402
+Type        : City
+Population  : 89852
+Size        : 
+Name        : Dueren
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.50
+ Latitude   : 50.80
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 403
+Type        : City
+Population  : 574936
+Size        : 
+Name        : Duesseldorf
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.78
+ Latitude   : 51.22
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 404
+Type        : City
+Population  : 636797
+Size        : 
+Name        : Duisburg
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.75
+ Latitude   : 51.43
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 405
+Type        : City
+Population  : 200799
+Size        : 
+Name        : Erfurt
+ Country    : DE
+ Region     : Thueringen
+Location    : Earth
+ Longitude  : 11.03
+ Latitude   : 50.97
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 406
+Type        : City
+Population  : 102383
+Size        : 
+Name        : Erlangen
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 11.03
+ Latitude   : 49.60
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 407
+Type        : City
+Population  : 622380
+Size        : 
+Name        : Essen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.95
+ Latitude   : 51.45
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 408
+Type        : City
+Population  : 91388
+Size        : 
+Name        : Esslingen
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 10.03
+ Latitude   : 48.82
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 409
+Type        : City
+Population  : 87991
+Size        : 
+Name        : Flensburg
+ Country    : DE
+ Region     : Schleswig-Holstein
+Location    : Earth
+ Longitude  : 9.45
+ Latitude   : 54.78
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 410
+Type        : City
+Population  : 108097
+Size        : 
+Name        : Fuerth
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 11.00
+ Latitude   : 49.47
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 411
+Type        : City
+Population  : 58711
+Size        : 
+Name        : Fulda
+ Country    : DE
+ Region     : Hessen
+Location    : Earth
+ Longitude  : 9.68
+ Latitude   : 50.55
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 412
+Type        : City
+Population  : 62196
+Size        : 
+Name        : Garbsen
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 9.60
+ Latitude   : 52.42
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 413
+Type        : City
+Population  : 295037
+Size        : 
+Name        : Gelsenkirchen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.08
+ Latitude   : 51.33
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 414
+Type        : City
+Population  : 122974
+Size        : 
+Name        : Gera
+ Country    : DE
+ Region     : Thueringen
+Location    : Earth
+ Longitude  : 12.18
+ Latitude   : 50.85
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 415
+Type        : City
+Population  : 79931
+Size        : 
+Name        : Gladbeck
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.98
+ Latitude   : 51.57
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 416
+Type        : City
+Population  : 69875
+Size        : 
+Name        : Görlitz
+ Country    : DE
+ Region     : Sachsen
+Location    : Earth
+ Longitude  : 15.00
+ Latitude   : 51.15
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 417
+Type        : City
+Population  : 63941
+Size        : 
+Name        : Greifswald
+ Country    : DE
+ Region     : Mecklenburg-Vorpommern
+Location    : Earth
+ Longitude  : 13.40
+ Latitude   : 54.10
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 418
+Type        : City
+Population  : 62737
+Size        : 
+Name        : Grevenbroich
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.57
+ Latitude   : 51.08
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 419
+Type        : City
+Population  : 91634
+Size        : 
+Name        : Guetersloh
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.37
+ Latitude   : 51.90
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 420
+Type        : City
+Population  : 214877
+Size        : 
+Name        : Hagen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.45
+ Latitude   : 51.37
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 421
+Type        : City
+Population  : 59209
+Size        : 
+Name        : Hameln
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 9.37
+ Latitude   : 52.12
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 422
+Type        : City
+Population  : 182390
+Size        : 
+Name        : Hamm
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.82
+ Latitude   : 51.67
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 423
+Type        : City
+Population  : 89156
+Size        : 
+Name        : Hanau
+ Country    : DE
+ Region     : Hessen
+Location    : Earth
+ Longitude  : 8.93
+ Latitude   : 50.13
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 424
+Type        : City
+Population  : 58481
+Size        : 
+Name        : Hattingen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.17
+ Latitude   : 51.40
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 4225
+Type        : City
+Population  : 122396
+Size        : 
+Name        : Heilbronn
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 9.23
+ Latitude   : 49.13
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 426
+Type        : City
+Population  : 65682
+Size        : 
+Name        : Herford
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.67
+ Latitude   : 52.12
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 427
+Type        : City
+Population  : 180539
+Size        : 
+Name        : Heme
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.93
+ Latitude   : 54.28
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 428
+Type        : City
+Population  : 69592
+Size        : 
+Name        : Herten
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.13
+ Latitude   : 51.60
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 429
+Type        : City
+Population  : 106303
+Size        : 
+Name        : Hildesheim
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 6.67
+ Latitude   : 50.28
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 430
+Type        : City
+Population  : 62238
+Size        : 
+Name        : Hoyerswerda
+ Country    : DE
+ Region     : Sachsen
+Location    : Earth
+ Longitude  : 14.28
+ Latitude   : 51.47
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 431
+Type        : City
+Population  : 109666
+Size        : 
+Name        : Ingolstadt
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 11.45
+ Latitude   : 48.77
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 432
+Type        : City
+Population  : 98478
+Size        : 
+Name        : Iserlohn
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.70
+ Latitude   : 51.38
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 433
+Type        : City
+Population  : 102370
+Size        : 
+Name        : Kaiserslautern
+ Country    : DE
+ Region     : Rheinland-Pfalz
+Location    : Earth
+ Longitude  : 7.78
+ Latitude   : 49.45
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 434
+Type        : City
+Population  : 202158
+Size        : 
+Name        : Kassel
+ Country    : DE
+ Region     : Hessen
+Location    : Earth
+ Longitude  : 9.50
+ Latitude   : 51.30
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 435
+Type        : City
+Population  : 61699
+Size        : 
+Name        : Kempten
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 6.42
+ Latitude   : 51.37
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 436
+Type        : City
+Population  : 60395
+Size        : 
+Name        : Kerpen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.70
+ Latitude   : 50.87
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 437
+Type        : City
+Population  : 248931
+Size        : 
+Name        : Kiel
+ Country    : DE
+ Region     : Schleswig-Holstein
+Location    : Earth
+ Longitude  : 10.13
+ Latitude   : 54.33
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 438
+Type        : City
+Population  : 109807
+Size        : 
+Name        : Koblenz
+ Country    : DE
+ Region     : Rheinland-Pfalz
+Location    : Earth
+ Longitude  : 7.60
+ Latitude   : 50.35
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 439
+Type        : City
+Population  : 75891
+Size        : 
+Name        : Konstanz
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 9.17
+ Latitude   : 47.67
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 440
+Type        : City
+Population  : 249565
+Size        : 
+Name        : Krefeld
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.53
+ Latitude   : 51.33
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 441
+Type        : City
+Population  : 59637
+Size        : 
+Name        : Landshut
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 12.17
+ Latitude   : 48.52
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 442
+Type        : City
+Population  : 492640
+Size        : 
+Name        : Leipzig
+ Country    : DE
+ Region     : Sachsen
+Location    : Earth
+ Longitude  : 12.42
+ Latitude   : 51.33
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 443
+Type        : City
+Population  : 161761
+Size        : 
+Name        : Leverkusen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.98
+ Latitude   : 51.03
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 444
+Type        : City
+Population  : 65922
+Size        : 
+Name        : Lippstadt
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.33
+ Latitude   : 51.68
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 445
+Type        : City
+Population  : 86216
+Size        : 
+Name        : Ludwigsburg
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 9.20
+ Latitude   : 48.90
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 446
+Type        : City
+Population  : 217269
+Size        : 
+Name        : Luebeck
+ Country    : DE
+ Region     : Schleswig-Holstein
+Location    : Earth
+ Longitude  : 10.67
+ Latitude   : 53.87
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 447
+Type        : City
+Population  : 80277
+Size        : 
+Name        : Luedenscheid
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.63
+ Latitude   : 51.22
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 448
+Type        : City
+Population  : 63299
+Size        : 
+Name        : Lueneburg
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 10.40
+ Latitude   : 51.25
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 449
+Type        : City
+Population  : 89741
+Size        : 
+Name        : Luenen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.52
+ Latitude   : 51.62
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 450
+Type        : City
+Population  : 270546
+Size        : 
+Name        : Magdeburg
+ Country    : DE
+ Region     : Sachsen-Anhalt
+Location    : Earth
+ Longitude  : 11.62
+ Latitude   : 52.13
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 451
+Type        : City
+Population  : 92590
+Size        : 
+Name        : Marl
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.10
+ Latitude   : 51.63
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 452
+Type        : City
+Population  : 80420
+Size        : 
+Name        : Minden
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.90
+ Latitude   : 52.30
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 453
+Type        : City
+Population  : 265312
+Size        : 
+Name        : Mönchengladbach
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.42
+ Latitude   : 51.20
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 454
+Type        : City
+Population  : 106631
+Size        : 
+Name        : Moers
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.60
+ Latitude   : 51.45
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 455
+Type        : City
+Population  : 177175
+Size        : 
+Name        : Muelheim/Ruhr
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.50
+ Latitude   : 50.38
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 456
+Type        : City
+Population  : 267367
+Size        : 
+Name        : Muenster
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.62
+ Latitude   : 51.97
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 457
+Type        : City
+Population  : 85540
+Size        : 
+Name        : Neubrandenburg
+ Country    : DE
+ Region     : Mecklenburg-Vorpommern
+Location    : Earth
+ Longitude  : 13.27
+ Latitude   : 53.55
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 458
+Type        : City
+Population  : 82014
+Size        : 
+Name        : Neumuenster
+ Country    : DE
+ Region     : Schleswig-Holstein
+Location    : Earth
+ Longitude  : 9.98
+ Latitude   : 54.08
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 459
+Type        : City
+Population  : 148560
+Size        : 
+Name        : Neuss
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.70
+ Latitude   : 51.20
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 460
+Type        : City
+Population  : 65740
+Size        : 
+Name        : Neuwied
+ Country    : DE
+ Region     : Rheinland-Pfalz
+Location    : Earth
+ Longitude  : 7.47
+ Latitude   : 50.43
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 461
+Type        : City
+Population  : 69916
+Size        : 
+Name        : Norderstedt
+ Country    : DE
+ Region     : Schleswig-Holstein
+Location    : Earth
+ Longitude  : 8.98
+ Latitude   : 53.72
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 462
+Type        : City
+Population  : 498945
+Size        : 
+Name        : Nuernberg
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 11.08
+ Latitude   : 49.45
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 463
+Type        : City
+Population  : 226254
+Size        : 
+Name        : Oberhausen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.83
+ Latitude   : 51.45
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 464
+Type        : City
+Population  : 116870
+Size        : 
+Name        : Offenbach/Main
+ Country    : DE
+ Region     : Hessen
+Location    : Earth
+ Longitude  : 8.77
+ Latitude   : 50.10
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 465
+Type        : City
+Population  : 130130
+Size        : 
+Name        : Paderborn
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.73
+ Latitude   : 51.72
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 466
+Type        : City
+Population  : 117450
+Size        : 
+Name        : Pforzheim
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 8.68
+ Latitude   : 48.88
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 467
+Type        : City
+Population  : 69923
+Size        : 
+Name        : Plauen
+ Country    : DE
+ Region     : Sachsen
+Location    : Earth
+ Longitude  : 12.10
+ Latitude   : 50.48
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 468
+Type        : City
+Population  : 139262
+Size        : 
+Name        : Potsdam
+ Country    : DE
+ Region     : Brandenburg
+Location    : Earth
+ Longitude  : 13.07
+ Latitude   : 52.40
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 469
+Type        : City
+Population  : 90443
+Size        : 
+Name        : Ratingen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.83
+ Latitude   : 51.30
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 470
+Type        : City
+Population  : 127150
+Size        : 
+Name        : Recklinghausen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.18
+ Latitude   : 51.62
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 471
+Type        : City
+Population  : 123610
+Size        : 
+Name        : Remscheid
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.18
+ Latitude   : 51.17
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 472
+Type        : City
+Population  : 107607
+Size        : 
+Name        : Reutlingen
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 9.22
+ Latitude   : 48.50
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 473
+Type        : City
+Population  : 73543
+Size        : 
+Name        : Rheine
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.43
+ Latitude   : 52.28
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 474
+Type        : City
+Population  : 58553
+Size        : 
+Name        : Rosenheim
+ Country    : DE
+ Region     : Bayern
+Location    : Earth
+ Longitude  : 12.15
+ Latitude   : 47.85
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 475
+Type        : City
+Population  : 237307
+Size        : 
+Name        : Rostock
+ Country    : DE
+ Region     : Mecklenburg-Vorpommern
+Location    : Earth
+ Longitude  : 12.15
+ Latitude   : 54.10
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 476
+Type        : City
+Population  : 60361
+Size        : 
+Name        : Ruesselsheim
+ Country    : DE
+ Region     : Hessen
+Location    : Earth
+ Longitude  : 8.42
+ Latitude   : 50.00
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 477
+Type        : City
+Population  : 117684
+Size        : 
+Name        : Salzgitter
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 10.33
+ Latitude   : 52.22
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 478
+Type        : City
+Population  : 63701
+Size        : 
+Name        : Schwaebisch-Gmuend
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 9.80
+ Latitude   : 48.82
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 479
+Type        : City
+Population  : 122189
+Size        : 
+Name        : Schwerin
+ Country    : DE
+ Region     : Mecklenburg-Vorpommern
+Location    : Earth
+ Longitude  : 11.42
+ Latitude   : 53.63
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 480
+Type        : City
+Population  : 111845
+Size        : 
+Name        : Siegen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 8.03
+ Latitude   : 50.87
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 481
+Type        : City
+Population  : 59930
+Size        : 
+Name        : Sindelfingen
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 9.02
+ Latitude   : 48.72
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 482
+Type        : City
+Population  : 166064
+Size        : 
+Name        : Solingen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.08
+ Latitude   : 51.17
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 483
+Type        : City
+Population  : 58028
+Size        : 
+Name        : Stolberg
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.25
+ Latitude   : 50.75
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 484
+Type        : City
+Population  : 69230
+Size        : 
+Name        : Stralsund
+ Country    : DE
+ Region     : Mecklenburg-Vorpommern
+Location    : Earth
+ Longitude  : 13.10
+ Latitude   : 54.30
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 485
+Type        : City
+Population  : 99183
+Size        : 
+Name        : Trier
+ Country    : DE
+ Region     : Rheinland-Pfalz
+Location    : Earth
+ Longitude  : 6.65
+ Latitude   : 49.75
+ Elevation  : 245
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 486
+Type        : City
+Population  : 67584
+Size        : 
+Name        : Troisdorf
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.15
+ Latitude   : 50.82
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 487
+Type        : City
+Population  : 64327
+Size        : 
+Name        : Unna
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.68
+ Latitude   : 51.53
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 488
+Type        : City
+Population  : 89643
+Size        : 
+Name        : Velbert
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.05
+ Latitude   : 51.37
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 489
+Type        : City
+Population  : 77204
+Size        : 
+Name        : Viersen
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.40
+ Latitude   : 51.27
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 490
+Type        : City
+Population  : 81315
+Size        : 
+Name        : Villingen-Schwenningen
+ Country    : DE
+ Region     : Baden-Wuerttemberg
+Location    : Earth
+ Longitude  : 8.47
+ Latitude   : 48.05
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 491
+Type        : City
+Population  : 58807
+Size        : 
+Name        : Weimar
+ Country    : DE
+ Region     : Thueringen
+Location    : Earth
+ Longitude  : 11.33
+ Latitude   : 50.98
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 492
+Type        : City
+Population  : 61111
+Size        : 
+Name        : Wesel
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 6.62
+ Latitude   : 51.65
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 493
+Type        : City
+Population  : 270873
+Size        : 
+Name        : Wiesbaden
+ Country    : DE
+ Region     : Hessen
+Location    : Earth
+ Longitude  : 8.25
+ Latitude   : 50.08
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 494
+Type        : City
+Population  : 91680
+Size        : 
+Name        : Wilhelmshaven
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 9.12
+ Latitude   : 53.53
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 495
+Type        : City
+Population  : 105807
+Size        : 
+Name        : Witten
+ Country    : DE
+ Region     : Nordrhein-Westfalen
+Location    : Earth
+ Longitude  : 7.32
+ Latitude   : 51.42
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 496
+Type        : City
+Population  : 128032
+Size        : 
+Name        : Wolsburg
+ Country    : DE
+ Region     : Niedersachsen
+Location    : Earth
+ Longitude  : 10.32
+ Latitude   : 52.45
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 497
+Type        : City
+Population  : 79155
+Size        : 
+Name        : Worms
+ Country    : DE
+ Region     : Rheinland-Pfalz
+Location    : Earth
+ Longitude  : 8.38
+ Latitude   : 49.63
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de
+//
+ID          : 498
+Type        : City
+Population  : 108835
+Size        : 
+Name        : Zwickau
+ Country    : DE
+ Region     : Sachsen
+Location    : Earth
+ Longitude  : 12.50
+ Latitude   : 50.72
+ Elevation  : 
+Date        : 19970410
+Entered-By  : M.Dowling@tu-bs.de

@@ -1,61 +1,45 @@
-This is Info file ./tasks.info, produced by Makeinfo version 1.67 from
-the input file tasks.texi.
-
-   GNU Task List Copyright (C) 1987 ... 1996 Free Software Foundation,
-Inc.
-
-   Permission is granted to make and distribute verbatim copies of this
-manual provided the copyright notice and this permission notice are
-preserved on all copies.
-
-   Permission is granted to copy and distribute modified versions of
-this manual under the conditions for verbatim copying, provided that
-the entire resulting derived work is distributed under the terms of a
-permission notice identical to this one.
-
-   Permission is granted to copy and distribute translations of this
-manual into another language, under the above conditions for modified
-versions, except that this permission notice may be stated in a
-translation approved by the Free Software Foundation.
+This is ./tasks.info, produced by makeinfo version 4.0 from tasks.texi.
 
 
-File: tasks.info,  Node: Top,  Next: Preface,  Prev: (dir),  Up: (dir)
+File: tasks.info,  Node: Top,  Next: Intro,  Prev: (dir),  Up: (dir)
 
 GNU Task List
 *************
 
    This file is updated automatically from `tasks.texi', which was last
-updated on 04 July 1996.
+updated on September 17, 2000.  See also
+`http://www.gnu.org/help/help.html#helpgnu' for other suggested tasks.
 
 * Menu:
 
-* Preface::
+* Intro::
+* Highest Priority::
 * Documentation::
 * Unix-Related Projects::
 * Kernel Projects::
 * Extensions::
 * X Windows Projects::
+* Network Projects::
+* Encryption Projects::
 * Other Projects::
-* Compilers::
+* Languages::
 * Games and Recreations::
 
 
-File: tasks.info,  Node: Preface,  Next: Documentation,  Prev: Top,  Up: Top
+File: tasks.info,  Node: Intro,  Next: Highest Priority,  Prev: Top,  Up: Top
 
 About the GNU Task List
 ***********************
 
-   Check with `gnu@prep.ai.mit.edu', for a possibly more current copy.
-You can also ftp it from a GNU FTP host in directory `/pub/gnu/tasks' -
-These files in different formats are available: `tasks.text',
-`tasks.texi', `tasks.info', and `tasks.dvi'.  It is also available on
-the GNU World Wide Web server: `http://www.gnu.ai.mit.edu'.
+   If you did not obtain this file directly from the GNU project and
+recently, please check for a newer version.  You can ftp the task list
+from any GNU FTP host in directory `/pub/gnu/tasks/'.  The task list is
+available there in several different formats: `tasks.text',
+`tasks.texi', `tasks.info', and `tasks.dvi'.  The GNU HURD task list is
+also there in file `tasks.hurd'.  The task list is also available on
+the GNU World Wide Web server: `http://www.gnu.org/prep/tasks_toc.html'.
 
-   This task list is not exclusive; any other useful program might be a
-good project--but it might instead be something we already have, so
-check with `gnu@prep' before you start writing it.
-
-   If you start working steadily on a project, please let `gnu@prep'
+   If you start working steadily on a project, please let <gvc@gnu.org>
 know.  We might have information that could help you; we'd also like to
 send you the GNU coding standards.
 
@@ -64,43 +48,150 @@ programming tools or programming languages, we have a comparative
 shortage of applications useful for non-programmer users.  Therefore,
 we ask you to consider writing such a program.
 
-   In general, a new program that does a completely new job advances the
-GNU project more than an improvement to an existing program.
+   Typically, a new program that does a completely new job advances the
+GNU project, and the free software community, more than an improvement
+to an existing program.
+
+   Typically, new features or new programs advance the free software
+community more, in the long run, than porting existing programs.  One
+reason is that portable new features and programs benefit people on many
+platforms, not just one.  At the same time, there tend to be many
+volunteers for porting--so your help will be more valuable in other
+areas, where volunteers are more scarce.
+
+   Typically, it is more useful to extend a program in functionality
+than to improve performance.  Users who use the new functionality will
+appreciate it very much, if they use it; but even when they benefit from
+a performance improvement, they may not consider it very important.
+
+   Finally, if you think of an important job that free software cannot
+solve yet that is typically solved by proprietary software, please send
+a short description of that job to <gnu@gnu.org> so that we can add it
+to this task list.
 
 
-File: tasks.info,  Node: Documentation,  Next: Unix-Related Projects,  Prev: Preface,  Up: Top
+File: tasks.info,  Node: Highest Priority,  Next: Documentation,  Prev: Intro,  Up: Top
+
+Highest Priority
+****************
+
+   This task list mentions a large number of tasks that would be more or
+less useful.  With luck, at least one of them will inspire you to start
+writing.  It's better for you to work on any task that inspires you than
+not write free software at all.
+
+   But if you would like to work on what we need most, here is a list of
+high priority projects.
+
+   * A new maintainer is needed for Goose
+     <http://www.gnu.org/software/goose/goose.html>.
+
+   * If you are good at writing documentation, please do that.
+
+   * If you are very good at C programming and interested in kernels,
+     you can help develop the GNU HURD, the kernel for the GNU system.
+     Please have a look at
+     `http://www.gnu.org/software/hurd/hurd.html', and then get a copy
+     of the latest HURD task list from:
+
+        * `http://www.gnu.org/prep/tasks.hurd.html', via the World Wide
+          Web.
+
+        * `ftp://ftp.gnu.org/pub/gnu/tasks/tasks.hurd', via anonymous
+          FTP.
+
+        * <gvc@gnu.org> via e-mail.
+
+
+   * If you are a Scheme fan, you can help develop Guile.  Please have
+     a look at the URL `http://www.gnu.org/software/guile/guile.html'
+     and then contact the Guile developers at <guile@gnu.org>.
+
+   * Improve the facilities for translating other languages into Scheme,
+     so that Guile can provide support for a variety of languages.
+
+   * A package to convert programs written using MS Access into Scheme,
+     making use of a free data base system and the GTK toolkit.
+
+   * Help develop software to emulate Windows NT on top of GNU systems.
+     For example, you could help work on Willows Twin.  See
+     `http://www.willows.com/'.
+
+   * Add gettext support to GNU programs that don't have it already.
+     (Please contact the developers of the specific packages that you
+     want to work on.)
+
+   * Develop a substitute, which runs on GNU systems, for some very
+     popular or very important application that many non-programmers
+     use on Windows, and which has no comparable free equivalent now.
+
+
+File: tasks.info,  Node: Documentation,  Next: Unix-Related Projects,  Prev: Highest Priority,  Up: Top
 
 Documentation
 *************
 
-   We very urgently need documentation for some parts of the system
-that already exist or will exist very soon:
+   We very urgently need documentation for many existing parts of the
+system.
 
-   * Completion of the documentation for CC-mode, a new C/C++ Emacs mode
-     written in Emacs Lisp.
+   Note that there are proprietary manuals for many of these topics, but
+proprietary manuals do not count, for the same reason proprietary
+software does not count: we are not free to copy and modify them.  We
+do not recommend any non-free materials as documentation.
 
-   * A C reference manual.  (RMS has written half of one which you could
-     start with).
+   * A manual for libstdc++.
+
+   * A unified manual for LaTeX.  (Existing documentation is non-free.)
+
+   * A manual for Docbook SGML format.
+
+   * A tutorial introduction to Midnight Commander.
+
+   * A thorough manual for RCS.
+
+   * A reference manual for Mach.
+
+   * A reference manual for the GNU Hurd features in GNU libc.
+
+   * A manual for writing Hurd servers.
+
+   * A manual for GNU sed.
+
+   * Reference manuals for C++, Objective C, Pascal, Fortran 77, and
+     Java.
+
+   * A tutorial manual for the C++ STL (standard template library).
+
+   * A tutorial manual for Gforth.
+
+   * GNU Objective-C Runtime Library Manual; this would be a reference
+     manual for the runtime library functions, structures, and classes.
+     Some work has been done on this job.
+
+   * Manuals for GNUstep: developer tutorial, developer programming
+     manual, developer reference manual, and user manual.
 
    * A manual for Ghostscript.
 
    * A manual for TCSH.
 
-   * A manual for PIC (the graphics formatting language).
+   * A coherent free reference manual for Perl.  Most of the Perl
+     on-line reference documentation can be used as a starting point,
+     but work is needed to weld them together into a coherent manual.
 
-   * A manual for Oleo.
+   * A manual for PIC (the graphics formatting language).
 
    * A book on how GCC works and why various machine descriptions are
      written as they are.
 
-   * A manual for programming X-window applications.
+   * A manual for programming applications for X11.
 
    * Manuals for various X window managers.
 
    * Reference cards for those manuals that don't have them: C
-     Compiler, Make, Texinfo, Termcap, maybe the C Library, etc.
+     Compiler, Make, Texinfo, Termcap, and maybe the C Library.
 
-   * Many utilities need documentation, including `grep' and others.
+   * Many utilities still need documentation.
 
 
 File: tasks.info,  Node: Unix-Related Projects,  Next: Kernel Projects,  Prev: Documentation,  Up: Top
@@ -108,17 +199,15 @@ File: tasks.info,  Node: Unix-Related Projects,  Next: Kernel Projects,  Prev: D
 Unix-Related Projects
 *********************
 
-   * An improved version of the POSIX utility `pax'.  There is one on
-     USENET, but it is said to be poorly written.  Talk with
-     `mib@gnu.ai.mit.edu' about this project.
+   * Less urgent: make a replacement for the "writer's workbench"
+     program `style', or something to do the same kind of job.
+     Compatibility with Unix is not especially important for this
+     program.
 
-   * A `grap' preprocessor program for `troff'.
+   * Rewrite `indent' from scratch to make it cleaner.
 
-   * An emulation of SCCS that works using RCS.
+   * Write a free software replacement for the `agrep' program.
 
-   * Less urgent: `diction', `explain', and `style', or something to do
-     the same kind of job.  Compatibility with Unix is not especially
-     important for these programs.
 
 
 File: tasks.info,  Node: Kernel Projects,  Next: Extensions,  Prev: Unix-Related Projects,  Up: Top
@@ -146,6 +235,9 @@ Kernel-Related Projects
    * An implementation of CIFS, the "Common Internet File System," for
      the HURD.  This protocol is an offshoot of SMB.
 
+   * Support (in Linux?) for dumping the non-textual contents of an SVGA
+     console.
+
 
 File: tasks.info,  Node: Extensions,  Next: X Windows Projects,  Prev: Kernel Projects,  Up: Top
 
@@ -155,14 +247,22 @@ Extensions to Existing GNU Software
    * Enhance GCC.  See files `PROJECTS' and `PROBLEMS' in the GCC
      distribution.
 
-   * GNU `sed' probably needs to be rewritten completely just to make it
-     cleaner.
+   * Interface GDB to Guile, so that users can write debugging commands
+     in Scheme.  This would also make it possible to write, in Scheme, a
+     graphical interface that uses GTK and is tightly integrated into
+     GDB.
 
-   * Work on the partially-implemented C interpreter project.
+   * Extend Octave to support programs that were written to run on
+     Khoros.
+
+   * Rewrite Automake in Scheme, so it can run in Guile.  Right now it
+     is written in Perl.  There are also other programs, not terribly
+     long, which we would also like to have rewritten in Scheme.
+
+   * Finish the partially-implemented C interpreter project.
 
    * Help with the development of GNUstep, a GNU implementation of the
-     OpenStep specification (which is implemented in Objective-C and is
-     the next generation of NeXTStep).
+     OpenStep specification.
 
    * Add features to GNU Make to record the precise rule with which
      each file was last recompiled; then recompile any file if its rule
@@ -176,116 +276,125 @@ Extensions to Existing GNU Software
    * A queueing system for the mailer Smail that groups pending work by
      destination rather than by original message.  This makes it
      possible to schedule retries coherently for each destination.
-     Talk to `tron@veritas.com' about this.
-
-     Smail also needs a new chief maintainer.
+     Talk to <tron@veritas.com> and <woods@weird.com> about this.
 
    * Enhanced cross-reference browsing tools.  (We now have something at
      about the level of `cxref'.)  We also could use something like
      `ctrace'.  (Some people are now working on this project.)
 
 
-File: tasks.info,  Node: X Windows Projects,  Next: Other Projects,  Prev: Extensions,  Up: Top
+File: tasks.info,  Node: X Windows Projects,  Next: Network Projects,  Prev: Extensions,  Up: Top
 
 X Windows Projects
 ******************
 
    * An emulator for Macintosh graphics calls on top of X Windows.
 
-   * A music playing and editing system.
+   *  A package that emulates the API of Visual C++'s Foundation Classes
+     (MFC), but operates on top of X11.  It need not match the screen
+     appearance provided by MFC.  Instead, it would be best to use GTK,
+     so as to give coherence with GNOME.
 
    * A program to edit dance notation (such as labanotation) and display
-     dancers moving on the screen.
+     dancers moving on the screen.  Gepetto done some of this work.
+     Contact <gvc@gnu.org> if you are interested in helping finish the
+     job.
 
-   * Port the Vibrant toolkit to work on X without using Motif.
+   * Make sure the Vibrant toolkit works with LessTif instead of Motif.
 
    * A program to display and edit Hypercard stacks.
 
-   * A paint program, supporting both bitmap-oriented operations and
-     component-oriented operations.  `xpaint' exists, but isn't very
-     usable.
+   * A two-dimensional outliner program, which lets you draw graph
+     structures of textual items, and then display them in various ways.
 
-   * A program for manipulating photographs--something vaguely like
-     Photo Shop (though not exactly like it).
+   * Software for designing and printing business cards.
 
 
-File: tasks.info,  Node: Other Projects,  Next: Compilers,  Prev: X Windows Projects,  Up: Top
+File: tasks.info,  Node: Network Projects,  Next: Encryption Projects,  Prev: X Windows Projects,  Up: Top
+
+Network Projects
+****************
+
+
+
+File: tasks.info,  Node: Encryption Projects,  Next: Other Projects,  Prev: Network Projects,  Up: Top
+
+Encryption Projects
+*******************
+
+   These projects need to be written outside the US by people who are
+not US citizens, to avoid problems with US export control law.
+
+   * A free library for public-key encryption.
+
+     This library should use the Diffie-Helman algorithm for public key
+     encryption, not the RSA algorithm, because the Diffie-Helman
+     patent in the US expired in 1997.  This library can probably be
+     developed from the code for the GNU Privacy Guard (now in
+     development).
+
+   * An implementation of SSLv3 (more precisely, TLSv1) which is
+     patent-free (uses the non-RSA algorithms) and has distribution
+     terms compatible with the GNU GPL.  We know of a GPL-covered
+     implementation of a version of SSL that you can use as a starting
+     point.
+
+   * Free software for doing secure commercial transactions on the web.
+     This too needs public key encryption.
+
+
+File: tasks.info,  Node: Other Projects,  Next: Languages,  Prev: Encryption Projects,  Up: Top
 
 Other Projects
 **************
 
    If you think of others that should be added, please send them to
-`gnu@prep.ai.mit.edu'.
-
-   * A free program for public-key encryption.
-
-     This program should use the Diffie-Helman algorithm for public key
-     encryption, not the RSA algorithm, because the Diffie-Helman
-     patent in the US will expire in 1997.  It should use triple-DES,
-     not IDEA, for block encryption because IDEA is patented in many
-     countries and the patents will not expire soon.  In other
-     respects, it should be like PGP.
-
-     This program needs to be written by someone who is not a US
-     citizen, outside the US, to avoid problems with US export control
-     law.
-
-     Many people believe that PGP is free software, but that is not
-     actually true.  The distribution terms set by the copyright
-     holders do not allow everyone to use and redistribute it.
-
-   * A program to convert compiled programs represented in OSF ANDF
-     ("Architecture Neutral Distribution Format") into ANSI C.
+<gnu@gnu.org>.
 
    * An imitation of Page Maker or Ventura Publisher.
 
-   * An imitation of `dbase2' or `dbase3' (How dbased!)
+   * An imitation of `dbase2' or `dbase3'.  (How dbased!)  Harbour, a
+     free replacement for Clipper, would provide a useful start.
+     `http://www.harbour-project.org/'.
 
-   * An interactive 3D modeling utility with rendering/raytracing
-     capabilities.
+   * A free replacement for Glimpse, which is not free software.
 
-   * A program for graphic morphing of scanned photographs.
+   * Software for desktop publishing.  We are extending Emacs into a
+     WYSIWYG word processor, to handle primarily linear text; what this
+     item proposes is software focused on page layout.
 
-   * A program to reformat Fortran programs in a way that is pretty.
+   * A program to play sound distributed in "Real Audio" format.
 
-   * A bulletin board system.  There are a few free ones, but they
-     don't have all the features that people want in such systems.  It
-     would make sense to start with an existing one and add the other
-     features.
+   * A program to generate "Real Audio" format from audio input.
 
-   * A general ledger program, including support for accounts payable,
-     account receivables, payroll, inventory control, order processing,
-     etc.
+   * Programs to handle audio in RTSP format.
 
-   * A teleconferencing program which does the job of CU-SeeMe (which
-     is, alas, not free software).
+   * A braille translation and formatting system which can convert
+     marked up documents into braille.  This should let the user
+     customize the braille translation rules; it would be good to
+     divide it into a device-independent part plus drivers.  Contact
+     Jason White, <jasonw@ariel.ucs.unimelb.EDU.AU>.
 
-   * A program to typeset C code for printing.  For ideas on what to
-     do, see the book,
+   * More scientific mathematical subroutines.  (A clone of SPSS is
+     being written already.)
 
-          Human Factors and Typography for More Readable Programs,
-          Ronald M. Baecker and Aaron Marcus,
-          Addison-Wesley, ISBN 0-201-10745-7
+   * A scientific data collection and processing tool, perhaps
+     something like Scientific Workbench and/or Khoros,
 
-     (I don't quite agree with a few of the details they propose.)
+   * A program to calculate properties of molecules by solving the
+     Schroedinger equation.
 
-   * Speech-generation programs (there is a program from Brown U that
-     you could improve).
+   * Software to replace card catalogs in libraries.
 
-   * Speech-recognition programs (single-speaker, disconnected speech).
+   * A simulator for heating and air conditioning systems for buildings.
 
-   * Scientific mathematical subroutines, including clones of SPSS.
-
-   * Statistical tools.
-
-   * Software to replace card catalogues in libraries.
+   * A package for editing genealogical records conveniently.  This
+     could perhaps be done as a Gnome program, or perhaps as an Emacs
+     extension.
 
    * Grammar and style checking programs.
 
-   * An implementation of the S language (an interpreted language used
-     for statistics).
-
-   * A translator from Scheme to C.
+   * A diagnostic program to test a hard disk.
 
    * Optical character recognition programs; especially if suitable for
      scanning documents with multiple fonts and capturing font info as
@@ -296,43 +405,68 @@ Other Projects
 
    * A program to recognize handwriting.
 
+   * A program that can translate from one natural language, into
+     another.  For example, a program to translate French into English.
+
    * A pen based interface.
 
    * CAD software, such as a vague imitation of Autocad.
 
-   * Software for comparing DNA sequences, and finding matches and
-     alignments.
+   * A program to receive data from a serial-line tap to facilitate the
+     reverse-engineering of communication protocols.
+
+   * A database program designed to store and retrieve patent
+     information.
+
+   * A free software package to run on a Palm Pilot in place of its
+     usual software, doing more or less the usual jobs.  (Linux, the
+     kernel, has apparently been ported, but according to what we hear
+     this port is not useful yet.)
+
 
 
-File: tasks.info,  Node: Compilers,  Next: Games and Recreations,  Prev: Other Projects,  Up: Top
+File: tasks.info,  Node: Languages,  Next: Games and Recreations,  Prev: Other Projects,  Up: Top
 
-Compilers for Other Batch Languages
-***********************************
+Programming Languages
+*********************
 
    Volunteers are needed to write parsers/front ends for languages such
-as Algol 60, Algol 68, PL/I, Cobol, Fortran 90, or whatever, to be used
-with the code generation phases of the GNU C compiler.  (C, C++, and
-Objective-C are done; Fortran 77 is mostly done; Ada, Pascal, and Java
-are being worked on.)
+as Algol 60, Algol 68, PL/I, Cobol, Fortran 90, Delphi, Modula 2,
+Modula 3, RPG, and any other languages designed for compilation, to be
+used with the code generation phases of the GNU C compiler.
 
    You can get the status of the Fortran front end with this command:
 
-     finger -l fortran@gnu.ai.mit.edu
+     finger -l fortran@gnu.org
+
+   We would like to have translators from various languages into Scheme.
+These languages include TCL, Python, Perl, Java, Javascript, and Rexx.
+Perhaps Clipper as well.
 
 
-File: tasks.info,  Node: Games and Recreations,  Prev: Compilers,  Up: Top
+File: tasks.info,  Node: Games and Recreations,  Prev: Languages,  Up: Top
 
 Games and Recreations
 *********************
 
-   Video-oriented games should work with the X window system.
+   Video-oriented games that work with the X window system.
 
    * Empire (there is a free version but it needs upgrading)
 
    * An "empire builder" system that makes it easy to write various
      kinds of simulation games.
 
-   * Imitations of popular video games:
+   * Improve GnuGo, which is not yet very sophisticated.
+
+   * Network servers and clients for board and card games for which such
+     software does not yet exist.
+
+   * A Hierarchical Task Network package which can be used to program
+     play the computer's side in various strategic games.
+
+   * A game like Mill/Nine Men's Morris.
+
+   * Write imitations of some popular video games:
 
         - Space war, Asteroids, Pong, Columns.
 
@@ -340,37 +474,30 @@ Games and Recreations
 
         - Plane shoots at lots of other planes, tanks, etc.
 
-        - Wizard fights fanciful monster.
+        - Wizard fights fanciful monsters.
 
         - A golf game.
 
-        - Program a robot by sticking building blocks together, then
-          watch it explore a world.
-
-        - Biomorph evolution (as in Scientific American).
-
-        - A program to display effects of moving at relativistic speeds.
-
-   * Improve GnuGo, which is not yet very sophisticated.
-
-   * Intriguing screen-saver programs to make interesting pictures.
-     Other such programs that are simply entertaining to watch.  For
-     example, an aquarium.
+        - Biomorph evolution (as in Scientific American and `The Blind
+          Watchmaker').
 
    We do not need `rogue', as we have `hack'.
 
 
 
 Tag Table:
-Node: Top850
-Node: Preface1234
-Node: Documentation2451
-Node: Unix-Related Projects3421
-Node: Kernel Projects4026
-Node: Extensions5148
-Node: X Windows Projects6593
-Node: Other Projects7336
-Node: Compilers10602
-Node: Games and Recreations11193
+Node: Top73
+Node: Intro606
+Node: Highest Priority2723
+Node: Documentation4869
+Node: Unix-Related Projects6941
+Node: Kernel Projects7424
+Node: Extensions8634
+Node: X Windows Projects10397
+Node: Network Projects11411
+Node: Encryption Projects11557
+Node: Other Projects12575
+Node: Languages15493
+Node: Games and Recreations16182
 
 End Tag Table

@@ -1,5 +1,4 @@
 # Airport Code : Airport
-#	@(#)airport	5.1 (Berkeley) 5/10/90 (modified)
 ABE:Allentown-Bethlehem-Easton International
 ABQ:Albuquerque International
 AGC:Pittsburgh/Allegheny County
@@ -40,7 +39,7 @@ CVG:Cincinnati International
 CYS:Cheyenne
 DAL:Dallas Love Field
 DAY:Dayton James M. Cox International
-DCA:Washington National
+DCA:Ronald Reagan Washington National
 DEN:Denver Stapleton International
 DET:Detroit City
 DFW:Dallas-Ft. Worth International
@@ -151,4 +150,7 @@ TUL:Tulsa International
 TUS:Tucson International
 TYS:Knoxville McGhee Tyson
 UCA:Utica/Oneida County
+YMX:Mirabel International (Montreal)
+YOW:McDonald-Cartier Internatial (Ottawa)
 YVR:Vancouver International
+YYZ:Lester B. Pearson International (Toronto)

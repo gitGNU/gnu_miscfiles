@@ -68,25 +68,23 @@ For example:
      FYI0003) (Updated by FYI0003) (Also RFC1175)
 
 0004 FYI on Questions and Answers - Answers to commonly asked "New
-     Internet User" Questions. A. Marine, J. Reynolds, & G. Malkin. March
-     1994. (Format: TXT=98753 bytes) (Obsoletes RFC1177, RFC1206, RFC1325)
-     (Also RFC1594)
+     Internet User" Questions. R. Plzak, A. Wells, E. Krol. August 1999.
+     (Format: TXT=23640 bytes) (Obsoletes RFC1177, RFC1206, RFC1325,
+     RFC1594) (Also RFC2664)
 
 0005 Choosing a name for your computer. D. Libes. Aug-01-1991.
      (Format: TXT=18472 bytes) (Updates FYI0005) (Updated by FYI0005)
      (Also RFC1178)
 
 0006 FYI on the X window system. R.W. Scheifler. Jan-01-1991. (Format:
-     TXT=3629 bytes) (Updates FYI0006) (Updated by FYI0006) (Also RFC1198)
+     TXT=3629 bytes) (Also RFC1198)
 
 0007 FYI on Questions and Answers: Answers to commonly asked
      "experienced Internet user" questions. G.S. Malkin, A.N. Marine, J.K.
-     Reynolds. Feb-01-1991. (Format: TXT=33385 bytes) (Updates FYI0007)
-     (Updated by FYI0007) (Also RFC1207)
+     Reynolds. Feb-01-1991. (Format: TXT=33385 bytes) (Also RFC1207)
 
-0008 Site Security Handbook. J.P. Holbrook, J.K. Reynolds.
-     Jul-01-1991. (Format: TXT=259129 bytes) (Updates FYI0008) (Updated by
-     FYI0008) (Also RFC1244)
+0008 Site Security Handbook. B. Fraser. September 1997. (Format:
+     TXT=191772 bytes) (Obsoletes RFC1244) (Also RFC2196)
 
 0009 Who's Who in the Internet: Biographies of IAB, IESG and IRSG
      Members. G. Malkin. May 1992. (Format: TXT=92119 bytes) (Obsoletes
@@ -96,9 +94,9 @@ For example:
      all the Wrong Places. J. Martin. January 1993. (Format: TXT=71176
      bytes) (Obsoletes RFC1290) (Also RFC1402)
 
-0011 A Revised Catalog of Available X.500 Implementations. A. Getchell
-     & S. Sataluri, Editors. May 1994. (Format: TXT=124111 bytes)
-     (Obsoletes RFC1292) (Also RFC1632)
+0011 X.500 Implementations Catalog-96. C. Apple, K. Rossen. April
+     1997. (Format: TXT=243994 bytes) (Obsoletes RFC1632, RFC1292) (Also
+     RFC2116)
 
 0012 Building a Network Information Services Infrastructure. D.
      Sitzler, P. Smith, A Marine. February 1992. (Format: TXT=29135 bytes)
@@ -126,7 +124,7 @@ For example:
      RFC1718)
 
 0018 Internet Users' Glossary. G. Malkin. August 1996. (Format:
-     TXT=123008 bytes) (Obsoletes RFC1983)
+     TXT=123008 bytes) (Obsoletes RFC1392) (Also RFC1983)
 
 0019 FYI on Introducing the Internet-- A Short Bibliography of
      Introductory Internetworking Readings. E. Hoffman & L. Jackson. May
@@ -153,7 +151,7 @@ For example:
      RFC1689, RTR0013)
 
 0026 K-12 Internetworking Guidelines. J. Gargano, D. Wasley. November
-     1994. (Format: ASCII,PS=66659,662030 bytes) (Also RFC1709)
+     1994. (Format: TXT=66659, PS=662030 bytes) (Also RFC1709)
 
 0027 Tools for DNS debugging. A. Romao. November 1994. (Format:
      TXT=33500 bytes) (Also RFC1713)
@@ -163,3 +161,31 @@ For example:
 
 0029 Catalogue of Network Training Materials. J. Foster, M. Isaacs &
      M. Prior. October 1996. (Format: TXT=78941 bytes) (Also RFC2007)
+
+0030 A Primer On Internet and TCP/IP Tools and Utilities. G. Kessler,
+     S. Shepard. June 1997. (Format: TXT=114130 bytes) (Obsoletes RFC1739)
+     (Also RFC2151)
+
+0031 Humanities and Arts: Sharing Center Stage on the Internet. J.
+     Max, W. Stickle. October 1997. (Format: TXT=154037 bytes) (Also
+     RFC2150)
+
+0032 Hobbes' Internet Timeline. R. Zakon. November 1997. (Format:
+     TXT=43060 bytes) (Also RFC2235)
+
+0033 Some Testing Tools for TCP Implementors. S. Parker, C. Schmechel.
+     August 1998. (Format: TXT=24107 bytes) (Also RFC2398)
+
+0034 Users' Security Handbook. E. Guttman, L. Leong, G. Malkin.
+     February 1999. (Format: TXT=74036 bytes) (Also RFC2504)
+
+0035 DON'T SPEW A Set of Guidelines for Mass Unsolicited Mailings and
+     Postings (spam*). S. Hambridge, A. Lunde. June 1999. (Format:
+     TXT=44669 bytes) (Also RFC2635)
+
+0036 Internet Security Glossary. R. Shirey. May 2000. (Format:
+     TXT=489292 bytes) (Also RFC2828)
+
+0037 Guide to Administrative Procedures of the Internet
+     Infrastructure. Z. Wenzel, J. Klensin, R. Bush, S. Huter. August
+     2000. (Format: TXT=63680 bytes) (Also RFC2901)

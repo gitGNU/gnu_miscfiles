@@ -1,5 +1,42 @@
 2000-10-20  Thomas Bushnell, BSG  <tb@becket.net>
 
+	* Makefile.in (version): Now 1.2.
+
+	* INSTALL: Updated from autoconf 2.13.
+
+	* cities.dat: Updated from
+	http://www.sander.embl-heidelberg.de/rob/location. 
+
+	* abbrevs.gen, abbrevs.talk: More updates from François Pinard.
+
+	* mailinglists: Updated from Emacs 20.7.
+
+	* tasks.texi: Updated from ftp.gnu.org.
+
+	* jarg400.info: Replace with jargon.html; updated from
+	http://www.tuxedo.org/~esr/jargon. 
+	* Makefile.in (infofiles): Remove jarg400.html.
+	(miscfiles): Add jargon.html.
+
+	* rfc-index.txt, fyi-index.txt, std-index.txt: Updated from
+	ftp:rfc-editor.org. 
+
+	* unicode: New file, from Unicode 3.0.1.
+	* Makefile.in (miscfiles): Add `unicode'.
+	
+	* propernames: Remove duplicates; add a bunch suggested by "WILCOX
+	MATTHEW EXC CP CH" <matthew.wilcox@chbs.mhs.ciba.com>.
+	
+	* currency, countries: New files, thanks to Mike Dowling
+	<mike@moocow.math.nat.tu-bs.de>. 
+	* Makefile.in (miscfiles): Add `currency' and `countries'.
+
+	* airport: Add YMX, YOW, and YYZ.  Update DCA.
+	
+	* zipcodes: Delete file.  Five digit zipcodes no longer map to
+	town names uniquely.  
+	* Makefile.in (miscfiles): Remove `zipcodes'.
+
 	* na.phone: Updated city information throughout, from
 	www.nanpa.com and www.lincmad.com/cities.html.
 	

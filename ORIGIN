@@ -7,27 +7,33 @@ From NetBSD 1.3.2
   operator
 
 From NetBSD 1.1A; modified:
-  inter.phone
   propernames
-  zipcodes
   airport
 
-From http://www.teltronics.com/nanp2.html, with additions:
+From http://www.nanpa.com and http://www.lincmad.com/cities.html:
   na.phone
+
+From http://www.lincmad.com/countrycodes.html:
+  inter.phone
+
+From ftp://ftp.unicode.org/Public/UNIDATA:
+  unicode
 
 From previous BSD:
   connectives
 
-From ftp://ds.internic.net/rfc:
+From ftp://ftp.rfc-editor.org/in-notes:
   rfc-index.txt
   fyi-index.txt
   std-index.txt
 
-From ftp://prep.ai.mit.edu:
-  jarg400.info
+From http://www.tuxedo.org/~esr/jargon:
+  jargon.html
+
+From ftp://ftp.gnu.org/gnu/tasks:
   tasks.texi
 
-From GNU Emacs distribution:
+From GNU Emacs 20.7:
   GNU-manifesto
   mailinglists
 

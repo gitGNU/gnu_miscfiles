@@ -596,8 +596,8 @@
 662:Winona:Mississippi:MS
 662:Greenville:Mississippi:MS
 664::Montserrat:
-670::Mariana Islands
-671::Guam
+670::Mariana Islands:MP
+671::Guam:GU
 678:Decatur:Georgia:GA
 678:Atlanta:Georgia:GA
 678:Cedartown:Georgia:GA
@@ -753,9 +753,9 @@
 781:Lynn:Massachusetts:MA
 781:Weymouth:Massachusetts:MA
 781:Norwood:Massachusetts:MA
-784:Bequia:Saint Vincent and Grenadines
-784:Mustique:Saint Vincent and Grenadines
-784:Saint Vincent:Saint Vincent and Grenadines
+784:Bequia:Saint Vincent and Grenadines:
+784:Mustique:Saint Vincent and Grenadines:
+784:Saint Vincent:Saint Vincent and Grenadines:
 785:Colby:Kansas:KS
 785:Salina:Kansas:KS
 785:Manhattan:Kansas:KS
@@ -893,15 +893,15 @@
 867:Yellowknife:Northwest Territories:NT
 867:Iqaluit:Northwest Territories:NT
 867:Inuvik:Northwest Territories:NT
-868::Trinidad and Tobago
-869::Saint Kitts and Nevis:KN
+868::Trinidad and Tobago:
+869::Saint Kitts and Nevis:
 501:Hope:Arkansas:AR
 870:Mountain Home:Arkansas:AR
 870:Jonesboro:Arkansas:AR
 870:Pine Bluff:Arkansas:AR
 870:Monticello:Arkansas:AR
 870:Texarkana:Arkansas:AR
-876::Jamaica
+876::Jamaica:
 901:Memphis:Tennessee:TN
 901:Jackson:Tennessee:TN
 901:Union City:Tennessee:TN

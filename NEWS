@@ -6,6 +6,46 @@ See the end for copying conditions.
 Please send GNU miscfiles bug reports to bug-gnu-utils@prep.ai.mit.edu.
 
 
+Version 1.2
+
+New files in this release:
+
+unicode
+	The Unicode character set.
+
+currency
+	A table showing the currencies of the world
+
+countries
+	A table giving the official abbreviations and names of the
+	countries of the world, with their capital cities.
+
+I have dropped city codes from inter.phone, for several reasons.  It
+is very difficult to obtain accurate up-to-date information for most
+of the countries of the world.  The ITU keeps a good list of country
+dialing codes, but within countries, things change too much for me to
+be able to keep up, and rather than contain unfixable and wrong
+information, I decided to only distribute what I could be confident of.
+Many many new countries are now represented in the list, however.
+
+The na.phone file has been carefully synced against current reality.
+
+The 5-digit zipcodes file has been dropped, since zipcodes do not map
+to towns and cities any more; many 5-digit zipcodes now cross sound
+boundaries.
+
+A spelling error in web2 is fixed; and the airports and propernames
+lists have been extended slightly.
+
+The jargon file has been refreshed; the upstream author now regards
+html as the primary form of it, so the info file has been dropped in
+favor of html.  rfc-index.txt, fyi-index.txt, std-index.txt,
+mailinglists, tasks.texi, and cities.dat have all been refreshed from
+their upstream sources.
+
+François Pinard has added more to his excellent abbreviation lists.
+
+
 Version 1.1
 
 The na.phone file has been entirely rebuilt.  inter.phone contains new

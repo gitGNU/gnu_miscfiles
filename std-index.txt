@@ -53,10 +53,9 @@ For example:
    
 
 
-0001 INTERNET OFFICIAL PROTOCOL STANDARDS. J. Postel, Editor. February
-     1997. (Format: TXT=121356 bytes) (Obsoletes RFC1920, 1880, 1800,
-     1780, 1720, 1610, 1600, 1540, 1500, 1410, 1360, 1280, 1250, 1200,
-     1140, 1130, 1100, 1083) (Also RFC2000)
+0001 INTERNET OFFICIAL PROTOCOL STANDARDS. J. Reynolds, R. Braden.
+     August 2000. (Format: TXT=90213 bytes) (Obsoletes RFC2600) (Also
+     RFC2700)
 
 0002 Assigned Numbers. J. Reynolds, J. Postel. October 1994. (Format:
      TXT=458860 bytes) (Also RFC1700)
@@ -86,9 +85,9 @@ For example:
      Stefferud & D. Crocker. November 1995. (Format: TXT=23299 bytes)
      (Obsoletes RFC1651) (Also RFC821, RFC1869)
 
-0011 SMTP Service Extension for Message Size Declaration. J. Klensin,
-     N. Freed, & K. Moore. November 1995. (Format: TXT=18226 bytes)
-     (Obsoletes RFC1653) (Also RFC822, RFC1870)
+0011 Standard for the format of ARPA Internet text messages. D.
+     Crocker. Aug-13-1982. (Format: TXT=109200 bytes) (Obsoletes RFC1653)
+     (Also RFC0822)
 
 0012 Network Time Protocol. D. Mills. September 1989. (Format: TXT=193
      bytes) (Also RFC1119)
@@ -104,10 +103,10 @@ For example:
      RFC1157)
 
 0016 Structure of Management Information. M. Rose, K. McCloghrie. May
-     1990. (Format: TXT=82279 bytes) (Also RFC1155, RFC1212)
+     1990. (Format: TXT=82279 bytes) (Obsoletes RFC1065) (Also RFC1155)
 
 0017 Management Information Base. K. McCloghrie, M. Rose. March 1991.
-     (Format: TXT=142158 bytes) (Also RFC1213)
+     (Format: TXT=142158 bytes) (Obsoletes RFC1158) (Also RFC1213)
 
 0018 Exterior Gateway Protocol. D. Mills. April 1984. (Format:
      TXT=63836 bytes) (Also RFC0904)
@@ -228,3 +227,32 @@ For example:
 
 0053 Post Office Protocol - Version 3. J. Myers & M. Rose. May 1996.
      (Format: TXT=47018 bytes) (Obsoletes RFC1725) (Also RFC1939)
+
+0054 OSPF Version 2. J. Moy. April 1998. (Format: TXT=447367 bytes)
+     (Also RFC2328)
+
+0055 Multiprotocol Interconnect over Frame Relay. C. Brown, A. Malis.
+     September 1998. (Format: TXT=74671 bytes) (Obsoletes RFC1490,
+     RFC1294) (Also RFC2427)
+
+0056 RIP Version 2. G. Malkin. November 1998. (Format: TXT=98462
+     bytes) (Updates RFC1723, RFC1388) (Also RFC2453)
+
+0057 RIP Version 2 Protocol Applicability Statement. G. Malkin.
+     November 1994. (Format: TXT=10236 bytes) (Also RFC1722)
+
+0058 Structure of Management Information Version 2 (SMIv2. K.
+     McCloghrie, D. Perkins, J. Schoenwaelder. April 1999. (Format:
+     TXT=89712 bytes) (Obsoletes RFC1902) (Also RFC2578, RFC2579)
+
+0059 Remote Network Monitoring Management Information Base. S.
+     Waldbusser. May 2000. (Format: TXT=198676 bytes) (Obsoletes RFC1757)
+     (Also RFC2819)
+
+0060 SMTP Service Extension for Command Pipelining. N. Freed.
+     September 2000. (Format: TXT=198676 bytes) (Obsoletes RFC2197) (Also
+     RFC2920)
+
+0061 A One-Time Password System. N. Haller, C. Metz, P. Nesser, M.
+     Straw. February 1998. (Format: TXT=56495 bytes) (Obsoletes RFC1757)
+     (Also RFC2289)
