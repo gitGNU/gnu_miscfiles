@@ -1,3 +1,12 @@
+miscfiles (1.2-1) unstable; urgency=low
+
+  * New public GNU version.
+  * README.debian: match current reality.
+  * control: new maintainer, update description.
+  * rules (stamp-binary): jargon file has changed location in miscfiles.
+  
+ -- Thomas Bushnell, BSG <tb@debian.org>  Fri, 20 Oct 2000 22:19:25 -0700
+
 miscfiles (1.1-12) frozen unstable; urgency=low
 
   * Use absolute links when related links would not work, for the

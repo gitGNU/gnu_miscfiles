@@ -1,7 +1,7 @@
 Source: miscfiles
 Section: text
 Priority: extra
-Maintainer: Manoj Srivastava <srivasta@debian.org>
+Maintainer: Thomas Bushnell, BSG <tb@debian.org>
 Standards-Version: 3.0.0.0
 
 Package: miscfiles
@@ -18,14 +18,13 @@ Description: Dictionaries and other interesting files.
  Webster's Second International English wordlist, traditional stone
  and flower for each month, Precedence table for operators in the C
  language, description of the ISO Latin-1 character set, two-letter
- codes for languages, from ISO 639, International country and city
- telephone codes, geographic coordinates of many major cities, Some
- common abbreviations used in electronic communication, GNU tasks and
- mailing lists, rfc-index, etc). 
+ codes for languages, from ISO 639, International country telephone
+ codes, geographic coordinates of many major cities, Some common
+ abbreviations used in electronic communication, GNU tasks and mailing
+ lists, country and currency abbreviations, rfc-index, etc.).
  .
  There also is information specific to the United States (List of
  three letter codes for some major airports, North American (+1)
- telephone area codes, US 5 digit zipcodes, postal codes for US and
- Mexican states and Canadian provinces, the Constitution of the United
- States of America, the Declaration of Independence of the Thirteen
- Colonies) 
+ telephone area codes, postal codes for US and Mexican states and
+ Canadian provinces, the Constitution of the United States of America,
+ the Declaration of Independence of the Thirteen Colonies).
