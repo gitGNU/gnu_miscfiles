@@ -1,70 +1,60 @@
-From NetBSD 1.3.2
-  web2
-  web2a
-  dict-README
-  ascii
-  birthtoken
-  operator
+web2, web2a, dict-README, ascii, birthtoken, operator:
+	From NetBSD 1.3.2.
 
-From NetBSD 1.1A; modified:
-  propernames
-  airport
+propernames:
+	From NetBSD 1.1A; modified.
 
-From http://www.nanpa.com and http://www.lincmad.com/cities.html:
-  na.phone
+airport:
+	From NetBSD 1.1A; modified.
 
-From http://www.lincmad.com/countrycodes.html:
-   Country names from the UN, as in countries.
-  inter.phone
+na.phone:
+	From <http://www.nanpa.com> and <http://www.lincmad.com/cities.html>.
 
-From http://www.unicode.org/Public/
-  unicode
+countries:
+	ISO 3166-1 Two letter codes from <http://www.iso.ch/iso/en/prods-services/iso3166ma/index.html>,
+	ISO 3166-1 Three letter codes, UN numerical codes, and names of countries
+	from <http://unstats.un.org/unsd/methods/m49/m49alpha.htm>,
+	more info from <http://www.lincmad.com/countrycodes.html> and
+	<http://www.cia.gov/cia/publications/factbook/appendix/appendix-d.html>.
+	Names of Capitals from CIA World Fact Book <http://cia.gov/cia/publications/factbook/index.html>,
+	with spelling correction and fact checking using the English
+	Wikipedia <http://en.wikipedia.org/>.
 
-From previous BSD:
-  connectives
+inter.phone:
+	From <http://www.lincmad.com/countrycodes.html>.
 
-From ftp://ftp.isi.edu/in-notes:
-  rfc-index.txt
-  fyi-index.txt
-  std-index.txt
-  bcp-index.txt
+unicode:
+	From <http://www.unicode.org/Public/>.
 
-From GNU Emacs 21.3.1:
-  GNU-manifesto
-  mailinglists
+connectives:
+	From previous BSD.
 
-Provided by François Pinard <pinard@progiciels-bpi.ca>:
-  abbrevs.gen
-  abbrevs.talk
+rfc-index.txt, fyi-index.txt, std-index.txt, bcp-index.txt:
+	From <ftp://ftp.isi.edu/in-notes>.
 
-Provided by Rob Hooft, (Rob.Hooft@embl-heidelberg.de), from
-http://www.sander.embl-heidelberg.de/rob/location:
-  cities.dat
+GNU-manifesto, mailinglists:
+	From GNU Emacs 21.3.1.
 
-From: http://www.usps.com/ncsc/lookups/abbreviations.html
-      http://www.canadapost.ca/common/tools/pg/standards/cps3-09-e.asp
-  na.postalcodes
+abbrevs.gen, abbrevs.talk:
+	Provided by François Pinard (<pinard@progiciels-bpi.ca>).
 
-ISO 639:1988 Language specifications from
-http://lcweb.loc.gov/standards/iso639-2/langcodes.html
-  languages
+cities.dat
+	Provided by Rob Hooft, (<Rob.Hooft@embl-heidelberg.de>), from
+	<http://www.sander.embl-heidelberg.de/rob/location>.
 
-From GNU recode 3.6:
-  latin1
+na.postalcodes:
+	From <http://www.usps.com/ncsc/lookups/abbreviations.html> and
+	<http://www.canadapost.ca/common/tools/pg/standards/cps3-09-e.asp>.
 
-The list in `countries' is compiled from several sources:
-  ISO 3166-1 Two letter codes
-    http://www.iso.ch/iso/en/prods-services/iso3166ma/index.html
-  ISO 3166-1 Three letter codes, UN numerical codes, names of countries
-    http://unstats.un.org/unsd/methods/m49/m49alpha.htm
-  Names of Capitals:
-    CIA World Fact Book
-      http://cia.gov/cia/publications/factbook/index.html
-    English Wikipedia
-      http://en.wikipedia.org/
+languages
+	ISO 639:1988 Language specifications from
+	<http://lcweb.loc.gov/standards/iso639-2/langcodes.html>.
 
-Originally contributed by Mike Dowling, updated based on information from
-English Wikipedia (http://en.wikipedia.org/wiki/ISO_4217),
-UNeDocs (http://www.unece.org/etrades/unedocs/codelist.htm),
-and other online sources:
-  currency
+latin1:
+	From GNU recode 3.6.
+
+currency:
+	Originally contributed by Mike Dowling, updated based on information
+	from English Wikipedia <http://en.wikipedia.org/wiki/ISO_4217>,
+	UNeDocs <http://www.unece.org/etrades/unedocs/codelist.htm>, and
+	other online sources.
