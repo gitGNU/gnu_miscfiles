@@ -63,5 +63,8 @@ The list in `countries' is compiled from several sources:
     English Wikipedia
       http://en.wikipedia.org/
 
-Originally contributed by Mike Dowling:
+Originally contributed by Mike Dowling, updated based on information from
+English Wikipedia (http://en.wikipedia.org/wiki/ISO_4217),
+UNeDocs (http://www.unece.org/etrades/unedocs/codelist.htm),
+and other online sources:
   currency

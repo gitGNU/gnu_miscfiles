@@ -1,0 +1,257 @@
+ID	Alpha2Code	CurrencyCodeA	CurrencyCodeN	MinorUnit	CurrencyName	Notes
+1	AF	AFN	971	2	Afghani	Effective Date is 7th October 2002. The conversion rate is 1AFN to 1000 AFA. The two codes will run concurent until 2nd January 2003.
+2	AL	ALL	008	2	Leck	
+3	DZ	DZD	012	2	Algerian Dinar	
+4	AS	USD	840	2	US Dollar	
+5	AD	EUR	978	2	Euro	
+6	AO	AOA	973	2	Kwanza	
+7	AI	XCD	951	2	East Carribbean Dollar	
+8	AQ				No universal currency	
+9	AG	XCD	951	2	East Carribean Dollar	
+10	AR	ARS	032	2	Argentine Peso	
+11	AM	AMD	051	2	Armenian Dram	
+12	AW	AWG	533	2	Aruban Guilder	
+13	AU	AUD	036	2	Australian Dollar	
+14	AT	EUR	978	2	Euro	
+15	AZ	AZM	031	2	Azerbaijanian Manat	
+16	BS	BSD	044	2	Bahamian Dollar
+17	BH	BHD	048	3	Bahraini Dinar
+18	BD	BDT	050	2	Taka
+19	BB	BBD	052	2	Barbados Dollar
+20	BY	BYR	974	0	Belarussian Ruble
+21	BE	EUR	978	2	Euro
+22	BZ	BZD	084	2	Belize Dollar
+23	BJ	XOF	952	0	CFA Franc BCEAO
+24	BM	BMD	060	2	Bermudian Dollar
+25	BT	BTN	064	2	Ngultrum
+26	BT	INR	356	2	Indian Rupee
+27	BO	BOV	984	2	Mvdol
+28	BO	BOB	068	2	Boliviano
+29	BA	BAM	977	2	Convertible Marks
+30	BW	BWP	072	2	Pula
+31	BV	NOK	578	2	Norvegian Krone
+32	BR	BRL	986	2	Brazilian Real
+33	IO	USD	840	2	US Dollar
+34	BN	BND	096	2	Brunei Dollar
+35	BG	BGN	975	2	Bulgarian Lev
+36	BF	XOF	952	0	CFA Franc BCEAO
+37	BI	BIF	108	0	Burundi Franc
+38	KH	KHR	116	2	Riel
+39	CM	XAF	950	0	CFA Franc BEAC
+40	CA	CAD	124	2	Canadian Dollar
+41	CV	CVE	132	2	Cape Verde Escudo
+42	KY	KYD	136	2	Cayman Islands Dollar
+43	CF	XAF	950	0	CFA Franc BEAC
+44	TD	XAF	950	0	CFA Franc BEAC
+45	CL	CLF	990	0	Unidades de fomento
+46	CL	CLP	152	0	Chilean Peso
+47	CN	CNY	156	2	Yuan Renminbi
+48	CX	AUD	036	2	Australian Dollar
+49	CC	AUD	036	2	Australian Dollar
+50	CO	COP	170	2	Colombian Peso
+51	CO	COU	970	2	Unidad de Valor Real
+52	KM	KMF	174	0	Comoro Franc
+53	CG	XAF	950	0	CFA Franc BEAC
+54	CD	CDF	976	2	Franc Congolais
+55	CK	NZD	554	2	New Zealand Dollar
+56	CR	CRC	188	2	Costa Rican Colon
+57	CI	XOF	952	0	CFA Franc BCEAO
+58	HR	HRK	191	2	Croatian kuna
+59	CU	CUP	192	2	Cuban Peso
+60	CY	CYP	196	2	Cyprus Pound
+61	CZ	CZK	203	2	Czech Koruna
+62	DK	DKK	208	2	Danish Krone
+63	DJ	DJF	262	0	Djibouti Franc
+64	DM	XCD	951	2	East Caribbean Dollar	
+65	DO	DOP	214	2	Dominican Peso	
+66	TL	USD	840	2	US Dollar	
+67	EC	ECV	983	2	Unidad de Valor Constante (UVC)	
+68	EC	ECS	218	2	Sucre	
+69	EG	EGP	818	2	Egyptian Pound	
+70	SV	SVC	222	2	El Salvador Colon	There is no current withdrawal date for SVC
+71	SV	USD	840	2	US Dollar	Effective 1st January 2001
+72	GQ	XAF	950	0	CFA Franc BEAC	
+73	ER	ERN	232	2	Nakfa	
+74	EE	EEK	233	2	Kroon	
+75	ET	ETB	230	2	Ethiopian Birr	
+76	FK	FKP	238	2	Falkland Islands Pound	
+77	FO	DKK	208	2	Danish Krone	
+78	FJ	FJD	242	2	Fiji Dollar	
+79	FI	EUR	978	2	Euro	
+80	FR	EUR	978	2	Euro
+81	GF	EUR	978	2	Euro
+82	PF	XPF	953	0	CFP Franc
+83	TF	EUR	978	2	Euro
+84	GA	XAF	950	0	CFA Franc BEAC
+85	GM	GMD	270	2	Dalasi
+86	GE	GEL	981	2	Lari
+87	DE	EUR	978	2	Euro
+88	GH	GHC	288	2	Cedi
+89	GI	GIP	292	2	Gibraltar Pound
+90	GR	EUR	978	2	Euro
+91	GL	DKK	208	2	Danish Krone
+92	GD	XCD	951	2	East Caribbean Dollar
+93	GP	EUR	978	2	Euro
+94	GU	USD	840	2	US Dollar
+95	GT	GTQ	320	2	Quetzal
+96	GN	GNF	324	0	Guinea Franc
+97	GW	GWP	624	2	Guinea-Bissau Peso
+98	GW	XOF	952	0	CFA Franc BCEAO
+99	GY	GYD	328	2	Guyana Dollar
+100	HT	USD	840	2	US Dollar
+101	HT	HTG	332	2	Gourde
+102	HM	AUD	036	2	Australian Dollar
+103	VA	EUR	978	2	Euro
+104	HN	HNL	340	2	Lempira
+105	HK	HKD	344	2	Hong Kong Dollar
+106	HU	HUF	348	2	Forint
+107	IS	ISK	352	2	Iceland Krona
+108	IN	INR	356	2	Indian Rupee
+109	ID	IDR	360	2	Rupiah
+110	IR	IRR	364	2	Iranian Rial
+111	IQ	IQD	368	3	Iraqi Dinar
+112	IE	EUR	978	2	Euro
+113	IL	ILS	376	2	New Israeli Sheqel
+114	IT	EUR	978	2	Euro
+115	JM	JMD	388	2	Jamaican Dollar
+116	JP	JPY	392	0	Yen
+117	JO	JOD	400	3	Jordanian Dinar
+118	KZ	KZT	398	2	Tenge
+119	KE	KES	404	2	Kenyan Shilling
+120	KI	AUD	036	2	Australian Dollar
+121	KP	KPW	408	2	North Korean Won
+122	KR	KRW	410	0	Won
+123	KW	KWD	414	3	Kuwaiti Dinar
+124	KG	KGS	417	2	Som
+125	LA	LAK	418	2	Kip
+126	LV	LVL	428	2	Latvian Lats
+127	LB	LBP	422	2	Lebanese Pound
+128	LS	ZAR	710	2	Rand	
+129	LS	LSL	426	2	Loti	
+130	LR	LRD	430	2	Liberian Dollar	
+131	LY	LYD	434	3	Lybian Dinar	
+132	LI	CHF	756	2	Swiss Franc	
+133	LT	LTL	440	2	Lithuanian Litas	
+134	LU	EUR	978	2	Euro	
+135	MO	MOP	446	2	Pataca	
+136	MK	MKD	807	2	Denar	
+137	MG	MGA	969	0	Ariary	Effective on 1st January 2005
+138	MG	MGF	450	0	Malagasy Franc	
+139	MW	MWK	454	2	Kwacha	
+140	MY	MYR	458	2	Malaysian Ringgit	
+141	MV	MVR	462	2	Rufiyaa	
+142	ML	XOF	952	0	CFA Franc BCEAO	
+143	MT	MTL	470	2	Maltese Lira	
+144	MH	USD	840	2	US Dollar
+145	MQ	EUR	978	2	Euro
+146	MR	MRO	478	2	Ouguiya
+147	MU	MUR	480	2	Mauritius Rupee
+148	YT	EUR	978	2	Euro
+149	MX	MXN	484	2	Mexican Peso
+150	MX	MXV	979	2	Mexican Unidad de Inversion (UDI)
+151	FM	USD	840	2	US Dollar
+152	MD	MDL	498	2	Moldovan Leu
+153	MC	EUR	978	2	Euro
+154	MN	MNT	496	2	Tugrik
+155	MS	XCD	951	2	East Caribbean Dollar
+156	MA	MAD	504	2	Moroccan Dirham
+157	MZ	MZM	508	2	Metical
+158	MM	MMK	104	2	Kyat
+159	NA	ZAR	710	2	Rand
+160	NA	NAD	516	2	Namibia Dollar
+161	NR	AUD	036	2	Australian Dollar
+162	NP	NPR	524	2	Nepalese Rupee
+163	NL	EUR	978	2	Euro
+164	AN	ANG	532	2	Netherlands Antillan Guilder
+165	NC	XPF	953	0	CFP Franc
+166	NZ	NZD	554	2	New Zealand Dollar
+167	NI	NIO	558	2	Cordoba Oro
+168	NE	XOF	952	0	CFA Franc BCEAO
+169	NG	NGN	566	2	Naira
+170	NU	NZD	554	2	New Zealand Dollar
+171	NF	AUD	036	2	Australian Dollar
+172	MP	USD	840	2	US Dollar
+173	NO	NOK	578	2	Norwegian Krone
+174	OM	OMR	512	3	Rial Omani
+175	PK	PKR	586	2	Pakistan Rupee
+176	PW	USD	840	2	US Dollar
+177	PS				
+178	PA	USD	840	2	US Dollar
+179	PA	PAB	590	2	Balboa
+180	PG	PGK	598	2	Kina
+181	PY	PYG	600	0	Guarani
+182	PE	PEN	604	2	Nuevo Sol
+183	PH	PHP	608	2	Philippine Peso
+184	PN	NZD	554	2	New Zealand Dollar
+185	PL	PLN	985	2	Zloty
+186	PT	EUR	978	2	Euro
+187	PR	USD	840	2	US Dollar
+188	QA	QAR	634	2	Qatari Rial
+189	RE	EUR	978	2	Euro
+190	RO	ROL	642	2	Leu
+191	RU	RUB	643	2	Russian Ruble
+192	RU	RUR	810	2	Russian Ruble	Will be suppressed on 1st January 2004
+193	RW	RWF	646	0	Rwanda Franc	
+194	SH	SHP	654	2	Saint Helena Pound	
+195	KN	XCD	951	2	East Caribbean Dollar	
+196	LC	XCD	951	2	East Caribbean Dollar	
+197	PM	EUR	978	2	Euro	
+198	VC	XCD	951	2	East Caribbean Dollar	
+199	WS	WST	882	2	Tala	
+200	SM	EUR	978	2	Euro	
+201	ST	STD	678	2	Dobra	
+202	SA	SAR	682	2	Saudi Riyal	
+203	SN	XOF	952	0	CFA Franc BCEAO	
+204	SC	SCR	690	2	Seychelles Rupee	
+205	SL	SLL	694	2	Leone	
+206	SG	SGD	702	2	Singapore Dollar	
+207	SK	SKK	703	2	Slovak Koruna	
+208	SI	SIT	705	2	Tolar	
+209	SB	SBD	090	2	Solomon Islands Dollar	
+210	SO	SOS	706	2	Somali Shilling	
+211	ZA	ZAR	710	2	Rand	
+212	GS					
+213	ES	EUR	978	2	Euro	
+214	LK	LKR	144	2	Sri Lanka Rupee	
+215	SD	SDD	736	2	Sudanese Dinar	
+216	SR	SRD	968	2	Suriname Dollar	Effective on 1st January 2004
+217	SJ	NOK	578	2	Norwegian Krone	
+218	SZ	SZL	748	2	Lilangeni	
+219	SE	SEK	752	2	Swedish Krona	
+220	CH	CHF	756	2	Swiss Franc	
+221	SY	SYP	760	2	Syrian Pound	
+222	TW	TWD	901	2	New Taiwan Dollar	
+223	TJ	TJS	972	2	Somoni	
+224	TZ	TZS	834	2	Tanzanian Shilling
+225	TH	THB	764	2	Baht
+226	TG	XOF	952	0	CFA Franc BCEAO
+227	TK	NZD	554	2	New Zealand Dollar
+228	TO	TOP	776	2	Pa'anga
+229	TT	TTD	780	0	Trinidad and Tobago Dollar
+230	TN	TND	788	3	Tunisian Dinar
+231	TR	TRL	792	0	Turkish Lira
+232	TM	TMM	795	2	Manat
+233	TC	USD	840	2	US Dollar
+234	TV	AUD	036	2	Australian Dollar
+235	UG	UGX	800	2	Uganda Shilling
+236	UA	UAH	980	2	Hryvnia
+237	AE	AED	784	2	UAE Dirham
+238	GB	GBP	826	2	Pound Sterling
+239	US	USS	998	2	US Dollar (Same day)
+240	US	USN	997	2	US Dollar (Next day)	
+241	US	USD	840	2	US Dollar	
+242	UM	USD	840	2	US Dollar	
+243	UY	UYU	858	2	Peso Uruguayo	
+244	UZ	UZS	860	2	Uzbekistan Sum	
+245	VU	VUV	548	0	Vatu	
+246	VE	VEB	862	2	Bolivar	
+247	VN	VND	704	2	Dong	
+248	VG	USD	840	2	US Dollar	
+249	VI	USD	840	2	US Dollar	
+250	WF	XPF	953	0	CFP Franc	
+251	EH	MAD	504	2	Moroccan Dirham	
+252	YE	YER	886	2	Yemeni Rial	
+253	CS	CSD	891	2	Serbian Dinar	For Serbia. Effective from February 2003
+254	CS	EUR	978	2	Euro	For Montenegro. Effective from February 2003
+255	ZM	ZMK	894	2	Kwacha	
+256	ZW	ZWD	716	2	Zimbabwe Dollar

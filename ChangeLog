@@ -1,5 +1,11 @@
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
+	* currency: added (mostly former USSR) and removed (mostly EUR) lots
+	of codes based on information available from English Wikipedia and
+	UNeDOCS. Checked everything thoroughly.
+
+2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
 	* currency: added a missing colon (':').
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
