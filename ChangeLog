@@ -1,3 +1,10 @@
+2004-10-30  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
+	* countries: added numeric and 3-letter code for the countries and
+	areas missing them.
+	* airport: added THR, fixed explanation of a few airports to make
+	the format more unified.
+
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
 	* airport: added a few airports based on a patch by Andrew Taylor

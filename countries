@@ -8,6 +8,7 @@
 020:AD:AND:Andorra:Andorra la Vella
 024:AO:AGO:Angola:Luanda
 660:AI:AIA:Anguilla:The Valley
+010:AQ:ATA:Antarctica:
 028:AG:ATG:Antigua and Barbuda:St. John's
 032:AR:ARG:Argentina:Buenos Aires
 051:AM:ARM:Armenia:Yerevan
@@ -28,7 +29,9 @@
 068:BO:BOL:Bolivia:La Paz (seat of government), Sucre (legal capital and seat of judiciary)
 070:BA:BIH:Bosnia and Herzegovina:Sarajevo
 072:BW:BWA:Botswana:Gaborone
+074:BV:BVT:Bouvet Island:
 076:BR:BRA:Brazil:Brasilia
+086:IO:IOT:British Indian Ocean Territory:Diego Garcia
 092:VG:VGB:British Virgin Islands:Road Town
 096:BN:BRN:Brunei Darussalam:Bandar Seri Begawan
 100:BG:BGR:Bulgaria:Sofia
@@ -44,8 +47,8 @@
 830:::Channel Islands:
 152:CL:CHL:Chile:Santiago
 156:CN:CHN:China:Beijing
-344:HK:HKG:Hong Kong Special Administrative Region of China:
-446:MO:MAC:Macau Special Administrative Region of China:
+162:CX:CXR:Christmas Island:The Settlement
+166:CC:CCK:Cocos (Keeling) Islands:West Island
 170:CO:COL:Colombia:Bogota
 174:KM:COM:Comoros:Moroni
 178:CG:COG:Congo:Brazzaville
@@ -77,6 +80,7 @@
 250:FR:FRA:France:Paris
 254:GF:GUF:French Guiana:Cayenne
 258:PF:PYF:French Polynesia:Papeete
+260:TF:ATF:French Southern Territories:
 266:GA:GAB:Gabon:Libreville
 270:GM:GMB:Gambia:Banjul
 268:GE:GEO:Georgia:T'bilisi
@@ -93,8 +97,10 @@
 624:GW:GNB:Guinea-Bissau:Bissau
 328:GY:GUY:Guyana:Georgetown
 332:HT:HTI:Haiti:Port-au-Prince
+334:HM:HMD:Heard Island and McDonald Islands:
 336:VA:VAT:Holy See:Vatican City
 340:HN:HND:Honduras:Tegucigalpa
+344:HK:HKG:Hong Kong Special Administrative Region of China:
 348:HU:HUN:Hungary:Budapest
 352:IS:ISL:Iceland:Reykjavik
 356:IN:IND:India:New Delhi
@@ -122,6 +128,7 @@
 438:LI:LIE:Liechtenstein:Vaduz
 440:LT:LTU:Lithuania:Vilnius
 442:LU:LUX:Luxembourg:Luxembourg
+446:MO:MAC:Macau Special Administrative Region of China:
 450:MG:MDG:Madagascar:Antananarivo
 454:MW:MWI:Malawi:Lilongwe
 458:MY:MYS:Malaysia:Kuala Lumpur (official), Putrajaya (administrative)
@@ -193,6 +200,7 @@
 090:SB:SLB:Solomon Islands:Honiara
 706:SO:SOM:Somalia:Mogadishu
 710:ZA:ZAF:South Africa:Pretoria (official), Cape Town (legislative), Bloemfontein (judicial)
+239:GS:SGS:South Georgia and the South Sandwich Islands:
 724:ES:ESP:Spain:Madrid
 144:LK:LKA:Sri Lanka:Colombo (official), Sri Jayewardenepura Kotte (legislative)
 736:SD:SDN:Sudan:Khartoum
@@ -202,6 +210,7 @@
 752:SE:SWE:Sweden:Stockholm
 756:CH:CHE:Switzerland:Bern
 760:SY:SYR:Syrian Arab Republic:Damascus
+158:TW:TWN:Taiwan, Province of China:Taipei
 762:TJ:TJK:Tajikistan:Dushanbe
 764:TH:THA:Thailand:Bangkok
 807:MK:MKD:The former Yugoslav Republic of Macedonia:Skopje
@@ -220,6 +229,7 @@
 784:AE:ARE:United Arab Emirates:Abu Dhabi
 826:GB:GBR:United Kingdom of Great Britain and Northern Ireland:London
 834:TZ:TZA:United Republic of Tanzania:Dodoma
+581:UM:UMI:United States Minor Outlying Islands:
 840:US:USA:United States of America:Washington, DC
 850:VI:VIR:United States Virgin Islands:Charlotte Amalie
 858:UY:URY:Uruguay:Montevideo
@@ -232,13 +242,3 @@
 887:YE:YEM:Yemen:Sanaa
 894:ZM:ZMB:Zambia:Lusaka
 716:ZW:ZWE:Zimbabwe:Harare
-:AQ::Antarctica:
-:BV::Bouvet Island:
-:IO::British Indian Ocean Territory:Diego Garcia
-:CX::Christmas Island:The Settlement
-:CC::Cocos (Keeling) Islands:West Island
-:TF::French Southern Territories:
-:HM::Heard Island and McDonald Islands:
-:GS::South Georgia and the South Sandwich Islands:
-:TW::Taiwan, Province of China:Taipei
-:UM::United States Minor Outlying Islands:

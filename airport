@@ -1,4 +1,4 @@
-# Airport Code : Airport
+# Airport Code:Airport
 ABE:Allentown-Bethlehem-Easton International
 ABQ:Albuquerque International
 AGC:Pittsburgh/Allegheny County
@@ -26,13 +26,13 @@ BUR:Burbank/Glendale/Pasadena
 BWI:Baltimore-Washington International
 CAE:Columbia (SC) Metropolitan
 CAK:Akron/Canton Regional
-CDG:Roissy Charles de Gaulle Airport (Paris, France)
+CDG:Roissy Charles de Gaulle (Paris, France)
 CGX:Chicago Merrill C. Meigs Field
 CHS:Charleston (SC) International
 CLE:Cleveland-Hopkins International
 CLT:Charlotte/Douglas International
 CMH:Columbus (OH) International
-COD:Yellowstone Regional Airport, Cody, Wyoming
+COD:Yellowstone Regional (Cody, Wyoming, United States)
 CPR:Casper/Natrone County International
 CRM:Charleston (WV) Yeager
 CRP:Corpus Christi International
@@ -43,7 +43,7 @@ DAY:Dayton James M. Cox International
 DCA:Ronald Reagan Washington National
 DEN:Denver Stapleton International
 DET:Detroit City
-DFW:Dallas-Ft. Worth International
+DFW:Dallas/Fort Worth International
 DSM:Des Moines International
 DTW:Detroit Metropolitan/Wayne County
 DUB:Dublin
@@ -54,6 +54,7 @@ EYW:Key West International
 FAI:Fairbanks International
 FAR:Fargo Hector International
 FAT:Fresno Air Terminal
+FFA:First Flight (Kill Devil Hills, North Carolina, United States)
 FLL:Ft. Lauderdale-Hollywood International
 FOE:Topeka Forbes Field
 FSD:Sioux Falls Regional
@@ -62,6 +63,7 @@ GEG:Spokane International
 GLA:Glasgow International
 GRR:Grand Rapids/Kent County International
 GSO:Greensboro-High Pt.-Winston Salem Regional
+GSP:Greenville-Spartanburg International (South Carolina, United States)
 HNL:Honolulu International
 HOT:Hot Springs Memorial Field
 HOU:Houston William P. Hobby
@@ -86,12 +88,12 @@ LAS:Las Vegas McCarran International
 LAX:Los Angeles International
 LGA:New York La Guardia
 LGB:Long Beach Daugherty Field
-LGW:Gatwick (England, United Kingdom)
+LGW:London Gatwick
 LHR:London Heathrow
 LIH:Lihue (HI)
 LIT:Little Rock Regional
 LNK:Lincoln Municipal
-MAN:Manchester International (Manchester, United Kingdom)
+MAN:Manchester International (United Kingdom)
 MBS:Saginaw Tri-City
 MCI:Kansas City International
 MCO:Orlando International
@@ -108,7 +110,8 @@ MOB:Mobile Municipal/Bates Field
 MSN:Madison (WI) Dane County Regional
 MSO:Missoula County
 MSP:Minneapolis-St. Paul International
-MSY:New Orleans International
+MSY:Louis Armstrong New Orleans International (Louisiana, United States)
+NRT:Narita (Japan)
 OAJ:Jacksonville (NC) Albert J. Ellis
 OAK:Oakland International
 OGG:Kahului (HI)
@@ -116,9 +119,10 @@ OKC:Oklahoma City Will Rogers World
 OLM:Olympia (WA)
 OMA:Omaha Eppley Airfield
 ONT:Ontario (CA) International
-ORD:Chicago-O'Hare International
+ORD:O'Hare International (Chicago, Illinois, United States)
 ORF:Norfolk International
-ORY:Orly Airport (Paris, France)
+ORY:Orly (Paris, France)
+PAP:Port-au-Prince International (Haiti)
 PBI:Palm Beach International
 PDX:Portland (OR) International
 PHF:Newport News Patrick Henry International
@@ -126,6 +130,7 @@ PHL:Philadelphia International
 PHX:Phoenix Sky Harbor International
 PIE:St. Petersburg/Clearwater
 PIT:Pittsburgh International
+POS:Piarco International (Trinidad and Tobago)
 PSP:Palm Springs Municipal
 PVD:Providence Theodore Francis Green State
 PWM:Portland (ME) International Jetport
@@ -142,6 +147,7 @@ SDF:Louisville Standiford Field
 SEA:Seattle-Tacoma International
 SFO:San Francisco International
 SGF:Springfield (MO) Regional
+SIN:Changi International (Singapore)
 SJC:San Jose (CA) International
 SLC:Salt Lake City International
 SMF:Sacramento Metro
@@ -149,8 +155,10 @@ SNA:Santa Ana/Orange County/John Wayne
 SPS:Wichita Falls
 STL:St. Louis/Lambert International
 SUX:Sioux City International
-SVO:Sheremetyevo Airport, Moscow, Russia
+SVO:Sheremetyevo (Moscow, Russia)
+SYD:Kingsford Smith International (New South Wales, Australia)
 SYR:Syracuse Hancock International
+THR:Mehrabad International (Tehran, Iran)
 TOL:Toledo Express
 TPA:Tampa International
 TUL:Tulsa International
@@ -158,11 +166,12 @@ TUS:Tucson International
 TYS:Knoxville McGhee Tyson
 UCA:Utica/Oneida County
 YEG:Edmonton International
-YMX:Mirabel International (Montréal)
-YOW:McDonald-Cartier Internatial (Ottawa)
-YQB:Jean Lesage International (Québec City)
-YUL:Montreal-Pierre Elliott Trudeau International (Montréal)
+YMX:Mirabel International (Montréal, Canada)
+YOW:McDonald-Cartier Internatial (Ottawa, Canada)
+YQB:Jean Lesage International (Québec City, Canada)
+YUL:Montreal-Pierre Elliott Trudeau International (Montréal, Canada)
 YVR:Vancouver International
 YWG:Winnipeg International
 YYC:Calgary International
-YYZ:Lester B. Pearson International (Toronto)
+YYZ:Lester B. Pearson International (Toronto, Canada)
+ZRH:Zurich
