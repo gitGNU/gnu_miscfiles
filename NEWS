@@ -1,9 +1,20 @@
-GNU miscfiles NEWS   9 October 2004
+GNU miscfiles NEWS  23 October 2004
 
 Copyright (C) 2001, 2004 Free Software Foundation, Inc.
 See the end for copying conditions.
 
 Please send GNU miscfiles bug reports to bug-miscfiles@gnu.org.
+
+
+Version 1.4.2
+
+Updated the currency codes, removing old European currencies that were
+replaced with Euro, adding missing currencies for countries formed out of
+Soviet Union, updated a few other currencies that were changed or being
+changed (Suriname). Removed the unmaintainable subdivision (no updated
+source available for gratis, bad format).
+
+Updated the language codes (changed Sinhalese to Sinhala).
 
 
 Version 1.4.1

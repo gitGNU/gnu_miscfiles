@@ -2,7 +2,7 @@
 
 	* currency: added (mostly former USSR) and removed (mostly EUR) lots
 	of codes based on information available from English Wikipedia and
-	UNeDOCS. Checked everything thoroughly.
+	UNeDOCS. Removed subdivision names. Checked everything thoroughly.
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
