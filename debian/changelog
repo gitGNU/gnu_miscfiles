@@ -3,7 +3,7 @@ miscfiles (1.2-2) unstable; urgency=low
   * Whoops, restore the changes made in woody.  The 1.1-13 change is no
     longer relevant to 1.2, but 1.1-14 is.
 
- --
+ -- Thomas Bushnell, BSG <tb@becket.net>  Sat, 21 Oct 2000 07:48:19 -0700
 
 miscfiles (1.2-1) unstable; urgency=low
 

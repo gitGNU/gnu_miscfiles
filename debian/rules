@@ -79,6 +79,7 @@ stamp-binary:
 	rm -f               	 debian/tmp/usr/share/dict/words
 	rm -f              	 debian/tmp/usr/share/dict/README
 	rm -f              	 debian/tmp/usr/share/misc/jargon.html
+	rm -fr			 debian/tmp/usr/share/rfc
 	$(install_file)          NEWS $(DOCDIR)/NEWS
 	$(install_file)          ORIGIN $(DOCDIR)/ORIGIN
 	$(install_file)          README $(DOCDIR)/README

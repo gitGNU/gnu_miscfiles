@@ -107,7 +107,9 @@ config.status: configure
 dist: $(distfiles)
 	rm -rf miscfiles-$(version)
 	mkdir miscfiles-$(version)
-	ln $(distfiles) miscfiles-$(version)
+	for i in $(distfiles); do \
+	  ln $(srcdir)/$$i miscfiles-$(version)/$i ; \
+	done
 	tar -cho --gzip -f miscfiles-$(version).tar.gz miscfiles-$(version)
 	rm -rf miscfiles-$(version)
 
