@@ -3,6 +3,7 @@ ABE:Allentown-Bethlehem-Easton International
 ABQ:Albuquerque International
 AGC:Pittsburgh/Allegheny County
 AIY:Atlantic City International
+AMS:Schiphol (Netherlands)
 ANC:Anchorage International
 ARN:Arlanda, Stockholm, Sweden
 ATL:Atlanta William B. Hartsfield International
@@ -45,6 +46,8 @@ DET:Detroit City
 DFW:Dallas-Ft. Worth International
 DSM:Des Moines International
 DTW:Detroit Metropolitan/Wayne County
+DUB:Dublin
+EDI:Edinburgh
 ELP:El Paso International
 EWR:Newark International
 EYW:Key West International
@@ -56,6 +59,7 @@ FOE:Topeka Forbes Field
 FSD:Sioux Falls Regional
 FWA:Ft. Wayne Allen County
 GEG:Spokane International
+GLA:Glasgow International
 GRR:Grand Rapids/Kent County International
 GSO:Greensboro-High Pt.-Winston Salem Regional
 HNL:Honolulu International
@@ -82,9 +86,12 @@ LAS:Las Vegas McCarran International
 LAX:Los Angeles International
 LGA:New York La Guardia
 LGB:Long Beach Daugherty Field
+LGW:Gatwick (England, United Kingdom)
+LHR:London Heathrow
 LIH:Lihue (HI)
 LIT:Little Rock Regional
 LNK:Lincoln Municipal
+MAN:Manchester International (Manchester, United Kingdom)
 MBS:Saginaw Tri-City
 MCI:Kansas City International
 MCO:Orlando International
@@ -150,7 +157,12 @@ TUL:Tulsa International
 TUS:Tucson International
 TYS:Knoxville McGhee Tyson
 UCA:Utica/Oneida County
-YMX:Mirabel International (Montreal)
+YEG:Edmonton International
+YMX:Mirabel International (Montréal)
 YOW:McDonald-Cartier Internatial (Ottawa)
+YQB:Jean Lesage International (Québec City)
+YUL:Montreal-Pierre Elliott Trudeau International (Montréal)
 YVR:Vancouver International
+YWG:Winnipeg International
+YYC:Calgary International
 YYZ:Lester B. Pearson International (Toronto)

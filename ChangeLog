@@ -1,5 +1,12 @@
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
+	* airport: added a few airports based on a patch by Andrew Taylor
+	<ataylor@its.to>, modified based on information in English
+	Wikipedia.
+
+
+2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
+
 	* Makefile.in (version), NEWS, README: updated to version 1.4.2.
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
