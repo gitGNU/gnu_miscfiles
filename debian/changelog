@@ -1,3 +1,10 @@
+miscfiles (1.2-2) unstable; urgency=low
+
+  * Whoops, restore the changes made in woody.  The 1.1-13 change is no
+    longer relevant to 1.2, but 1.1-14 is.
+
+ --
+
 miscfiles (1.2-1) unstable; urgency=low
 
   * New public GNU version.
@@ -6,6 +13,21 @@ miscfiles (1.2-1) unstable; urgency=low
   * rules (stamp-binary): jargon file has changed location in miscfiles.
   
  -- Thomas Bushnell, BSG <tb@debian.org>  Fri, 20 Oct 2000 22:19:25 -0700
+
+miscfiles (1.1-14) unstable; urgency=low
+
+  * rfc-index has gotten really out of date, and indeed, the doc-rfc
+    package provides everything needed. closes: Bug#72285
+
+ -- Manoj Srivastava <srivasta@debian.org>  Wed, 27 Sep 2000 12:51:49 -0500
+
+miscfiles (1.1-13) unstable; urgency=low
+
+  * Monterey, CA changed area codes some time ago.  The new area, 831, was
+    added to na.phones.gz, but the old area code, 408, has not been
+    removed. This closes: Bug#67131
+
+ -- Manoj Srivastava <srivasta@debian.org>  Wed, 26 Jul 2000 14:35:18 -0500
 
 miscfiles (1.1-12) frozen unstable; urgency=low
 
