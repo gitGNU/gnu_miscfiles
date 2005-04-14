@@ -6,6 +6,17 @@ See the end for copying conditions.
 Please send GNU miscfiles bug reports to bug-miscfiles@gnu.org.
 
 
+Version 1.5
+
+Updated the Unicode character database to 4.1.0 version of the standard.
+
+Several typos are fixed in multiple files.  Other ones are expanded.
+
+The list of airports has undergone major work.  Three new firlds are added
+for country, geographical subdivision of country, and major cities served.
+The list is severly expanded too.
+
+
 Version 1.4.2
 
 Updated the currency codes, removing old European currencies that were

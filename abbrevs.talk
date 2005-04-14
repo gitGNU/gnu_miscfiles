@@ -2,8 +2,8 @@
 # communication. 
 # Provided by Francois Pinard <pinard@progiciels-bpi.ca>.
 #
-# Abbrev : Expansion
-
+# Abbrev:	Expansion
+#
 (word)p:	(word)?
 -o-:		over
 -oo-:		over and out

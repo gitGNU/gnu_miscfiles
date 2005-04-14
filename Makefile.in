@@ -1,5 +1,5 @@
 # Makefile for GNU miscfiles
-#   Copyright (C) 2001, 2004 Free Software Foundation, Inc.
+#   Copyright (C) 2001, 2004, 2005 Free Software Foundation, Inc.
 #   Written by Thomas Bushnell, BSG.
 #
 #   This file is part of the GNU miscfiles.
@@ -32,7 +32,7 @@ datadir=$(prefix)/share
 
 MKINSTALLDIRS = $(srcdir)/mkinstalldirs
 
-version=1.4.2
+version=1.5
 
 dictfiles=connectives web2 web2a propernames
 miscfiles=airport ascii birthtoken inter.phone na.phone operator \
@@ -43,7 +43,7 @@ rfcfiles=rfc-index.txt std-index.txt fyi-index.txt bcp-index.txt
 distfiles=$(dictfiles) $(miscfiles) $(rfcfiles) \
 	Makefile.in configure dict-README \
 	configure.in mkinstalldirs install-sh ORIGIN README INSTALL \
-	NEWS ChangeLog COPYING Unicode-License ANNOUNCE
+	NEWS ChangeLog COPYING unicode-license ANNOUNCE
 
 all:
 

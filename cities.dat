@@ -619,7 +619,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Beirut
- Country    : 
+ Country    : LB
  Region     : 
 Location    : Earth
  Longitude  :   35.533
@@ -632,8 +632,8 @@ ID          : 46
 Type        : City
 Population  : 
 Size        : 
-Name        : Beograd
- Country    : 
+Name        : Belgrade
+ Country    : CS
  Region     : 
 Location    : Earth
  Longitude  :   20.500
@@ -1025,7 +1025,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Dar Es Salaam
- Country    : 
+ Country    : TZ
  Region     : 
 Location    : Earth
  Longitude  :   39.667
@@ -1319,7 +1319,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Guam
- Country    : 
+ Country    : GU
  Region     : 
 Location    : Earth
  Longitude  :  144.000
@@ -1361,7 +1361,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Haiderabad
- Country    : 
+ Country    : IN
  Region     : 
 Location    : Earth
  Longitude  :   78.467
@@ -1529,7 +1529,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Izmir
- Country    : 
+ Country    : TR
  Region     : 
 Location    : Earth
  Longitude  :   27.167
@@ -1585,7 +1585,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Kabul
- Country    : 
+ Country    : AF
  Region     : 
 Location    : Earth
  Longitude  :   69.167
@@ -1599,7 +1599,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Karachi
- Country    : 
+ Country    : PK
  Region     : 
 Location    : Earth
  Longitude  :   67.000
@@ -2439,7 +2439,7 @@ Type        : City
 Population  : 
 Size        : 
 Name        : Taipei
- Country    : 
+ Country    : TW
  Region     : 
 Location    : Earth
  Longitude  :  121.567

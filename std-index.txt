@@ -5,7 +5,7 @@
                              STD INDEX
                            -------------
 
-CREATED ON: 10/29/2004.
+CREATED ON: 03/30/2005.
 
 This file contains citations for all STDs in numeric order.  Each
 STD represents a single Internet Standard technical specification,
@@ -269,3 +269,8 @@ page http://www.rfc-editor.org
 0065 RTP Profile for Audio and Video Conferences with Minimal Control.
      H. Schulzrinne, S. Casner. July 2003. (Format: TXT=106621, PS=317286,
      PDF=237831 bytes) (Obsoletes RFC1890) (Also RFC3551)
+
+0066 Uniform Resource Identifier (URI): Generic Syntax. T.
+     Berners-Lee, R. Fielding, L. Masinter. January 2005. (Format:
+     TXT=141811 bytes) (Obsoletes RFC2732, RFC2396, RFC1808) (Updates
+     RFC1738) (Also RFC3986)

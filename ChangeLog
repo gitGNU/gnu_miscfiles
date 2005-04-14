@@ -1,91 +1,122 @@
+2005-04-13  Behdad Esfahbod <behdad@gnu.org>
+
+	* TODO: Renamed from `wishes'.
+
+	* unicode-license: Renamed from `Unicode-License'.  Updated.
+
+	* unicode: Updated to 4.1.0.
+
+	* abbrevs.gen: Added `afaict', `ianal', `stfe', `wlog', and some
+	punctuation changes.  Made `byob' and `booze' mutually recursive.
+
+	* rfc-index.txt: Updated to 2005-04-12.
+
+	* fyi-index.txt, std-index.txt, bcp-index.txt: Updated to 2005-03-30.
+
+	* cities: Country codes for some entries added.  Changed `Beograd' to
+	`Belgrade'.
+
+	* inter.phone: Fixed typo: `oceana' -> `oceania'.
+
+	* na.phone: Fixed typo: `Wheet Ridge' -> `Wheat Ridge'. (David Brown
+	<gnu@davidb.org>)
+
+	* ORIGIN: Updated to reflect changes above.  Added `unicode-license'.
+
+	* README, Makefile, NEWS: Updated accordingly, set version to 1.5.
+
+	* ANNOUNCE-1.5: Added.
+
+	* ChangeLog: Capitalized previous messages by Roozbeh.
+
 2004-12-11  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* airport: added a few airports and corrected a few details based on
+	* airport: Added a few airports and corrected a few details based on
 	information available on several website.
 
 2004-12-09  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* airport: added a few Iranian airports, fixed the name of
+	* airport: Added a few Iranian airports, fixed the name of
 	Johannesburg airport.
 
 2004-11-13  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* airport: added lots of airports from the FAA list that could be
+	* airport: Added lots of airports from the FAA list that could be
 	verified against an airline timetable, fixed the name of some
 	airports according to the English Wikipedia, fixed spelling of a few
 	names based on The Oxford Guide to Style.
 
-	* countries: fixed spelling of Chișinău using the "comma below"
+	* countries: Fixed spelling of Chișinău using the "comma below"
 	form of "s".
 
-	* README: mentioned the spelling policy.
+	* README: Mentioned the spelling policy.
 
 2004-10-31  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* airport, ORIGIN: added three field for country, geographical
+	* airport, ORIGIN: Added three field for country, geographical
 	subdivision of country, and major cities served, using a few airline
 	timetables, and the FAA list.
 
 2004-10-30  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
 	* bcp-index.txt, fyi-index.txt, rfc-index.txt, std-index.txt:
-	updated to latest version from 2004-10-29.
-	* ORIGIN: made the format a little better.
+	Updated to latest version from 2004-10-29.
+	* ORIGIN: Made the format a little better.
 
 2004-10-30  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* countries: added numeric and 3-letter code for the countries and
+	* countries: Added numeric and 3-letter code for the countries and
 	areas missing them.
-	* airport: added THR, fixed explanation of a few airports to make
+	* airport: Added THR, fixed explanation of a few airports to make
 	the format more unified.
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* airport: added a few airports based on a patch by Andrew Taylor
+	* airport: Added a few airports based on a patch by Andrew Taylor
 	<ataylor@its.to>, modified based on information in English
 	Wikipedia.
 
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* Makefile.in (version), NEWS, README: updated to version 1.4.2.
+	* Makefile.in (version), NEWS, README: Updated to version 1.4.2.
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* currency: added (mostly former USSR) and removed (mostly EUR) lots
+	* currency: Added (mostly former USSR) and removed (mostly EUR) lots
 	of codes based on information available from English Wikipedia and
 	UNeDOCS. Removed subdivision names. Checked everything thoroughly.
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* currency: added a missing colon (':').
+	* currency: Added a missing colon (':').
 
 2004-10-23  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* languages: changed Sinhalese to Sinhala ('si').
+	* languages: Changed Sinhalese to Sinhala ('si').
 
 2004-10-09  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* NEWS: fixed the announce date.
+	* NEWS: Fixed the announce date.
 	* Makefile.in (version), NEWS, README: Update to version 1.4.1.
 
 2004-10-05  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* propernames: added two names [;)], sorted according to en_US
+	* propernames: Added two names [;)], sorted according to en_US
 	locale instead of C.
 
 2004-10-04  Roozbeh Pournader  <roozbeh@farsiweb.info>
 
-	* ANNOUNCE: added an announcement file.
+	* ANNOUNCE: Added an announcement file.
 
 	* bcp-index.txt, fyi-index.txt, rfc-index.txt, std-index.txt:
-	updated to latest version from 2004-10-01.
+	Updated to latest version from 2004-10-01.
 
-	* us-constitution, us-declaration: removed USA specific files.
+	* us-constitution, us-declaration: Removed USA specific files.
 
-	* na.postalcodes: renamed from 'postal.codes'.
+	* na.postalcodes: Renamed from 'postal.codes'.
 
-	* countries: added the capital of Åland Islands, Isle of Man,
+	* countries: Added the capital of Åland Islands, Isle of Man,
 	Western Sahara, and British Indian Ocean Territory; fixed spelling
 	of São Tomé and Príncipe using accented letters; fixed spelling of
 	capitals of Cameroon, Costa Rica, Faeroe Islands, Guam, Maldives,
@@ -94,19 +125,19 @@
 	Turks and Caicos Islands, and Vanuatu; changed Micronesia's name to
 	full.
 
-	* inter.phone: fixed spelling of São Tomé and Príncipe using
+	* inter.phone: Fixed spelling of São Tomé and Príncipe using
 	accented letters; removed government type of Iran; changed
 	Micronesia's name to full.
 
-	* language: changed 639 to 639-1 in header, added Haitian (ht),
+	* language: Changed 639 to 639-1 in header, added Haitian (ht),
 	fixed spelling of Norwegian Bokmål (nb).
 
-	* README, NEWS, ORIGIN: updated bug report address, mentioned
+	* README, NEWS, ORIGIN: Updated bug report address, mentioned
 	removal of files and rename, updated URLs, added Wikipedia as
 	source, changed 639 to 639-1.
 	
 	* cities.dat, currency, Unicode-License, ChangeLog, NEWS, ORIGIN:
-	converted to UTF-8.
+	Converted to UTF-8.
 
 2004-08-06  Thomas Bushnell BSG  <tb@becket.net>
 
