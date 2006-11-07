@@ -1,3 +1,10 @@
+2006-11-07  Behdad Esfahbod <behdad@gnu.org>
+
+	* na.phone: Fixed typo: `Coeur D'alene' -> `Coeur d'Alene'. (Eric
+	Pement <eric.pement@moody.edu>)
+
+	* unicode: Updated to 5.0.0.
+
 2005-04-13  Behdad Esfahbod <behdad@gnu.org>
 
 	* TODO: Renamed from `wishes'.
