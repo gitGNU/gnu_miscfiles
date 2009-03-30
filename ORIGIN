@@ -71,3 +71,6 @@ currency:
 	from English Wikipedia <http://en.wikipedia.org/wiki/ISO_4217>,
 	UNeDocs <http://www.unece.org/etrades/unedocs/codelist.htm>, and
 	other online sources.
+
+top-level.domains
+    From <http://www.iana.org/domains/root/db/#>
