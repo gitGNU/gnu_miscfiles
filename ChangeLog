@@ -1,3 +1,9 @@
+2009-11-20  Gery Kahn <gxkahn@gmail.com>
+
+	* Makefile.in (miscfiles): Added `top-level.domains' to list.
+	* top-level.domains, scripts/tld/parse_TLDs.sh: New files.
+	* ORIGIN, README: Updated.
+
 2006-11-07  Behdad Esfahbod <behdad@gnu.org>
 
 	* na.phone: Fixed typo: `Coeur D'alene' -> `Coeur d'Alene'. (Eric
