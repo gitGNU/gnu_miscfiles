@@ -2,4 +2,4 @@
   are any new language code or code changes.
 * Update NEWS file with new date and release information.
 * Create an ANNOUNCE-version file (only for major releases), copy it to ANNOUNCE for release.
-* Change version in 'Makefile.in' and 'README'.
+* Change version in 'configure.ac' and 'README'.
