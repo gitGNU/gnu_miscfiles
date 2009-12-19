@@ -1,3 +1,12 @@
+2009-12-19  Alfred M. Szmidt  <ams@gnu.org>
+
+	Upgrade build system.
+
+	* AUTHORS, Makefile.am, configure.ac: New files.
+
+	* INSTALL, Makefile.in, configure.in, install-sh, mkinstalldirs:
+	Files removed.
+
 2009-11-20  Gery Kahn <gxkahn@gmail.com>
 
 	* Makefile.in (miscfiles): Added `top-level.domains' to list.
