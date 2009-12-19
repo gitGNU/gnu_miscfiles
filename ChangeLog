@@ -1,5 +1,9 @@
 2009-12-19  Alfred M. Szmidt  <ams@gnu.org>
 
+	* .cvsignore: New file.
+
+2009-12-19  Alfred M. Szmidt  <ams@gnu.org>
+
 	Upgrade build system.
 
 	* AUTHORS, Makefile.am, configure.ac: New files.
