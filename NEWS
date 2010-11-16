@@ -1,6 +1,6 @@
-GNU miscfiles NEWS  23 October 2004
+GNU miscfiles NEWS  16 November 2010
 
-Copyright (C) 2001, 2004 Free Software Foundation, Inc.
+Copyright (C) 2001, 2004,2010 Free Software Foundation, Inc.
 See the end for copying conditions.
 
 Please send GNU miscfiles bug reports to bug-miscfiles@gnu.org.
@@ -12,9 +12,9 @@ Updated the Unicode character database to 4.1.0 version of the standard.
 
 Several typos are fixed in multiple files.  Other ones are expanded.
 
-The list of airports has undergone major work.  Three new firlds are added
-for country, geographical subdivision of country, and major cities served.
-The list is severly expanded too.
+The list of airports has undergone major work.  Three new fields are
+added for country, geographical subdivision of country, and major
+cities served.  The list has been extended as well.
 
 
 Version 1.4.2
