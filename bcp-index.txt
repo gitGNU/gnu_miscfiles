@@ -431,3 +431,203 @@ RFC Editor Web page http://www.rfc-editor.org.
 0100 Early IANA Allocation of Standards Track Code Points. K.
      Kompella, A. Zinin. February 2005. (Format: TXT=13706 bytes) (Also
      RFC4020)
+
+0101 Structure of the IETF Administrative Support Activity (IASA). R. Austein, 
+     Ed., B. Wijnen, Ed., B. Carpenter, Ed., L. Lynch, Ed. January 2006. 
+     (Format: TXT=55589 bytes) (Also RFC4071, RFC4371)
+
+0102 IAB Processes for Management of IETF Liason Relationships. L. Daigle, Ed., 
+     Internet Architecture Board. April 2005. (Format: TXT=18360 bytes) 
+     (Also RFC4052)
+
+0103 Procedures for Handling Liaison Statements to and from the IETF. S. 
+     Trowbridge, S. Bradner, F. Baker. April 2005. (Format: TXT=38816 bytes) 
+     (Also RFC4053)
+
+0104 Terminology for Describing Internet Connectivity. J. Klensin. May 2005. 
+     (Format: TXT=24522 bytes) (Also RFC4084)
+
+0105 Embedding Globally-Routable Internet Addresses Considered Harmful. D. 
+     Plonka. June 2005. (Format: TXT=22656 bytes) (Also RFC4085)
+
+0106 Randomness Requirements for Security. D.Eastlake 3rd, J. Schiller, 
+     S. Crocker. June 2005. (Format: TXT=114321 bytes) (Obsoletes RFC1750) 
+     (Also RFC4086)
+
+0107 Guidelines for Cryptographic Key Management. S. Bellovin, R.
+     Housley. June 2005. (Format: TXT=14752 bytes) (Also RFC4107
+
+0108 IP Performance Metrics (PPM) Metrics Registry. E. Stephan. 
+     August 2005. (Format: TXT=23074 bytes) (Also RFC4148)
+
+0109 Deprecation of "ip6.int". G.Huston. August 2005. 
+     (Format: TXT=5353 bytes) (Also RFC4159)
+
+0110 Tunneling Multiplexed Compressed RTP (TCRTP). B. Thompson, 
+     T. Koren, D. Wing. November 2005. (Format: TXT=48990 bytes) 
+     (Also RFC4170)
+
+0111 Guidelines for Authors and Reviewers of MIB Documents. C. Heard, 
+     Ed. March 2007. (Format: TXT=10697 bytes) (Also RFC4181, 
+     RFC4841)
+
+0112 Prioritized Treatment of Specific OSPF Version 2 Packets and Congestion 
+     Avoidance. G. Choudhury, ed. October 2005. (Format: TXT=34132 bytes) 
+     (Also RFC4222)
+
+0113 The IETF Administrative Oversight Committee (IAOC) Member Selection 
+     Guidelines and Process. G. Huston, Ed., B. Wijnen, Ed. 
+     December 2005. (Format: TXT=15396 bytes) (Also RFC4333)
+
+0114 BGP Communities for Data Collection. D. Meyer. February 2006. 
+     (Format: TXT=26078 bytes) (Also RFC4384)
+
+0115 [0115 is retired. It was mistakenly assigned to RFC4395. RFC4395 is 
+     0035]
+
+0116 IANA Allocations for Pseudowire Edge to Edge Emulation (PWE3). 
+     L. Martini. April 2006. (Format: TXT=19782 bytes) (Also RFC4446)
+
+0117 Interworking between the Session Initiation Protocol (SIP) and 
+     QSIG. J. Elwell, F. Derks, P. Mourot, O. Rousseau. May 2006. 
+     (Format: TXT=149992 bytes) (Also RFC4497)
+
+0118 Considerations for Lightweight Directory Access Protocol (LDAP) 
+     Extensions. K. Zeilenga. June 2006. (Format: TXT=34585 bytes) 
+     (Also RFC4521)
+
+0119 Session Initiation Protocol (SIP Call Control - Conferencing 
+     for User Agents. A. Johnston, O. Levin. August 2006. 
+     (Format: TXT 96506 bytes) (Also RFC4579)
+
+0120 Source-Specific Protocol Independent Multicast in 232/8. D. Meyer, 
+     R. Rockell, G. Shepherd. August 2006. (Format: TXT=15030 bytes) 
+     (Also RFC4608)
+
+0121 Multicast Source Discovery Protocol (MSDP) Deployment Scenarios. 
+     M. McBride, J. Meylor, D. Meyer. August 2006. 
+     (Format: TXT=33230 bytes) (Also RFC4611)
+
+0122 Classless Inter-domain Routing (CIDR): The Internet Address Assignment 
+     and Aggregation Plan. V. Fuller, T. Li. August 2006. 
+     (Format: TXT= 66944 bytes) (Obsoletes RFC1519) (Also RFC4632)
+
+0123 Observed DNS Resolution Misbehavior. M. Larson, P. Barber. 
+     October 2006. (Format: TXT=45187 bytes) (Also RFC4697)
+
+0124 Specifying Alternate Semantics for the Explicit Congestion 
+     Notification (ECN) Field. S. Floyd. November 2006. 
+     (Format: TXT=37144 bytes) (Also RFC4774)
+
+0125 Procedures for Protocol Extensions and Variations. S. Bradner, 
+     B. Carpenter, Ed., T. Narten. December 2006. 
+     (Format: TXT=32797 bytes) (Also RFC4775)
+
+0126 Operation of Anycast Services. J. Abley, K. Lindqvist. 
+     December 2006. (Format: TXT=56818 bytes) (Also RFC4786)
+
+0127 Network Address Translation (NAT) Behavioral Requirements for 
+     Unicast UDP. F. Audet, Ed., C. Jennings. January 2007. 
+     (Format: TXT=68693 bytes) (Also RFC4787)
+
+0128 Avoiding Equal Cost Multipath Treatment in MPLS Networks. 
+     G. Swallow, S. Bryant, L. Andersson. June 2007. 
+     (Format: TXT=18376 bytes) (Also RFC4928)
+
+0129 Change Process for Multiprotocol Label Switching (MPLS) and 
+     Generalized MPLS (GMPLS) Protocols and Procedures. L. Andersson, 
+     Ed., A. Farrel, Ed. June 2007. (Format: TXT=56742 bytes) (Also 
+     RFC4929)
+
+0130 IANA Considerations for OSPF. K. Kompella, B. Fenner. July 2007. 
+     (Format: TXT=27595 bytes) (Also RFC4940)
+
+0131 Symmetric RTP / RTP Control Protocol (RTCP). D. Wing. 
+     July 2007. (Format: TXT=12539 bytes) (Also RFC4961)
+
+0132 Guidance for Authentication, Authorization, and Accounting 
+     (AAA) Key Management. R. Housley, B. Aboba. July 2007. 
+     (Format: TXT=54927 bytes) (Also RFC4962)
+
+0133 Specifying New Congestion Control Algorithms. S. Floyd, 
+     M. Allman. August 2007. (Format: TXT=23469 bytes) (Also RFC5033)
+
+0134 Email Submission Operations: Access and Accountability Requirement. 
+     C. hutzler, D. Crocker, P. Resnick, E. Allman, T. Finch. 
+     November 2007. (Format: TXT=24481 bytes) (Also RFC5068)
+
+0135 IP Multicast Requirements for a Network Address Translator (NAT) 
+     and a Network Address Port Translator (NAPT). D. Wing, T. 
+     Eckert. February 2008. (Format: TXT=36528 bytes) (Also RFC5135)
+
+0136 Secure Connectivity and Mobility Using Mobile IPv4 and IKEv2 
+     Mobility and Multihoming (MOBIKE). V. devarapalli, 
+     P. Eronen. June 2008. (Format: TXT=33186 bytes) (Also RFC5266)
+
+0137 ASCII Escaping of Unicode Characters. J. Klensin. February 2008. 
+     (Format: TXT=27742 bytes) (Also RFC5137)
+
+0138 A Registry for SMTP Enhanced Mail System Status Codes. T. Hansen, 
+     J. Klensin. June 2008. (Format: TXT=23845 bytes) (Updates RFC3463, 
+     RFC4468, RFC4954) (Also RFC5248)
+
+0139 Templates for Internet-Drafts Containg MIB Modules. D. Harrington, 
+     Ed. July 2008. (Format: TXT=7362) (Also RFC5249)
+
+0140 Preventing Use of Recursive Nameservers in Reflector Attacks. 
+     J. damas, F. Neves. October 2008. (Format: TXT=14957 bytes) 
+     (Also RFC5358)
+
+0141 IANA Considerations and IETF Protocol Usage for IEEE 802 Parameters. 
+     D. Eastlake 3rd. September 2008. (Format: TXT=42800 bytes) 
+     (Updates RFC2153) (Also RFC5342)
+
+0142 NAT Behavioral Requirements for TCP. S. Guha, Ed., K. Biswas, B. Ford, 
+     S. Sivakumar, P. Srisuresh. October 2008. (Format: TXT=50306 bytes) 
+     (Also RFC5382)
+
+0143 Deployment Considerations for Lemonade-Compliant Mobile Email. 
+     R. Gellens. October 2008. (Format: TXT=28290 bytes) (Also RFC5383)
+
+0144 Session Initiation Protocol Service Examples. A. Johnston, Ed., 
+     R. Sparks, C. Cunningham, S. Donovan, K. Summers. 
+     October 2008. (Format: TXT= 289446 bytes) (Also RFC5359)
+
+0145 Unicast UDP Usage Guidelines for Application Designers. L. Eggert, 
+     G. Fairhurst. November 2008. (Format: TXT=69607 bytes) (Also RFC5405)
+
+0146 Guidelines for Specifying the Use of IPsec Version 2. S. Bellovin. 
+     February 2009. (Format: TXT=30393 bytes) (Also RFC5406)
+
+0147 Example Call Flows of Race Conditions in the Session Initiation 
+     Protocol (SIP). M. Hasebe, J. Koshiko, Y. Suzuki, T. Yoshikawa, P. 
+     Kyzivat. December 2008. (Format: TXT=120005 bytes) (Also RFC5407)
+
+0148 NAT Behavioral Requirements for ICMP. P. Srisuresh, B. Ford, 
+     S. Sivakumar, S. Guha. April 2009. (Format: TXT=67985 bytes) 
+     (Also RFC5508)
+
+0149 Session Initiation Protocol (SIP) Call Control - Transfer. R. Sparks, 
+     A. Johnston, Ed., D. Petrie. June 2009. (Format: TXT=119434 bytes) 
+     (Also RFC5589)
+
+0150 Network Address Translation (NAT) Behavioral Requirements for the 
+     Datagram Congestion Control Protocol. R. Denis-Courmont. 
+     September 2009. (Format: TXT=18933 bytes) (Also RFC5597)
+
+0151 H.248/MEGACO Registration Procedures. C. Groves, Y. Lin. 
+     August 2009. (Format: TXT=29069 bytes) (Also RFC5615)
+
+0152 DNS Proxy Implementation Guidelines. R. Bellis. August 2009. 
+     (Format: TXT=24585 bytes) (Also RFC5625)
+
+0153 Special Use IPv4 Addresses. M. Cotton, L. vegoda. January 2010. 
+     (Format: TXT=20369 bytes) (Obsoletes RFC3330) (Also RFC5735)
+
+0154 Considerations for Civic Addresses in the Presence Information 
+     Data Format Location Object (PIDF-LO): Guidelines and IANA 
+     Registry Definition. K. Wolf, A. Mayrhofer. March 2010. 
+     (Format: TXT=68468 bytes) (Updates RFC4776) (Also RFC5574)
+
+0155 Nameservers for IPv4 and IPv6 Reverse Zones. J. Abley, T. Manderson. 
+     May 2010. (Format: TXT=23027 bytes) (Also RFC5855)

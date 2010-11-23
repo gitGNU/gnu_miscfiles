@@ -2,6 +2,10 @@
 
 	* unicode: Updated to 6.0.0
 
+	* na.phone: Added Cities
+
+	* bcp-index: Updated
+	
 2010-11-16  Alfred M. Szmidt  <ams@gnu.org>
 
 	Released miscfiles 1.5.
